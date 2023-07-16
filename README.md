@@ -1,2 +1,2 @@
 # Talend
-talend projetc
+talend project
