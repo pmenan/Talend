@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_JSTgoF7sEe26Nf7c-g2ETw" name="ConnexionOracle" id="_qmf6oF7rEe26Nf7c-g2ETw" label="ConnexionOracle" dataPackage="_JT0jkF7sEe26Nf7c-g2ETw" ContextMode="true" ContextId="_I-1LAF7sEe26Nf7c-g2ETw" contextName="Default" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@localhost:1521:XE" dbVersionString="ORACLE_18" Port="context.ConnexionOracle_Port" Username="context.ConnexionOracle_Login" Password="context.ConnexionOracle_Password" ServerName="context.ConnexionOracle_Server" DatasourceName="" FileFieldName="" SID="context.ConnexionOracle_Sid" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="context.ConnexionOracle_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.ConnexionOracle_Schema">
+    <taggedValue xmi:id="_JSUuwF7sEe26Nf7c-g2ETw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_JSo30F7sEe26Nf7c-g2ETw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_JSvlgF7sEe26Nf7c-g2ETw" tag="Status" value=""/>
+    <taggedValue xmi:id="_JSvlgV7sEe26Nf7c-g2ETw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JSvlgl7sEe26Nf7c-g2ETw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JSvlg17sEe26Nf7c-g2ETw" tag="Description" value=""/>
+    <taggedValue xmi:id="_JSvlhF7sEe26Nf7c-g2ETw" tag="Author" value=""/>
+    <taggedValue xmi:id="_JSvlhV7sEe26Nf7c-g2ETw" tag="otherParameter"/>
+    <taggedValue xmi:id="_JTNfkF7sEe26Nf7c-g2ETw" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_JTNfkV7sEe26Nf7c-g2ETw" tag="DB ProductVersion" value="Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production&#xA;Version 21.3.0.0.0"/>
+    <taggedValue xmi:id="_JTNfkl7sEe26Nf7c-g2ETw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_JSUuwV7sEe26Nf7c-g2ETw" key="CONN_PARA_KEY_USERNAME" value="context.ConnexionOracle_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_JT0jkF7sEe26Nf7c-g2ETw" name="SYSTEM" dataManager="_JSTgoF7sEe26Nf7c-g2ETw"/>
+</xmi:XMI>

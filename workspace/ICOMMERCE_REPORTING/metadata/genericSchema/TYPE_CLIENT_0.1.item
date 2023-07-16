@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_oWW68RmeEe6wUJzeAmpCCQ" name="repository.metadataGenericSchema" dataPackage="_oWW68hmeEe6wUJzeAmpCCQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_oWW68hmeEe6wUJzeAmpCCQ" name="repository.metadataGenericSchema" dataManager="_oWW68RmeEe6wUJzeAmpCCQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_oWW68xmeEe6wUJzeAmpCCQ" id="_U-yCQBmeEe6wUJzeAmpCCQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oWW69BmeEe6wUJzeAmpCCQ" name="CD_TYPE_CLIENT" label="CD_TYPE_CLIENT" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oWW69RmeEe6wUJzeAmpCCQ" name="LB_TYPE_CLIENT" label="LB_TYPE_CLIENT" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

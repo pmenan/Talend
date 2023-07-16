@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_GUhT8EsvEe2sK8h0RZP8BA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_GUhT8UsvEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Password" prompt="Connexion_Postgres_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:7NJ1CbtaFWbl3G5x/Y3hDK/B10Q8iiB+ULkpX5WRut5N"/>
+  <contextParameter xmi:id="_GUhT8ksvEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Server" prompt="Connexion_Postgres_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_GUhT80svEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Port" prompt="Connexion_Postgres_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_GUhT9EsvEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Login" prompt="Connexion_Postgres_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_GUhT9UsvEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_AdditionalParams" prompt="Connexion_Postgres_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_GUhT9ksvEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Database" prompt="Connexion_Postgres_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_GUhT90svEe2sK8h0RZP8BA" comment="" name="Connexion_Postgres_Schema" prompt="Connexion_Postgres_Schema?" promptNeeded="false" type="id_String" value="public"/>
+</talendfile:ContextType>

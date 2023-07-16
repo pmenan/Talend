@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_-O5DYDtFEe2RHO1Do7F6Dg" id="_-O1ZADtFEe2RHO1Do7F6Dg" label="SnowflakeMerge" version="0.1" item="_-O5DYjtFEe2RHO1Do7F6Dg">
+    <author href="../../../talend.project#_8N8fUTtFEe2RHO1Do7F6Dg"/>
+    <additionalProperties xmi:id="_-O6RgDtFEe2RHO1Do7F6Dg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_-O6RgTtFEe2RHO1Do7F6Dg" key="created_product_version" value="7.3.1.20200219_1130"/>
+    <additionalProperties xmi:id="_-O6RgjtFEe2RHO1Do7F6Dg" key="created_date" value="2022-09-23T15:45:23.352+0200"/>
+    <additionalProperties xmi:id="_-O6RgztFEe2RHO1Do7F6Dg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_-O6RhDtFEe2RHO1Do7F6Dg" key="modified_product_version" value="7.3.1.20200219_1130"/>
+    <additionalProperties xmi:id="_-O6RhTtFEe2RHO1Do7F6Dg" key="modified_date" value="2022-09-23T15:45:23.352+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-O5DYTtFEe2RHO1Do7F6Dg" path="Snowflake/system"/>
+  <TalendProperties:SQLPatternItem xmi:id="_-O5DYjtFEe2RHO1Do7F6Dg" property="_-O5DYDtFEe2RHO1Do7F6Dg" state="_-O5DYTtFEe2RHO1Do7F6Dg" system="true" eltName="Snowflake">
+    <content href="SnowflakeMerge_0.1.item#/"/>
+  </TalendProperties:SQLPatternItem>
+</xmi:XMI>

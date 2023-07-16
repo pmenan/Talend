@@ -1,0 +1,2197 @@
+!SESSION 2023-01-03 21:20:59.868 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\.metadata\.bak_0.log
+Created Time: 2023-01-03 23:36:21.768
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-03 23:36:21.768
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-01-24 23:39:06.239 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-01-24 23:39:06.985
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-01-24 23:39:06.985
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-01-24 23:39:09.276
+!MESSAGE 2023-01-24 23:39:09,276 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-24 23:39:09.713
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-01-24 23:39:16.178
+!MESSAGE 2023-01-24 23:39:16,178 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-24 23:44:23.013
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-06-25 19:58:26.075 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-06-25 19:58:26.976
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-06-25 19:58:26.976
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:29.679
+!MESSAGE 2023-06-25 19:58:29,679 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-25 19:58:30.011
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:33.997
+!MESSAGE 2023-06-25 19:58:33,997 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-25 19:58:46.508
+!MESSAGE 2023-06-25 19:58:46,508 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:52.868
+!MESSAGE 2023-06-25 19:58:52,868 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:52.868
+!MESSAGE 2023-06-25 19:58:52,868 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:52.877
+!MESSAGE 2023-06-25 19:58:52,877 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:52.877
+!MESSAGE 2023-06-25 19:58:52,877 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:56.077
+!MESSAGE 2023-06-25 19:58:56,077 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:56.077
+!MESSAGE 2023-06-25 19:58:56,077 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:58:59.014
+!MESSAGE 2023-06-25 19:58:59,014 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 19:59:00.089
+!MESSAGE 2023-06-25 19:59:00,089 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-25 19:59:16.808
+!MESSAGE 2023-06-25 19:59:16,808 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-25 19:59:16.824
+!MESSAGE 2023-06-25 19:59:16,824 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:03:10.151
+!MESSAGE 2023-06-25 20:03:10,150 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:03:10.279
+!MESSAGE 2023-06-25 20:03:10,278 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:03:10.281
+!MESSAGE 2023-06-25 20:03:10,280 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:03:10.284
+!MESSAGE 2023-06-25 20:03:10,284 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:03:10.285
+!MESSAGE 2023-06-25 20:03:10,285 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:18.305
+!MESSAGE 2023-06-25 20:18:18,305 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:18.446
+!MESSAGE 2023-06-25 20:18:18,446 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:18.447
+!MESSAGE 2023-06-25 20:18:18,446 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:18.448
+!MESSAGE 2023-06-25 20:18:18,448 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:18.449
+!MESSAGE 2023-06-25 20:18:18,448 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:20.567
+!MESSAGE 2023-06-25 20:18:20,566 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:20.856
+!MESSAGE 2023-06-25 20:18:20,855 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:18:20.893
+!MESSAGE 2023-06-25 20:18:20,893 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/.Java/target/classpath.jar; formation_talend.mock_job_for_guess_schema_0_1.Mock_job_for_Guess_schema --context=Default %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:41.271
+!MESSAGE 2023-06-25 20:21:41,270 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:41.359
+!MESSAGE 2023-06-25 20:21:41,359 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:41.360
+!MESSAGE 2023-06-25 20:21:41,359 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:41.362
+!MESSAGE 2023-06-25 20:21:41,361 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:41.363
+!MESSAGE 2023-06-25 20:21:41,362 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.840
+!MESSAGE 2023-06-25 20:21:46,839 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.902
+!MESSAGE 2023-06-25 20:21:46,902 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.973
+!MESSAGE 2023-06-25 20:21:46,973 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.974
+!MESSAGE 2023-06-25 20:21:46,973 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.976
+!MESSAGE 2023-06-25 20:21:46,975 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:46.977
+!MESSAGE 2023-06-25 20:21:46,976 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_BASE_ORACLE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:47.045
+!MESSAGE 2023-06-25 20:21:47,045 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-25 20:21:47.254
+!MESSAGE 2023-06-25 20:21:47,253 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-25 20:22:51.680
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-06-29 13:43:05.522 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-06-29 13:43:06.310
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-06-29 13:43:06.312
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:08.595
+!MESSAGE 2023-06-29 13:43:08,595 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-29 13:43:08.926
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:13.025
+!MESSAGE 2023-06-29 13:43:13,017 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 13:43:41.463
+!MESSAGE 2023-06-29 13:43:41,463 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:47.850
+!MESSAGE 2023-06-29 13:43:47,850 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:47.850
+!MESSAGE 2023-06-29 13:43:47,850 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:47.866
+!MESSAGE 2023-06-29 13:43:47,866 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:47.866
+!MESSAGE 2023-06-29 13:43:47,866 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:51.574
+!MESSAGE 2023-06-29 13:43:51,574 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:51.574
+!MESSAGE 2023-06-29 13:43:51,574 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:54.939
+!MESSAGE 2023-06-29 13:43:54,939 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:43:55.907
+!MESSAGE 2023-06-29 13:43:55,907 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 13:44:13.122
+!MESSAGE 2023-06-29 13:44:13,122 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 13:44:13.137
+!MESSAGE 2023-06-29 13:44:13,137 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:46:24.875
+!MESSAGE 2023-06-29 13:46:24,875 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:46:24.990
+!MESSAGE 2023-06-29 13:46:24,990 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:46:24.990
+!MESSAGE 2023-06-29 13:46:24,990 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:46:25.010
+!MESSAGE 2023-06-29 13:46:25,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:46:25.010
+!MESSAGE 2023-06-29 13:46:25,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.005
+!MESSAGE 2023-06-29 13:53:52,004 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.152
+!MESSAGE 2023-06-29 13:53:52,151 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.283
+!MESSAGE 2023-06-29 13:53:52,283 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.283
+!MESSAGE 2023-06-29 13:53:52,283 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.287
+!MESSAGE 2023-06-29 13:53:52,287 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.287
+!MESSAGE 2023-06-29 13:53:52,287 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.394
+!MESSAGE 2023-06-29 13:53:52,394 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.587
+!MESSAGE 2023-06-29 13:53:52,587 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:53:52.837
+!MESSAGE 2023-06-29 13:53:52,837 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=4000 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:00.843
+!MESSAGE 2023-06-29 13:55:00,843 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:00.915
+!MESSAGE 2023-06-29 13:55:00,915 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.034
+!MESSAGE 2023-06-29 13:55:01,034 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.050
+!MESSAGE 2023-06-29 13:55:01,050 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.050
+!MESSAGE 2023-06-29 13:55:01,050 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.050
+!MESSAGE 2023-06-29 13:55:01,050 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.101
+!MESSAGE 2023-06-29 13:55:01,101 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.226
+!MESSAGE 2023-06-29 13:55:01,226 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:01.386
+!MESSAGE 2023-06-29 13:55:01,386 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3571 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.445
+!MESSAGE 2023-06-29 13:55:42,445 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.503
+!MESSAGE 2023-06-29 13:55:42,503 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.645
+!MESSAGE 2023-06-29 13:55:42,642 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.645
+!MESSAGE 2023-06-29 13:55:42,645 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.645
+!MESSAGE 2023-06-29 13:55:42,645 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.645
+!MESSAGE 2023-06-29 13:55:42,645 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.694
+!MESSAGE 2023-06-29 13:55:42,694 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.821
+!MESSAGE 2023-06-29 13:55:42,821 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 13:55:42.988
+!MESSAGE 2023-06-29 13:55:42,988 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3847 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.588
+!MESSAGE 2023-06-29 14:00:36,588 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.664
+!MESSAGE 2023-06-29 14:00:36,664 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.733
+!MESSAGE 2023-06-29 14:00:36,733 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.733
+!MESSAGE 2023-06-29 14:00:36,733 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.733
+!MESSAGE 2023-06-29 14:00:36,733 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.733
+!MESSAGE 2023-06-29 14:00:36,733 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.788
+!MESSAGE 2023-06-29 14:00:36,788 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:36.903
+!MESSAGE 2023-06-29 14:00:36,903 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:00:37.054
+!MESSAGE 2023-06-29 14:00:37,053 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3598 %*
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:03:44.050
+!MESSAGE 2023-06-29 14:03:44,050 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:03:44.144
+!MESSAGE 2023-06-29 14:03:44,144 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:03:46.351
+!MESSAGE 2023-06-29 14:03:46,351 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:03:46.351
+!MESSAGE 2023-06-29 14:03:46,351 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:04:33.778
+!MESSAGE 2023-06-29 14:04:33,778 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-29 14:04:33.778
+!MESSAGE 2023-06-29 14:04:33,778 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.072
+!MESSAGE 2023-06-29 14:09:11,072 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.138
+!MESSAGE 2023-06-29 14:09:11,138 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.210
+!MESSAGE 2023-06-29 14:09:11,210 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.210
+!MESSAGE 2023-06-29 14:09:11,210 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.210
+!MESSAGE 2023-06-29 14:09:11,210 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.210
+!MESSAGE 2023-06-29 14:09:11,210 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.272
+!MESSAGE 2023-06-29 14:09:11,272 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.401
+!MESSAGE 2023-06-29 14:09:11,401 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:11.569
+!MESSAGE 2023-06-29 14:09:11,569 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3659 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.371
+!MESSAGE 2023-06-29 14:09:50,371 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.434
+!MESSAGE 2023-06-29 14:09:50,434 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.580
+!MESSAGE 2023-06-29 14:09:50,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.580
+!MESSAGE 2023-06-29 14:09:50,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.580
+!MESSAGE 2023-06-29 14:09:50,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.580
+!MESSAGE 2023-06-29 14:09:50,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.625
+!MESSAGE 2023-06-29 14:09:50,625 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.749
+!MESSAGE 2023-06-29 14:09:50,749 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:09:50.905
+!MESSAGE 2023-06-29 14:09:50,905 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3739 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:32.992
+!MESSAGE 2023-06-29 14:10:32,992 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.046
+!MESSAGE 2023-06-29 14:10:33,046 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.130
+!MESSAGE 2023-06-29 14:10:33,130 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.130
+!MESSAGE 2023-06-29 14:10:33,130 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.145
+!MESSAGE 2023-06-29 14:10:33,145 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.145
+!MESSAGE 2023-06-29 14:10:33,145 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.177
+!MESSAGE 2023-06-29 14:10:33,177 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.298
+!MESSAGE 2023-06-29 14:10:33,298 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:10:33.461
+!MESSAGE 2023-06-29 14:10:33,461 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3807 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.457
+!MESSAGE 2023-06-29 14:11:42,457 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.524
+!MESSAGE 2023-06-29 14:11:42,524 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.597
+!MESSAGE 2023-06-29 14:11:42,597 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.613
+!MESSAGE 2023-06-29 14:11:42,613 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.613
+!MESSAGE 2023-06-29 14:11:42,613 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.613
+!MESSAGE 2023-06-29 14:11:42,613 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.661
+!MESSAGE 2023-06-29 14:11:42,661 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.782
+!MESSAGE 2023-06-29 14:11:42,781 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:11:42.927
+!MESSAGE 2023-06-29 14:11:42,927 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3749 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.836
+!MESSAGE 2023-06-29 14:12:26,836 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.891
+!MESSAGE 2023-06-29 14:12:26,891 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.985
+!MESSAGE 2023-06-29 14:12:26,985 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.985
+!MESSAGE 2023-06-29 14:12:26,985 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.985
+!MESSAGE 2023-06-29 14:12:26,985 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:26.985
+!MESSAGE 2023-06-29 14:12:26,985 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_JNORMALISATION_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:27.032
+!MESSAGE 2023-06-29 14:12:27,032 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:27.154
+!MESSAGE 2023-06-29 14:12:27,154 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-29 14:12:27.294
+!MESSAGE 2023-06-29 14:12:27,294 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/FORMATION_TALEND/poms/jobs/process/OTHER_JOBS/jnormalisation_0.1/target/classpath.jar; formation_talend.jnormalisation_0_1.jnormalisation --context=Default --stat_port=3536 %*
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-06-29 16:01:21.468
+!MESSAGE 2023-06-29 16:01:21,468 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:385)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:376)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2023-06-29 16:01:21.468
+!MESSAGE 2023-06-29 16:01:21,468 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:385)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:376)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-29 16:01:21.500
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-02 16:40:06.199 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-02 16:40:07.043
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-02 16:40:07.043
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:40:09.973
+!MESSAGE 2023-07-02 16:40:09,973 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-02 16:40:10.341
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:40:15.002
+!MESSAGE 2023-07-02 16:40:15,001 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 16:42:53.756
+!MESSAGE 2023-07-02 16:42:53,751 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:42:59.528
+!MESSAGE 2023-07-02 16:42:59,528 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:42:59.528
+!MESSAGE 2023-07-02 16:42:59,528 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:42:59.544
+!MESSAGE 2023-07-02 16:42:59,544 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:42:59.544
+!MESSAGE 2023-07-02 16:42:59,544 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:43:02.861
+!MESSAGE 2023-07-02 16:43:02,861 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:43:02.861
+!MESSAGE 2023-07-02 16:43:02,861 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:43:05.599
+!MESSAGE 2023-07-02 16:43:05,599 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:43:06.591
+!MESSAGE 2023-07-02 16:43:06,591 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 16:44:35.309
+!MESSAGE 2023-07-02 16:44:35,309 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 16:44:35.325
+!MESSAGE 2023-07-02 16:44:35,317 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:44:37.294
+!MESSAGE 2023-07-02 16:44:37,294 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:44:37.435
+!MESSAGE 2023-07-02 16:44:37,435 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_DONNEES_BASE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:44:37.435
+!MESSAGE 2023-07-02 16:44:37,435 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_DONNEES_BASE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:44:37.443
+!MESSAGE 2023-07-02 16:44:37,443 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ALIMENTATION_DONNEES_BASE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 16:44:37.443
+!MESSAGE 2023-07-02 16:44:37,443 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ALIMENTATION_DONNEES_BASE_0.1/src/test/resources
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-02 17:16:18.403
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-02 17:16:18.908 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-02 17:16:19.659
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-02 17:16:19.672
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 17:16:21.265
+!MESSAGE 2023-07-02 17:16:21,265 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-02 17:16:21.478
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 17:16:23.672
+!MESSAGE 2023-07-02 17:16:23,672 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+!SESSION 2023-07-02 23:07:30.825 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-02 23:07:31.574
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-02 23:07:31.574
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:33.890
+!MESSAGE 2023-07-02 23:07:33,890 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-02 23:07:34.177
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:36.982
+!MESSAGE 2023-07-02 23:07:36,982 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 23:07:42.438
+!MESSAGE 2023-07-02 23:07:42,438 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:47.529
+!MESSAGE 2023-07-02 23:07:47,529 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:47.529
+!MESSAGE 2023-07-02 23:07:47,529 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:47.535
+!MESSAGE 2023-07-02 23:07:47,535 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:47.535
+!MESSAGE 2023-07-02 23:07:47,535 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:50.154
+!MESSAGE 2023-07-02 23:07:50,154 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:50.154
+!MESSAGE 2023-07-02 23:07:50,154 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:52.576
+!MESSAGE 2023-07-02 23:07:52,576 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-02 23:07:53.459
+!MESSAGE 2023-07-02 23:07:53,458 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 23:08:19.636
+!MESSAGE 2023-07-02 23:08:19,636 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 23:08:19.657
+!MESSAGE 2023-07-02 23:08:19,657 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-02 23:08:31.473
+!MESSAGE 2023-07-02 23:08:31,473 WARN  org.talend.librariesmanager.utils.RemoteModulesHelper  - failed to connect to internet
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-02 23:19:02.866
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-03 13:45:59.968 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-03 13:46:00.735
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-03 13:46:00.735
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:03.055
+!MESSAGE 2023-07-03 13:46:03,055 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 13:46:03.421
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:06.959
+!MESSAGE 2023-07-03 13:46:06,959 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:46:13.346
+!MESSAGE 2023-07-03 13:46:13,346 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:18.453
+!MESSAGE 2023-07-03 13:46:18,437 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:18.453
+!MESSAGE 2023-07-03 13:46:18,453 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:18.453
+!MESSAGE 2023-07-03 13:46:18,453 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:18.453
+!MESSAGE 2023-07-03 13:46:18,453 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:21.265
+!MESSAGE 2023-07-03 13:46:21,264 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:21.267
+!MESSAGE 2023-07-03 13:46:21,266 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:23.757
+!MESSAGE 2023-07-03 13:46:23,757 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:24.669
+!MESSAGE 2023-07-03 13:46:24,669 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:46:32.483
+!MESSAGE 2023-07-03 13:46:32,483 WARN  org.talend.librariesmanager.utils.RemoteModulesHelper  - failed to connect to internet
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 13:46:36.196
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-03 13:46:38.253 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-03 13:46:38.913
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-03 13:46:38.913
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:40.378
+!MESSAGE 2023-07-03 13:46:40,378 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 13:46:40.598
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:46:42.934
+!MESSAGE 2023-07-03 13:46:42,934 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:47:15.818
+!MESSAGE 2023-07-03 13:47:15,818 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:18.621
+!MESSAGE 2023-07-03 13:47:18,621 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:18.621
+!MESSAGE 2023-07-03 13:47:18,621 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:18.621
+!MESSAGE 2023-07-03 13:47:18,621 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:18.621
+!MESSAGE 2023-07-03 13:47:18,621 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:19.409
+!MESSAGE 2023-07-03 13:47:19,409 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\ICOMMERCE_REPORTING\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:19.409
+!MESSAGE 2023-07-03 13:47:19,409 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:23.037
+!MESSAGE 2023-07-03 13:47:23,037 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\ICOMMERCE_REPORTING\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:23.037
+!MESSAGE 2023-07-03 13:47:23,037 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:25.347
+!MESSAGE 2023-07-03 13:47:25,347 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à ICOMMERCE_REPORTING
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 13:47:26.105
+!MESSAGE 2023-07-03 13:47:26,105 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:47:27.284
+!MESSAGE 2023-07-03 13:47:27,282 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:47:27.284
+!MESSAGE 2023-07-03 13:47:27,284 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 13:47:31.942
+!MESSAGE 2023-07-03 13:47:31,942 WARN  org.talend.librariesmanager.utils.RemoteModulesHelper  - failed to connect to internet
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-03 14:10:27.926
+!MESSAGE 2023-07-03 14:10:27,923 ERROR org.talend.commons.exception.CommonExceptionHandler  - org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+
+!STACK 0
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:208)
+	at org.talend.core.model.metadata.builder.database.ExtractMetaDataUtils.connect(ExtractMetaDataUtils.java:1146)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:189)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:130)
+	at org.talend.metadata.managment.model.DBConnectionFillerImpl.fillUIConnParams(DBConnectionFillerImpl.java:161)
+	at org.talend.metadata.managment.model.DBConnectionFillerImpl.fillUIConnParams(DBConnectionFillerImpl.java:1)
+	at org.talend.metadata.managment.model.MetadataFillFactory.fillUIConnParams(MetadataFillFactory.java:180)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillDbConnectionInformation(MetadataConnectionUtils.java:1129)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillConnectionInformation(MetadataConnectionUtils.java:1050)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.handleCreation(DatabaseWizard.java:879)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.performFinish(DatabaseWizard.java:557)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.repository.metadata.ui.actions.metadata.CreateConnectionAction.doRun(CreateConnectionAction.java:198)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:676)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3553)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2412)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at org.talend.core.model.metadata.builder.database.DriverShim.connect(DriverShim.java:41)
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:199)
+	... 58 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 64 more
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-03 14:10:29.975
+!MESSAGE 2023-07-03 14:10:29,972 ERROR org.talend.commons.exception.CommonExceptionHandler  - org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+
+!STACK 0
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:208)
+	at org.talend.core.model.metadata.builder.database.ExtractMetaDataUtils.connect(ExtractMetaDataUtils.java:1146)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:189)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:130)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillDbConnectionInformation(MetadataConnectionUtils.java:1130)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillConnectionInformation(MetadataConnectionUtils.java:1050)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.handleCreation(DatabaseWizard.java:879)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.performFinish(DatabaseWizard.java:557)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.repository.metadata.ui.actions.metadata.CreateConnectionAction.doRun(CreateConnectionAction.java:198)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:676)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3553)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2412)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at org.talend.core.model.metadata.builder.database.DriverShim.connect(DriverShim.java:41)
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:199)
+	... 55 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	... 61 more
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 14:14:24.731
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-03 14:14:24.978 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-03 14:14:25.681
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-03 14:14:25.683
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:27.220
+!MESSAGE 2023-07-03 14:14:27,218 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 14:14:27.406
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:29.427
+!MESSAGE 2023-07-03 14:14:29,427 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:14:35.156
+!MESSAGE 2023-07-03 14:14:35,156 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:38.101
+!MESSAGE 2023-07-03 14:14:38,100 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:38.102
+!MESSAGE 2023-07-03 14:14:38,102 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:38.111
+!MESSAGE 2023-07-03 14:14:38,111 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:38.112
+!MESSAGE 2023-07-03 14:14:38,112 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:40.501
+!MESSAGE 2023-07-03 14:14:40,500 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:40.503
+!MESSAGE 2023-07-03 14:14:40,503 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:42.683
+!MESSAGE 2023-07-03 14:14:42,683 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:14:43.440
+!MESSAGE 2023-07-03 14:14:43,439 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:14:54.872
+!MESSAGE 2023-07-03 14:14:54,872 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:14:54.879
+!MESSAGE 2023-07-03 14:14:54,879 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 14:15:51.861
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-03 14:15:52.129 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-03 14:15:52.810
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-03 14:15:52.811
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:15:54.196
+!MESSAGE 2023-07-03 14:15:54,193 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 14:15:54.374
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:15:56.413
+!MESSAGE 2023-07-03 14:15:56,413 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:16:08.449
+!MESSAGE 2023-07-03 14:16:08,449 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:11.483
+!MESSAGE 2023-07-03 14:16:11,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:11.484
+!MESSAGE 2023-07-03 14:16:11,484 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java overlaps with sources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:11.492
+!MESSAGE 2023-07-03 14:16:11,491 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:11.492
+!MESSAGE 2023-07-03 14:16:11,492 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:13.801
+!MESSAGE 2023-07-03 14:16:13,801 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\ICOMMERCE_REPORTING\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:13.803
+!MESSAGE 2023-07-03 14:16:13,803 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:16.039
+!MESSAGE 2023-07-03 14:16:16,038 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à ICOMMERCE_REPORTING
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 14:16:16.760
+!MESSAGE 2023-07-03 14:16:16,759 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:16:28.245
+!MESSAGE 2023-07-03 14:16:28,245 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-03 14:16:28.254
+!MESSAGE 2023-07-03 14:16:28,253 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-03 14:19:37.223
+!MESSAGE 2023-07-03 14:19:37,221 ERROR org.talend.commons.exception.CommonExceptionHandler  - org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+
+!STACK 0
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:208)
+	at org.talend.core.model.metadata.builder.database.ExtractMetaDataUtils.connect(ExtractMetaDataUtils.java:1146)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:189)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:130)
+	at org.talend.metadata.managment.model.DBConnectionFillerImpl.fillUIConnParams(DBConnectionFillerImpl.java:161)
+	at org.talend.metadata.managment.model.DBConnectionFillerImpl.fillUIConnParams(DBConnectionFillerImpl.java:1)
+	at org.talend.metadata.managment.model.MetadataFillFactory.fillUIConnParams(MetadataFillFactory.java:180)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillDbConnectionInformation(MetadataConnectionUtils.java:1129)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillConnectionInformation(MetadataConnectionUtils.java:1050)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.handleCreation(DatabaseWizard.java:879)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.performFinish(DatabaseWizard.java:557)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.repository.metadata.ui.actions.metadata.CreateConnectionAction.doRun(CreateConnectionAction.java:198)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:676)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3553)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2412)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:540)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at org.talend.core.model.metadata.builder.database.DriverShim.connect(DriverShim.java:41)
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:199)
+	... 58 more
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-03 14:19:37.249
+!MESSAGE 2023-07-03 14:19:37,248 ERROR org.talend.commons.exception.CommonExceptionHandler  - org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+
+!STACK 0
+java.lang.RuntimeException: org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:208)
+	at org.talend.core.model.metadata.builder.database.ExtractMetaDataUtils.connect(ExtractMetaDataUtils.java:1146)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:189)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.createConnection(MetadataConnectionUtils.java:130)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillDbConnectionInformation(MetadataConnectionUtils.java:1130)
+	at org.talend.metadata.managment.utils.MetadataConnectionUtils.fillConnectionInformation(MetadataConnectionUtils.java:1050)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.handleCreation(DatabaseWizard.java:879)
+	at org.talend.repository.ui.wizards.metadata.connection.database.DatabaseWizard.performFinish(DatabaseWizard.java:557)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.talend.repository.metadata.ui.actions.metadata.CreateConnectionAction.doRun(CreateConnectionAction.java:198)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:676)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3553)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2412)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: org.postgresql.util.PSQLException: Le serveur a demandé une authentification par mots de passe, mais aucun mot de passe n'a été fourni.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:540)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at org.talend.core.model.metadata.builder.database.DriverShim.connect(DriverShim.java:41)
+	at org.talend.core.model.metadata.builder.database.JDBCDriverLoader.getConnection(JDBCDriverLoader.java:199)
+	... 55 more
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 15:39:42.814
+!MESSAGE 2023-07-03 15:39:42,813 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 15:39:43.012
+!MESSAGE 2023-07-03 15:39:43,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 15:39:43.013
+!MESSAGE 2023-07-03 15:39:43,012 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 15:39:43.023
+!MESSAGE 2023-07-03 15:39:43,022 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-03 15:39:43.024
+!MESSAGE 2023-07-03 15:39:43,023 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/test/resources
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-03 18:28:34.075
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-16 20:04:21.618 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-16 20:04:22.387
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-16 20:04:22.387
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:04:25.220
+!MESSAGE 2023-07-16 20:04:25,220 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 20:04:25.606
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:04:31.341
+!MESSAGE 2023-07-16 20:04:31,336 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+!SESSION 2023-07-16 20:46:35.249 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-16 20:46:35.915
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-16 20:46:35.917
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:37.542
+!MESSAGE 2023-07-16 20:46:37,539 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 20:46:37.763
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:40.179
+!MESSAGE 2023-07-16 20:46:40,178 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 20:46:49.061
+!MESSAGE 2023-07-16 20:46:49,059 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:53.935
+!MESSAGE 2023-07-16 20:46:53,935 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:53.936
+!MESSAGE 2023-07-16 20:46:53,936 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java overlaps with sources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:53.949
+!MESSAGE 2023-07-16 20:46:53,948 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:53.949
+!MESSAGE 2023-07-16 20:46:53,949 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:56.618
+!MESSAGE 2023-07-16 20:46:56,618 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\ICOMMERCE_REPORTING\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:56.620
+!MESSAGE 2023-07-16 20:46:56,620 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:58.903
+!MESSAGE 2023-07-16 20:46:58,903 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à ICOMMERCE_REPORTING
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:46:59.642
+!MESSAGE 2023-07-16 20:46:59,641 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 20:47:11.701
+!MESSAGE 2023-07-16 20:47:11,700 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 20:47:11.710
+!MESSAGE 2023-07-16 20:47:11,710 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:47:19.431
+!MESSAGE 2023-07-16 20:47:19,430 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:47:19.543
+!MESSAGE 2023-07-16 20:47:19,542 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:47:19.545
+!MESSAGE 2023-07-16 20:47:19,544 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:47:19.547
+!MESSAGE 2023-07-16 20:47:19,546 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 20:47:19.548
+!MESSAGE 2023-07-16 20:47:19,547 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JODSCATEGAORIE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-16 21:10:43.310
+!MESSAGE 2023-07-16 21:10:43,309 ERROR org.talend.commons.exception.CommonExceptionHandler  - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+!STACK 0
+us.monoid.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at us.monoid.json.JSONTokener.syntaxError(JSONTokener.java:423)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:190)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:321)
+	at org.talend.core.ui.token.TokenCollectorFactory$1.run(TokenCollectorFactory.java:236)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 21:10:44.521
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-16 22:12:02.304 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-16 22:12:03.139
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-16 22:12:03.148
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:05.587
+!MESSAGE 2023-07-16 22:12:05,587 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 22:12:06.146
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:10.965
+!MESSAGE 2023-07-16 22:12:10,965 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:12:46.697
+!MESSAGE 2023-07-16 22:12:46,697 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:51.796
+!MESSAGE 2023-07-16 22:12:51,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:51.796
+!MESSAGE 2023-07-16 22:12:51,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:51.812
+!MESSAGE 2023-07-16 22:12:51,812 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:51.812
+!MESSAGE 2023-07-16 22:12:51,812 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:54.777
+!MESSAGE 2023-07-16 22:12:54,777 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:54.777
+!MESSAGE 2023-07-16 22:12:54,777 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:57.330
+!MESSAGE 2023-07-16 22:12:57,330 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:12:58.221
+!MESSAGE 2023-07-16 22:12:58,221 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:13:12.393
+!MESSAGE 2023-07-16 22:13:12,393 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:13:12.410
+!MESSAGE 2023-07-16 22:13:12,410 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:06.162
+!MESSAGE 2023-07-16 22:14:06,162 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FORMATION_TALEND_ROUTINES: org.example.formation_talend.code:routines:7.3.1 with classifier  to /FORMATION_TALEND_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:06.296
+!MESSAGE 2023-07-16 22:14:06,295 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_UTILISATION_TJOIN_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:06.296
+!MESSAGE 2023-07-16 22:14:06,296 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_UTILISATION_TJOIN_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:06.300
+!MESSAGE 2023-07-16 22:14:06,300 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_UTILISATION_TJOIN_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:06.301
+!MESSAGE 2023-07-16 22:14:06,301 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_UTILISATION_TJOIN_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-16 22:14:53.020
+!MESSAGE 2023-07-16 22:14:53,019 ERROR org.talend.commons.exception.CommonExceptionHandler  - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+!STACK 0
+us.monoid.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at us.monoid.json.JSONTokener.syntaxError(JSONTokener.java:423)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:190)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:321)
+	at org.talend.core.ui.token.TokenCollectorFactory$1.run(TokenCollectorFactory.java:236)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 22:14:54.139
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-16 22:14:54.417 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-16 22:14:55.147
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-16 22:14:55.154
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:56.771
+!MESSAGE 2023-07-16 22:14:56,771 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 22:14:56.984
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:14:59.450
+!MESSAGE 2023-07-16 22:14:59,450 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:18:32.235
+!MESSAGE 2023-07-16 22:18:32,235 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:35.838
+!MESSAGE 2023-07-16 22:18:35,838 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:35.838
+!MESSAGE 2023-07-16 22:18:35,838 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /FORMATION_TALEND_ROUTINES/src/main/java overlaps with sources folder /FORMATION_TALEND_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:35.845
+!MESSAGE 2023-07-16 22:18:35,845 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FORMATION_TALEND_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:35.846
+!MESSAGE 2023-07-16 22:18:35,846 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FORMATION_TALEND_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:38.783
+!MESSAGE 2023-07-16 22:18:38,783 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\FORMATION_TALEND\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:38.783
+!MESSAGE 2023-07-16 22:18:38,783 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:41.320
+!MESSAGE 2023-07-16 22:18:41,320 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FORMATION_TALEND
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:18:42.122
+!MESSAGE 2023-07-16 22:18:42,122 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:18:54.082
+!MESSAGE 2023-07-16 22:18:54,082 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-07-16 22:18:54.082
+!MESSAGE 2023-07-16 22:18:54,082 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-07-16 22:19:03.280
+!MESSAGE 2023-07-16 22:19:03,280 ERROR org.talend.commons.exception.CommonExceptionHandler  - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+!STACK 0
+us.monoid.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at us.monoid.json.JSONTokener.syntaxError(JSONTokener.java:423)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:190)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:321)
+	at org.talend.core.ui.token.TokenCollectorFactory$1.run(TokenCollectorFactory.java:236)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 22:19:04.396
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-07-16 22:19:04.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-07-16 22:19:05.414
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-07-16 22:19:05.418
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:19:07.170
+!MESSAGE 2023-07-16 22:19:07,170 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-16 22:19:07.378
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-07-16 22:19:09.998
+!MESSAGE 2023-07-16 22:19:09,982 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+

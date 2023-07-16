@@ -1,0 +1,17 @@
+package routines;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+
+public class StringConvert {
+
+ public static Date stringToString(String str) {
+	 TalendDate.parseDate("yyyy-MM-dd HH:mm:ss", str);
+	 return TalendDate.parseDate("yyyy-MM-dd HH:mm:ss", str); 
+ }  
+    
+}

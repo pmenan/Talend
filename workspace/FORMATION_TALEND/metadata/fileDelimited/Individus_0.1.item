@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_fuKUQEzFEe2pGMkLs50K7Q" name="Individus" dataPackage="_fuKUQUzFEe2pGMkLs50K7Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Inputs/Fichier_Individus.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fuKUQUzFEe2pGMkLs50K7Q" name="default" dataManager="_fuKUQEzFEe2pGMkLs50K7Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fuKUQkzFEe2pGMkLs50K7Q" id="_KcWjgEzFEe2pGMkLs50K7Q" label="metadataIndividus">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fuKUQ0zFEe2pGMkLs50K7Q" label="Id" length="6" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fuKUREzFEe2pGMkLs50K7Q" label="Nom" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fuKURUzFEe2pGMkLs50K7Q" label="Date_Creation" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fuKURkzFEe2pGMkLs50K7Q" label="Code_Postal" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

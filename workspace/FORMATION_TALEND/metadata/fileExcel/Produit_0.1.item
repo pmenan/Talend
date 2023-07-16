@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_na9LYUzGEe2pGMkLs50K7Q" name="Produit" dataPackage="_na9LYkzGEe2pGMkLs50K7Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Inputs/Produits.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Produits" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Produits:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_na9LYkzGEe2pGMkLs50K7Q" name="default" dataManager="_na9LYUzGEe2pGMkLs50K7Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_na9LY0zGEe2pGMkLs50K7Q" id="_aDW4IEzGEe2pGMkLs50K7Q" label="metadataProduit">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_na9LZEzGEe2pGMkLs50K7Q" label="Groupe_Produit" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_na9LZUzGEe2pGMkLs50K7Q" label="N__Article" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nbA1wEzGEe2pGMkLs50K7Q" label="Sous_Groupe_Produit" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nbA1wUzGEe2pGMkLs50K7Q" label="Type_de_produit" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nbA1wkzGEe2pGMkLs50K7Q" label="Ligne_Produit" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

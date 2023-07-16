@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Z8Yf4HZnEe2TwIAjc8UOOg" name="departement" dataPackage="_Z8Yf4XZnEe2TwIAjc8UOOg" Server="Localhost 127.0.0.1" FilePath="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Inputs/departement.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Z8Yf4XZnEe2TwIAjc8UOOg" name="default" dataManager="_Z8Yf4HZnEe2TwIAjc8UOOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Z8Yf4nZnEe2TwIAjc8UOOg" id="_H7FdoHZnEe2TwIAjc8UOOg" label="departement">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z8Yf43ZnEe2TwIAjc8UOOg" label="id_depart" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z8Yf5HZnEe2TwIAjc8UOOg" label="Ville" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z8Yf5XZnEe2TwIAjc8UOOg" label="id_emp" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z8Yf5nZnEe2TwIAjc8UOOg" label="Adresse" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

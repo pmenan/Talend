@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_CdQNEENQEe2i0_AC2MqEhQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_QnzAMENQEe2i0_AC2MqEhQ" comment="" name="outputs" prompt="outputs?" promptNeeded="false" type="id_Directory" value="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Ouputs/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ILMDcENUEe2i0_AC2MqEhQ" confirmationNeeded="false" name="Developpement">
+    <contextParameter xmi:id="_ILMDcUNUEe2i0_AC2MqEhQ" comment="" name="outputs" prompt="outputs?" promptNeeded="false" type="id_Directory" value="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Ouputs/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ILMDckNUEe2i0_AC2MqEhQ" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_ILMDc0NUEe2i0_AC2MqEhQ" comment="" name="outputs" prompt="outputs?" promptNeeded="false" type="id_Directory" value="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Ouputs/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ILMDdENUEe2i0_AC2MqEhQ" confirmationNeeded="false" name="Test">
+    <contextParameter xmi:id="_ILMDdUNUEe2i0_AC2MqEhQ" comment="" name="outputs" prompt="outputs?" promptNeeded="false" type="id_Directory" value="C:/Users/menan/OneDrive/Bureau/TALEND/DOSSIER_TALEND/Ouputs/"/>
+  </talendfile:ContextType>
+</xmi:XMI>
