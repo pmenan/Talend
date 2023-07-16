@@ -1,0 +1,8 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+PRISE_EN_MAIN/code/routines/system/*.*
+PRISE_EN_MAIN/temp/
+PRISE_EN_MAIN/sqlPatterns/
+PRISE_EN_MAIN/talend.project
