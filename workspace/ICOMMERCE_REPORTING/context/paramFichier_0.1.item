@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_PV9G8DCnEe6vdeLi2chgzQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_PV9G8TCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_categorie" prompt="masqueFichier_categorie?" promptNeeded="false" type="id_String" value="&quot;*_CATEGORY&quot;"/>
+  <contextParameter xmi:id="_PV9G8jCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_client" prompt="masqueFichier_client?" promptNeeded="false" type="id_String" value="&quot;*_CUSTOMER.csv&quot;"/>
+  <contextParameter xmi:id="_PV9G8zCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_produit" prompt="masqueFichier_produit?" promptNeeded="false" type="id_String" value="&quot;*_PRODUIT.csv&quot;"/>
+  <contextParameter xmi:id="_PV9G9DCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_ventes" prompt="masqueFichier_ventes?" promptNeeded="false" type="id_String" value="&quot;*_VENTE.csv&quot;"/>
+  <contextParameter xmi:id="_PV9G9TCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_typeClient" prompt="masqueFichier_typeClient?" promptNeeded="false" type="id_String" value="&quot;*_TYPE_CLIENT.csv&quot;"/>
+  <contextParameter xmi:id="_PV9G9jCnEe6vdeLi2chgzQ" comment="" name="masqueFichier_sousCategorie" prompt="masqueFichier_sousCategorie?" promptNeeded="false" type="id_String" value="&quot;*_SOUS_CATEGORIE.csv&quot;"/>
+  <contextParameter xmi:id="_4Nv_0DCnEe6vdeLi2chgzQ" comment="" name="masqueFichier" prompt="masqueFichier?" promptNeeded="false" type="id_String" value="&quot;*.csv&quot;"/>
+</talendfile:ContextType>

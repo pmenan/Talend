@@ -5,6 +5,6 @@
   <contextParameter xmi:id="_qwF50xmbEe6wUJzeAmpCCQ" comment="" name="schema_ods" prompt="schema_ods?" promptNeeded="false" type="id_String" value="VENTE_ODS"/>
   <contextParameter xmi:id="_qwF51BmbEe6wUJzeAmpCCQ" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="5432"/>
   <contextParameter xmi:id="_qwF51RmbEe6wUJzeAmpCCQ" comment="" name="utilisateur" prompt="utilisateur?" promptNeeded="false" type="id_String" value="postgres"/>
-  <contextParameter xmi:id="_qwF51hmbEe6wUJzeAmpCCQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MKd+uReKk3PKlFvHmkEE4EHMECDClHuzknsvcXoFfL4V"/>
+  <contextParameter xmi:id="_qwF51hmbEe6wUJzeAmpCCQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:8O3hA7v8XMGv6hIo46RTO7zDHMEa7utvVqmyYVTdpbf0"/>
   <contextParameter xmi:id="_qwF51xmbEe6wUJzeAmpCCQ" comment="" name="additionalParam" prompt="additionalParam?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>

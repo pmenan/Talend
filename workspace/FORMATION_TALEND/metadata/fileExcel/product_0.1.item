@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_VasKwThhEe6vIoELIO9wbA" name="product" dataPackage="_VasKwjhhEe6vIoELIO9wbA" Server="Localhost 127.0.0.1" FilePath="D:/Talend/prepa_certif/sections/section_2/Produits.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Produit" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Produit:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VasKwjhhEe6vIoELIO9wbA" name="default" dataManager="_VasKwThhEe6vIoELIO9wbA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VasKwzhhEe6vIoELIO9wbA" id="_BbR2ADhhEe6vIoELIO9wbA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VasKxDhhEe6vIoELIO9wbA" label="CD_PRODUIT" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VasKxThhEe6vIoELIO9wbA" label="NOM_PRODUIT" length="63" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VasKxjhhEe6vIoELIO9wbA" label="PRIX_ACHAT_PRODUIT" length="10" precision="9" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VasKxzhhEe6vIoELIO9wbA" label="PRIX_VENTE_PRODUIT" length="9" precision="8" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VasKyDhhEe6vIoELIO9wbA" label="CD_SOUS_CATEGORIE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -11,6 +11,10 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/ODS/jodscategaorie_0.1</module>
+    <module>jobs/process/ODS/jodssouscategorie_0.1</module>
+    <module>jobs/process/OTHER_JOBS/jmovefile_0.1</module>
+    <module>jobs/process/ODS/jodscustomer_0.1</module>
+    <module>jobs/process/ODS/jodsproduit_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ICOMMERCE_REPORTING</talend.project.name>

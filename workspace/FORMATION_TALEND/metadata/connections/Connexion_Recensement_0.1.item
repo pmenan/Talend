@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_kkwScDhnEe6vIoELIO9wbA" name="Connexion_Recensement" id="_Vmx3QDhnEe6vIoELIO9wbA" label="Connexion_Recensement" dataPackage="_klwYADhnEe6vIoELIO9wbA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/RECENSEMENT?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:d1jZfxmkSmKvNqXwVyqDc1bVwYafjBXiZ4cF1Mf08gHl" ServerName="localhost" DatasourceName="" FileFieldName="" SID="RECENSEMENT" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="nme">
+    <taggedValue xmi:id="_kkwScThnEe6vIoELIO9wbA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_kk9t0DhnEe6vIoELIO9wbA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_klHe0DhnEe6vIoELIO9wbA" tag="Status" value=""/>
+    <taggedValue xmi:id="_klHe0ThnEe6vIoELIO9wbA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_klHe0jhnEe6vIoELIO9wbA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_klHe0zhnEe6vIoELIO9wbA" tag="Description" value=""/>
+    <taggedValue xmi:id="_klHe1DhnEe6vIoELIO9wbA" tag="Author" value=""/>
+    <taggedValue xmi:id="_klHe1ThnEe6vIoELIO9wbA" tag="otherParameter"/>
+    <taggedValue xmi:id="_klX9gDhnEe6vIoELIO9wbA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_klX9gThnEe6vIoELIO9wbA" tag="DB ProductVersion" value="11.17"/>
+    <taggedValue xmi:id="_klX9gjhnEe6vIoELIO9wbA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_kkwScjhnEe6vIoELIO9wbA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_klwYADhnEe6vIoELIO9wbA" name="RECENSEMENT" dataManager="_kkwScDhnEe6vIoELIO9wbA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_klwYAThnEe6vIoELIO9wbA" name="nme">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_73FwgThnEe6vIoELIO9wbA" name="pays" id="_73FwgDhnEe6vIoELIO9wbA" label="pays" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_73FwgjhnEe6vIoELIO9wbA" name="id" label="id" length="10" sourceType="SERIAL" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_73FwgzhnEe6vIoELIO9wbA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_73FwhDhnEe6vIoELIO9wbA" body="nextval('nme.pays_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_73FwhThnEe6vIoELIO9wbA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_73FwhjhnEe6vIoELIO9wbA" name="nom_pays" label="nom_pays" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_73FwhzhnEe6vIoELIO9wbA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_73FwiDhnEe6vIoELIO9wbA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_73FwiThnEe6vIoELIO9wbA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_73FwijhnEe6vIoELIO9wbA" name="nombre_habitant" label="nombre_habitant" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_73FwizhnEe6vIoELIO9wbA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_73FwjDhnEe6vIoELIO9wbA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_73FwjThnEe6vIoELIO9wbA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

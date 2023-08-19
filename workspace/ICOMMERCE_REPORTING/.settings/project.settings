@@ -393,7 +393,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:dvp6ZRcRCphttM4iDKnrP3sVg4F7dfG6Zj45qQ58GQoC8CiY+qPfS7JcTlw=",
+        "value" : "enc:system.encryption.key.v1:DYLbqBcMPa7x9VqLNTSEF6Nj17aOxDgXk2IZ5JA1vgJxmVo8TkG0qHhqFd0=",
         "contextMode" : false
       }, {
         "show" : true,
@@ -423,7 +423,7 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "NOT_LOAD_OLD_VARIABLE",
-        "value" : "Info",
+        "value" : "Warning",
         "contextMode" : false
       }, {
         "show" : true,
