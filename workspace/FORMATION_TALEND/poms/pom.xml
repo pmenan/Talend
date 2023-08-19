@@ -36,6 +36,7 @@
     <module>jobs/process/OTHER_JOBS/jnormalisation_0.1</module>
     <module>jobs/process/PREPA_CERTIF/section_2/jfile_0.1</module>
     <module>jobs/process/API/japifiletoweb_0.1</module>
+    <module>jobs/process/UTILISATION_FICHIERS/jgeneratedatatofile_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FORMATION_TALEND</talend.project.name>
