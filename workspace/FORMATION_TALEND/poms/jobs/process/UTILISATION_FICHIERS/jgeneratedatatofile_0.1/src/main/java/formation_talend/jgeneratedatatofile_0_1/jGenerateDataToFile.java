@@ -274,67 +274,37 @@ public class jGenerateDataToFile implements TalendJob {
 		}
 	}
 
-	public void tRowGenerator_1_error(Exception exception, String errorComponent,
+	public void tFileInputXML_2_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputXML_2_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tMap_1_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
-			throws TalendException {
-
-		end_Hash.put(errorComponent, System.currentTimeMillis());
-
-		status = "failure";
-
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
-	}
-
-	public void tReplicate_1_error(Exception exception, String errorComponent,
+	public void tXMLMap_1_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputXML_2_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tFileOutputXML_1_error(Exception exception, String errorComponent,
+	public void tLogRow_1_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputXML_2_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tFileOutputDelimited_1_error(Exception exception, String errorComponent,
-			final java.util.Map<String, Object> globalMap) throws TalendException {
-
-		end_Hash.put(errorComponent, System.currentTimeMillis());
-
-		status = "failure";
-
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
-	}
-
-	public void tFileOutputJSON_1_error(Exception exception, String errorComponent,
-			final java.util.Map<String, Object> globalMap) throws TalendException {
-
-		end_Hash.put(errorComponent, System.currentTimeMillis());
-
-		status = "failure";
-
-		tRowGenerator_1_onSubJobError(exception, errorComponent, globalMap);
-	}
-
-	public void tRowGenerator_1_onSubJobError(Exception exception, String errorComponent,
+	public void tFileInputXML_2_onSubJobError(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
@@ -342,47 +312,115 @@ public class jGenerateDataToFile implements TalendJob {
 
 	}
 
-	public static class row2Struct implements routines.system.IPersistableRow<row2Struct> {
+	public static class out2Struct implements routines.system.IPersistableRow<out2Struct> {
 		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
 		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
 
-		public Integer id;
+		public routines.system.Document personne;
 
-		public Integer getId() {
+		public routines.system.Document getPersonne() {
+			return this.personne;
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile) {
+
+				try {
+
+					int length = 0;
+
+					this.personne = (routines.system.Document) dis.readObject();
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				} catch (ClassNotFoundException eCNFE) {
+					throw new RuntimeException(eCNFE);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// Document
+
+				dos.writeObject(this.personne);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("personne=" + String.valueOf(personne));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(out2Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row5Struct implements routines.system.IPersistableRow<row5Struct> {
+		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
+		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
+
+		public String id;
+
+		public String getId() {
 			return this.id;
 		}
 
-		public String nom_prenom;
+		public String nom_personne;
 
-		public String getNom_prenom() {
-			return this.nom_prenom;
+		public String getNom_personne() {
+			return this.nom_personne;
 		}
 
 		public String ville;
 
 		public String getVille() {
 			return this.ville;
-		}
-
-		private Integer readInteger(ObjectInputStream dis) throws IOException {
-			Integer intReturn;
-			int length = 0;
-			length = dis.readByte();
-			if (length == -1) {
-				intReturn = null;
-			} else {
-				intReturn = dis.readInt();
-			}
-			return intReturn;
-		}
-
-		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
-			if (intNum == null) {
-				dos.writeByte(-1);
-			} else {
-				dos.writeByte(0);
-				dos.writeInt(intNum);
-			}
 		}
 
 		private String readString(ObjectInputStream dis) throws IOException {
@@ -423,9 +461,9 @@ public class jGenerateDataToFile implements TalendJob {
 
 					int length = 0;
 
-					this.id = readInteger(dis);
+					this.id = readString(dis);
 
-					this.nom_prenom = readString(dis);
+					this.nom_personne = readString(dis);
 
 					this.ville = readString(dis);
 
@@ -441,13 +479,13 @@ public class jGenerateDataToFile implements TalendJob {
 		public void writeData(ObjectOutputStream dos) {
 			try {
 
-				// Integer
+				// String
 
-				writeInteger(this.id, dos);
+				writeString(this.id, dos);
 
 				// String
 
-				writeString(this.nom_prenom, dos);
+				writeString(this.nom_personne, dos);
 
 				// String
 
@@ -464,8 +502,8 @@ public class jGenerateDataToFile implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("id=" + String.valueOf(id));
-			sb.append(",nom_prenom=" + nom_prenom);
+			sb.append("id=" + id);
+			sb.append(",nom_personne=" + nom_personne);
 			sb.append(",ville=" + ville);
 			sb.append("]");
 
@@ -475,7 +513,7 @@ public class jGenerateDataToFile implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(row2Struct other) {
+		public int compareTo(row5Struct other) {
 
 			int returnValue = -1;
 
@@ -505,673 +543,8 @@ public class jGenerateDataToFile implements TalendJob {
 
 	}
 
-	public static class row3Struct implements routines.system.IPersistableRow<row3Struct> {
-		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-
-		public Integer id;
-
-		public Integer getId() {
-			return this.id;
-		}
-
-		public String nom_prenom;
-
-		public String getNom_prenom() {
-			return this.nom_prenom;
-		}
-
-		public String ville;
-
-		public String getVille() {
-			return this.ville;
-		}
-
-		private Integer readInteger(ObjectInputStream dis) throws IOException {
-			Integer intReturn;
-			int length = 0;
-			length = dis.readByte();
-			if (length == -1) {
-				intReturn = null;
-			} else {
-				intReturn = dis.readInt();
-			}
-			return intReturn;
-		}
-
-		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
-			if (intNum == null) {
-				dos.writeByte(-1);
-			} else {
-				dos.writeByte(0);
-				dos.writeInt(intNum);
-			}
-		}
-
-		private String readString(ObjectInputStream dis) throws IOException {
-			String strReturn = null;
-			int length = 0;
-			length = dis.readInt();
-			if (length == -1) {
-				strReturn = null;
-			} else {
-				if (length > commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length) {
-					if (length < 1024 && commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length == 0) {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[1024];
-					} else {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[2 * length];
-					}
-				}
-				dis.readFully(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length);
-				strReturn = new String(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length, utf8Charset);
-			}
-			return strReturn;
-		}
-
-		private void writeString(String str, ObjectOutputStream dos) throws IOException {
-			if (str == null) {
-				dos.writeInt(-1);
-			} else {
-				byte[] byteArray = str.getBytes(utf8Charset);
-				dos.writeInt(byteArray.length);
-				dos.write(byteArray);
-			}
-		}
-
-		public void readData(ObjectInputStream dis) {
-
-			synchronized (commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile) {
-
-				try {
-
-					int length = 0;
-
-					this.id = readInteger(dis);
-
-					this.nom_prenom = readString(dis);
-
-					this.ville = readString(dis);
-
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-
-				}
-
-			}
-
-		}
-
-		public void writeData(ObjectOutputStream dos) {
-			try {
-
-				// Integer
-
-				writeInteger(this.id, dos);
-
-				// String
-
-				writeString(this.nom_prenom, dos);
-
-				// String
-
-				writeString(this.ville, dos);
-
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-
-		}
-
-		public String toString() {
-
-			StringBuilder sb = new StringBuilder();
-			sb.append(super.toString());
-			sb.append("[");
-			sb.append("id=" + String.valueOf(id));
-			sb.append(",nom_prenom=" + nom_prenom);
-			sb.append(",ville=" + ville);
-			sb.append("]");
-
-			return sb.toString();
-		}
-
-		/**
-		 * Compare keys
-		 */
-		public int compareTo(row3Struct other) {
-
-			int returnValue = -1;
-
-			return returnValue;
-		}
-
-		private int checkNullsAndCompare(Object object1, Object object2) {
-			int returnValue = 0;
-			if (object1 instanceof Comparable && object2 instanceof Comparable) {
-				returnValue = ((Comparable) object1).compareTo(object2);
-			} else if (object1 != null && object2 != null) {
-				returnValue = compareStrings(object1.toString(), object2.toString());
-			} else if (object1 == null && object2 != null) {
-				returnValue = 1;
-			} else if (object1 != null && object2 == null) {
-				returnValue = -1;
-			} else {
-				returnValue = 0;
-			}
-
-			return returnValue;
-		}
-
-		private int compareStrings(String string1, String string2) {
-			return string1.compareTo(string2);
-		}
-
-	}
-
-	public static class row4Struct implements routines.system.IPersistableRow<row4Struct> {
-		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-
-		public Integer id;
-
-		public Integer getId() {
-			return this.id;
-		}
-
-		public String nom_prenom;
-
-		public String getNom_prenom() {
-			return this.nom_prenom;
-		}
-
-		public String ville;
-
-		public String getVille() {
-			return this.ville;
-		}
-
-		private Integer readInteger(ObjectInputStream dis) throws IOException {
-			Integer intReturn;
-			int length = 0;
-			length = dis.readByte();
-			if (length == -1) {
-				intReturn = null;
-			} else {
-				intReturn = dis.readInt();
-			}
-			return intReturn;
-		}
-
-		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
-			if (intNum == null) {
-				dos.writeByte(-1);
-			} else {
-				dos.writeByte(0);
-				dos.writeInt(intNum);
-			}
-		}
-
-		private String readString(ObjectInputStream dis) throws IOException {
-			String strReturn = null;
-			int length = 0;
-			length = dis.readInt();
-			if (length == -1) {
-				strReturn = null;
-			} else {
-				if (length > commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length) {
-					if (length < 1024 && commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length == 0) {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[1024];
-					} else {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[2 * length];
-					}
-				}
-				dis.readFully(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length);
-				strReturn = new String(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length, utf8Charset);
-			}
-			return strReturn;
-		}
-
-		private void writeString(String str, ObjectOutputStream dos) throws IOException {
-			if (str == null) {
-				dos.writeInt(-1);
-			} else {
-				byte[] byteArray = str.getBytes(utf8Charset);
-				dos.writeInt(byteArray.length);
-				dos.write(byteArray);
-			}
-		}
-
-		public void readData(ObjectInputStream dis) {
-
-			synchronized (commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile) {
-
-				try {
-
-					int length = 0;
-
-					this.id = readInteger(dis);
-
-					this.nom_prenom = readString(dis);
-
-					this.ville = readString(dis);
-
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-
-				}
-
-			}
-
-		}
-
-		public void writeData(ObjectOutputStream dos) {
-			try {
-
-				// Integer
-
-				writeInteger(this.id, dos);
-
-				// String
-
-				writeString(this.nom_prenom, dos);
-
-				// String
-
-				writeString(this.ville, dos);
-
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-
-		}
-
-		public String toString() {
-
-			StringBuilder sb = new StringBuilder();
-			sb.append(super.toString());
-			sb.append("[");
-			sb.append("id=" + String.valueOf(id));
-			sb.append(",nom_prenom=" + nom_prenom);
-			sb.append(",ville=" + ville);
-			sb.append("]");
-
-			return sb.toString();
-		}
-
-		/**
-		 * Compare keys
-		 */
-		public int compareTo(row4Struct other) {
-
-			int returnValue = -1;
-
-			return returnValue;
-		}
-
-		private int checkNullsAndCompare(Object object1, Object object2) {
-			int returnValue = 0;
-			if (object1 instanceof Comparable && object2 instanceof Comparable) {
-				returnValue = ((Comparable) object1).compareTo(object2);
-			} else if (object1 != null && object2 != null) {
-				returnValue = compareStrings(object1.toString(), object2.toString());
-			} else if (object1 == null && object2 != null) {
-				returnValue = 1;
-			} else if (object1 != null && object2 == null) {
-				returnValue = -1;
-			} else {
-				returnValue = 0;
-			}
-
-			return returnValue;
-		}
-
-		private int compareStrings(String string1, String string2) {
-			return string1.compareTo(string2);
-		}
-
-	}
-
-	public static class out1Struct implements routines.system.IPersistableRow<out1Struct> {
-		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-
-		public Integer id;
-
-		public Integer getId() {
-			return this.id;
-		}
-
-		public String nom_prenom;
-
-		public String getNom_prenom() {
-			return this.nom_prenom;
-		}
-
-		public String ville;
-
-		public String getVille() {
-			return this.ville;
-		}
-
-		private Integer readInteger(ObjectInputStream dis) throws IOException {
-			Integer intReturn;
-			int length = 0;
-			length = dis.readByte();
-			if (length == -1) {
-				intReturn = null;
-			} else {
-				intReturn = dis.readInt();
-			}
-			return intReturn;
-		}
-
-		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
-			if (intNum == null) {
-				dos.writeByte(-1);
-			} else {
-				dos.writeByte(0);
-				dos.writeInt(intNum);
-			}
-		}
-
-		private String readString(ObjectInputStream dis) throws IOException {
-			String strReturn = null;
-			int length = 0;
-			length = dis.readInt();
-			if (length == -1) {
-				strReturn = null;
-			} else {
-				if (length > commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length) {
-					if (length < 1024 && commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length == 0) {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[1024];
-					} else {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[2 * length];
-					}
-				}
-				dis.readFully(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length);
-				strReturn = new String(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length, utf8Charset);
-			}
-			return strReturn;
-		}
-
-		private void writeString(String str, ObjectOutputStream dos) throws IOException {
-			if (str == null) {
-				dos.writeInt(-1);
-			} else {
-				byte[] byteArray = str.getBytes(utf8Charset);
-				dos.writeInt(byteArray.length);
-				dos.write(byteArray);
-			}
-		}
-
-		public void readData(ObjectInputStream dis) {
-
-			synchronized (commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile) {
-
-				try {
-
-					int length = 0;
-
-					this.id = readInteger(dis);
-
-					this.nom_prenom = readString(dis);
-
-					this.ville = readString(dis);
-
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-
-				}
-
-			}
-
-		}
-
-		public void writeData(ObjectOutputStream dos) {
-			try {
-
-				// Integer
-
-				writeInteger(this.id, dos);
-
-				// String
-
-				writeString(this.nom_prenom, dos);
-
-				// String
-
-				writeString(this.ville, dos);
-
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-
-		}
-
-		public String toString() {
-
-			StringBuilder sb = new StringBuilder();
-			sb.append(super.toString());
-			sb.append("[");
-			sb.append("id=" + String.valueOf(id));
-			sb.append(",nom_prenom=" + nom_prenom);
-			sb.append(",ville=" + ville);
-			sb.append("]");
-
-			return sb.toString();
-		}
-
-		/**
-		 * Compare keys
-		 */
-		public int compareTo(out1Struct other) {
-
-			int returnValue = -1;
-
-			return returnValue;
-		}
-
-		private int checkNullsAndCompare(Object object1, Object object2) {
-			int returnValue = 0;
-			if (object1 instanceof Comparable && object2 instanceof Comparable) {
-				returnValue = ((Comparable) object1).compareTo(object2);
-			} else if (object1 != null && object2 != null) {
-				returnValue = compareStrings(object1.toString(), object2.toString());
-			} else if (object1 == null && object2 != null) {
-				returnValue = 1;
-			} else if (object1 != null && object2 == null) {
-				returnValue = -1;
-			} else {
-				returnValue = 0;
-			}
-
-			return returnValue;
-		}
-
-		private int compareStrings(String string1, String string2) {
-			return string1.compareTo(string2);
-		}
-
-	}
-
-	public static class row1Struct implements routines.system.IPersistableRow<row1Struct> {
-		final static byte[] commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-		static byte[] commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[0];
-
-		public Integer id;
-
-		public Integer getId() {
-			return this.id;
-		}
-
-		public String nom;
-
-		public String getNom() {
-			return this.nom;
-		}
-
-		public String prenom;
-
-		public String getPrenom() {
-			return this.prenom;
-		}
-
-		public String ville;
-
-		public String getVille() {
-			return this.ville;
-		}
-
-		private Integer readInteger(ObjectInputStream dis) throws IOException {
-			Integer intReturn;
-			int length = 0;
-			length = dis.readByte();
-			if (length == -1) {
-				intReturn = null;
-			} else {
-				intReturn = dis.readInt();
-			}
-			return intReturn;
-		}
-
-		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
-			if (intNum == null) {
-				dos.writeByte(-1);
-			} else {
-				dos.writeByte(0);
-				dos.writeInt(intNum);
-			}
-		}
-
-		private String readString(ObjectInputStream dis) throws IOException {
-			String strReturn = null;
-			int length = 0;
-			length = dis.readInt();
-			if (length == -1) {
-				strReturn = null;
-			} else {
-				if (length > commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length) {
-					if (length < 1024 && commonByteArray_FORMATION_TALEND_jGenerateDataToFile.length == 0) {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[1024];
-					} else {
-						commonByteArray_FORMATION_TALEND_jGenerateDataToFile = new byte[2 * length];
-					}
-				}
-				dis.readFully(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length);
-				strReturn = new String(commonByteArray_FORMATION_TALEND_jGenerateDataToFile, 0, length, utf8Charset);
-			}
-			return strReturn;
-		}
-
-		private void writeString(String str, ObjectOutputStream dos) throws IOException {
-			if (str == null) {
-				dos.writeInt(-1);
-			} else {
-				byte[] byteArray = str.getBytes(utf8Charset);
-				dos.writeInt(byteArray.length);
-				dos.write(byteArray);
-			}
-		}
-
-		public void readData(ObjectInputStream dis) {
-
-			synchronized (commonByteArrayLock_FORMATION_TALEND_jGenerateDataToFile) {
-
-				try {
-
-					int length = 0;
-
-					this.id = readInteger(dis);
-
-					this.nom = readString(dis);
-
-					this.prenom = readString(dis);
-
-					this.ville = readString(dis);
-
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-
-				}
-
-			}
-
-		}
-
-		public void writeData(ObjectOutputStream dos) {
-			try {
-
-				// Integer
-
-				writeInteger(this.id, dos);
-
-				// String
-
-				writeString(this.nom, dos);
-
-				// String
-
-				writeString(this.prenom, dos);
-
-				// String
-
-				writeString(this.ville, dos);
-
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-
-		}
-
-		public String toString() {
-
-			StringBuilder sb = new StringBuilder();
-			sb.append(super.toString());
-			sb.append("[");
-			sb.append("id=" + String.valueOf(id));
-			sb.append(",nom=" + nom);
-			sb.append(",prenom=" + prenom);
-			sb.append(",ville=" + ville);
-			sb.append("]");
-
-			return sb.toString();
-		}
-
-		/**
-		 * Compare keys
-		 */
-		public int compareTo(row1Struct other) {
-
-			int returnValue = -1;
-
-			return returnValue;
-		}
-
-		private int checkNullsAndCompare(Object object1, Object object2) {
-			int returnValue = 0;
-			if (object1 instanceof Comparable && object2 instanceof Comparable) {
-				returnValue = ((Comparable) object1).compareTo(object2);
-			} else if (object1 != null && object2 != null) {
-				returnValue = compareStrings(object1.toString(), object2.toString());
-			} else if (object1 == null && object2 != null) {
-				returnValue = 1;
-			} else if (object1 != null && object2 == null) {
-				returnValue = -1;
-			} else {
-				returnValue = 0;
-			}
-
-			return returnValue;
-		}
-
-		private int compareStrings(String string1, String string2) {
-			return string1.compareTo(string2);
-		}
-
-	}
-
-	public void tRowGenerator_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
-		globalMap.put("tRowGenerator_1_SUBPROCESS_STATE", 0);
+	public void tFileInputXML_2Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFileInputXML_2_SUBPROCESS_STATE", 0);
 
 		final boolean execStat = this.execStat;
 
@@ -1190,764 +563,798 @@ public class jGenerateDataToFile implements TalendJob {
 			if (resumeIt || globalResumeTicket) { // start the resume
 				globalResumeTicket = true;
 
-				row1Struct row1 = new row1Struct();
-				out1Struct out1 = new out1Struct();
-				row2Struct row2 = new row2Struct();
-				row3Struct row3 = new row3Struct();
-				row4Struct row4 = new row4Struct();
+				row5Struct row5 = new row5Struct();
+				out2Struct out2 = new out2Struct();
 
 				/**
-				 * [tFileOutputXML_1 begin ] start
+				 * [tLogRow_1 begin ] start
 				 */
 
-				ok_Hash.put("tFileOutputXML_1", false);
-				start_Hash.put("tFileOutputXML_1", System.currentTimeMillis());
+				ok_Hash.put("tLogRow_1", false);
+				start_Hash.put("tLogRow_1", System.currentTimeMillis());
 
-				currentComponent = "tFileOutputXML_1";
+				currentComponent = "tLogRow_1";
 
 				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row2");
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "out2");
 				}
 
-				int tos_count_tFileOutputXML_1 = 0;
+				int tos_count_tLogRow_1 = 0;
 
-				String originalFileName_tFileOutputXML_1 = context.outputFoldrer + "fileGenerated.xml";
-				java.io.File originalFile_tFileOutputXML_1 = new java.io.File(originalFileName_tFileOutputXML_1);
+				///////////////////////
 
-				String fileName_tFileOutputXML_1 = originalFileName_tFileOutputXML_1;
-				java.io.File file_tFileOutputXML_1 = new java.io.File(fileName_tFileOutputXML_1);
-				if (!file_tFileOutputXML_1.isAbsolute()) {
-					file_tFileOutputXML_1 = file_tFileOutputXML_1.getCanonicalFile();
-				}
+				class Util_tLogRow_1 {
 
-				// create directory only if not exists
+					String[] des_top = { ".", ".", "-", "+" };
 
-				file_tFileOutputXML_1.getParentFile().mkdirs();
+					String[] des_head = { "|=", "=|", "-", "+" };
 
-				String[] headers_tFileOutputXML_1 = new String[2];
+					String[] des_bottom = { "'", "'", "-", "+" };
 
-				headers_tFileOutputXML_1[0] = "<?xml version=\"1.0\" encoding=\"" + "ISO-8859-15" + "\"?>";
+					String name = "";
 
-				String[] footers_tFileOutputXML_1 = new String[1];
+					java.util.List<String[]> list = new java.util.ArrayList<String[]>();
 
-				headers_tFileOutputXML_1[1] = "<" + "root" + ">";
+					int[] colLengths = new int[1];
 
-				footers_tFileOutputXML_1[0] = "</" + "root" + ">";
+					public void addRow(String[] row) {
 
-				int nb_line_tFileOutputXML_1 = 0;
-
-				java.io.BufferedWriter out_tFileOutputXML_1 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(
-						new java.io.FileOutputStream(file_tFileOutputXML_1), "ISO-8859-15"));
-
-				out_tFileOutputXML_1.write(headers_tFileOutputXML_1[0]);
-				out_tFileOutputXML_1.newLine();
-				out_tFileOutputXML_1.write(headers_tFileOutputXML_1[1]);
-				out_tFileOutputXML_1.newLine();
-
-				/**
-				 * [tFileOutputXML_1 begin ] stop
-				 */
-
-				/**
-				 * [tFileOutputDelimited_1 begin ] start
-				 */
-
-				ok_Hash.put("tFileOutputDelimited_1", false);
-				start_Hash.put("tFileOutputDelimited_1", System.currentTimeMillis());
-
-				currentComponent = "tFileOutputDelimited_1";
-
-				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row3");
-				}
-
-				int tos_count_tFileOutputDelimited_1 = 0;
-
-				String fileName_tFileOutputDelimited_1 = "";
-				fileName_tFileOutputDelimited_1 = (new java.io.File(context.outputFoldrer + "fileGenerated.csv"))
-						.getAbsolutePath().replace("\\", "/");
-				String fullName_tFileOutputDelimited_1 = null;
-				String extension_tFileOutputDelimited_1 = null;
-				String directory_tFileOutputDelimited_1 = null;
-				if ((fileName_tFileOutputDelimited_1.indexOf("/") != -1)) {
-					if (fileName_tFileOutputDelimited_1.lastIndexOf(".") < fileName_tFileOutputDelimited_1
-							.lastIndexOf("/")) {
-						fullName_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1;
-						extension_tFileOutputDelimited_1 = "";
-					} else {
-						fullName_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1.substring(0,
-								fileName_tFileOutputDelimited_1.lastIndexOf("."));
-						extension_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1
-								.substring(fileName_tFileOutputDelimited_1.lastIndexOf("."));
+						for (int i = 0; i < 1; i++) {
+							if (row[i] != null) {
+								colLengths[i] = Math.max(colLengths[i], row[i].length());
+							}
+						}
+						list.add(row);
 					}
-					directory_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1.substring(0,
-							fileName_tFileOutputDelimited_1.lastIndexOf("/"));
-				} else {
-					if (fileName_tFileOutputDelimited_1.lastIndexOf(".") != -1) {
-						fullName_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1.substring(0,
-								fileName_tFileOutputDelimited_1.lastIndexOf("."));
-						extension_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1
-								.substring(fileName_tFileOutputDelimited_1.lastIndexOf("."));
-					} else {
-						fullName_tFileOutputDelimited_1 = fileName_tFileOutputDelimited_1;
-						extension_tFileOutputDelimited_1 = "";
+
+					public void setTableName(String name) {
+
+						this.name = name;
 					}
-					directory_tFileOutputDelimited_1 = "";
-				}
-				boolean isFileGenerated_tFileOutputDelimited_1 = true;
-				java.io.File filetFileOutputDelimited_1 = new java.io.File(fileName_tFileOutputDelimited_1);
-				globalMap.put("tFileOutputDelimited_1_FILE_NAME", fileName_tFileOutputDelimited_1);
-				if (filetFileOutputDelimited_1.exists()) {
-					throw new RuntimeException("The particular file \"" + filetFileOutputDelimited_1.getAbsoluteFile()
-							+ "\" already exist. If you want to overwrite the file, please uncheck the"
-							+ " \"Throw an error if the file already exist\" option in Advanced settings.");
-				}
-				int nb_line_tFileOutputDelimited_1 = 0;
-				int splitedFileNo_tFileOutputDelimited_1 = 0;
-				int currentRow_tFileOutputDelimited_1 = 0;
 
-				final String OUT_DELIM_tFileOutputDelimited_1 = /** Start field tFileOutputDelimited_1:FIELDSEPARATOR */
-						"|"/** End field tFileOutputDelimited_1:FIELDSEPARATOR */
-				;
+					public StringBuilder format() {
 
-				final String OUT_DELIM_ROWSEP_tFileOutputDelimited_1 = /**
-																		 * Start field
-																		 * tFileOutputDelimited_1:ROWSEPARATOR
-																		 */
-						"\n"/** End field tFileOutputDelimited_1:ROWSEPARATOR */
-				;
+						StringBuilder sb = new StringBuilder();
 
-				// create directory only if not exists
-				if (directory_tFileOutputDelimited_1 != null && directory_tFileOutputDelimited_1.trim().length() != 0) {
-					java.io.File dir_tFileOutputDelimited_1 = new java.io.File(directory_tFileOutputDelimited_1);
-					if (!dir_tFileOutputDelimited_1.exists()) {
-						dir_tFileOutputDelimited_1.mkdirs();
+						sb.append(print(des_top));
+
+						int totals = 0;
+						for (int i = 0; i < colLengths.length; i++) {
+							totals = totals + colLengths[i];
+						}
+
+						// name
+						sb.append("|");
+						int k = 0;
+						for (k = 0; k < (totals + 0 - name.length()) / 2; k++) {
+							sb.append(' ');
+						}
+						sb.append(name);
+						for (int i = 0; i < totals + 0 - name.length() - k; i++) {
+							sb.append(' ');
+						}
+						sb.append("|\n");
+
+						// head and rows
+						sb.append(print(des_head));
+						for (int i = 0; i < list.size(); i++) {
+
+							String[] row = list.get(i);
+
+							java.util.Formatter formatter = new java.util.Formatter(new StringBuilder());
+
+							StringBuilder sbformat = new StringBuilder();
+							sbformat.append("|%1$-");
+							sbformat.append(colLengths[0]);
+							sbformat.append("s");
+
+							sbformat.append("|\n");
+
+							formatter.format(sbformat.toString(), (Object[]) row);
+
+							sb.append(formatter.toString());
+							if (i == 0)
+								sb.append(print(des_head)); // print the head
+						}
+
+						// end
+						sb.append(print(des_bottom));
+						return sb;
+					}
+
+					private StringBuilder print(String[] fillChars) {
+						StringBuilder sb = new StringBuilder();
+						// first column
+						sb.append(fillChars[0]);
+
+						// last column
+						for (int i = 0; i < colLengths[0] - fillChars[0].length() - fillChars[1].length() + 2; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[1]);
+						sb.append("\n");
+						return sb;
+					}
+
+					public boolean isTableEmpty() {
+						if (list.size() > 1)
+							return false;
+						return true;
 					}
 				}
-
-				// routines.system.Row
-				java.io.Writer outtFileOutputDelimited_1 = null;
-
-				java.io.File fileToDelete_tFileOutputDelimited_1 = new java.io.File(fileName_tFileOutputDelimited_1);
-				if (fileToDelete_tFileOutputDelimited_1.exists()) {
-					fileToDelete_tFileOutputDelimited_1.delete();
-				}
-				outtFileOutputDelimited_1 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(
-						new java.io.FileOutputStream(fileName_tFileOutputDelimited_1, false), "ISO-8859-15"));
-				if (filetFileOutputDelimited_1.length() == 0) {
-					outtFileOutputDelimited_1.write("id");
-					outtFileOutputDelimited_1.write(OUT_DELIM_tFileOutputDelimited_1);
-					outtFileOutputDelimited_1.write("nom_prenom");
-					outtFileOutputDelimited_1.write(OUT_DELIM_tFileOutputDelimited_1);
-					outtFileOutputDelimited_1.write("ville");
-					outtFileOutputDelimited_1.write(OUT_DELIM_ROWSEP_tFileOutputDelimited_1);
-					outtFileOutputDelimited_1.flush();
-				}
-
-				resourceMap.put("out_tFileOutputDelimited_1", outtFileOutputDelimited_1);
-				resourceMap.put("nb_line_tFileOutputDelimited_1", nb_line_tFileOutputDelimited_1);
+				Util_tLogRow_1 util_tLogRow_1 = new Util_tLogRow_1();
+				util_tLogRow_1.setTableName("tLogRow_1");
+				util_tLogRow_1.addRow(new String[] { "personne", });
+				StringBuilder strBuffer_tLogRow_1 = null;
+				int nb_line_tLogRow_1 = 0;
+///////////////////////    			
 
 				/**
-				 * [tFileOutputDelimited_1 begin ] stop
+				 * [tLogRow_1 begin ] stop
 				 */
 
 				/**
-				 * [tFileOutputJSON_1 begin ] start
+				 * [tXMLMap_1 begin ] start
 				 */
 
-				ok_Hash.put("tFileOutputJSON_1", false);
-				start_Hash.put("tFileOutputJSON_1", System.currentTimeMillis());
+				ok_Hash.put("tXMLMap_1", false);
+				start_Hash.put("tXMLMap_1", System.currentTimeMillis());
 
-				currentComponent = "tFileOutputJSON_1";
+				currentComponent = "tXMLMap_1";
 
 				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row4");
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row5");
 				}
 
-				int tos_count_tFileOutputJSON_1 = 0;
+				int tos_count_tXMLMap_1 = 0;
 
-				int nb_line_tFileOutputJSON_1 = 0;
-				java.io.File file_tFileOutputJSON_1 = new java.io.File(context.outputFoldrer + "fileGenerated.json");
-				java.io.File dir_tFileOutputJSON_1 = file_tFileOutputJSON_1.getParentFile();
-				if (dir_tFileOutputJSON_1 != null && !dir_tFileOutputJSON_1.exists()) {
-					dir_tFileOutputJSON_1.mkdirs();
+//===============================input xml init part===============================
+				class XML_API_tXMLMap_1 {
+					public boolean isDefNull(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						if (node != null && node instanceof org.dom4j.Element) {
+							org.dom4j.Attribute attri = ((org.dom4j.Element) node).attribute("nil");
+							if (attri != null && ("true").equals(attri.getText())) {
+								return true;
+							}
+						}
+						return false;
+					}
+
+					public boolean isMissing(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						return node == null ? true : false;
+					}
+
+					public boolean isEmpty(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						if (node != null) {
+							return node.getText().length() == 0;
+						}
+						return false;
+					}
 				}
-				java.io.PrintWriter outtFileOutputJSON_1 = new java.io.PrintWriter(new java.io.BufferedWriter(
-						new java.io.FileWriter(context.outputFoldrer + "fileGenerated.json")));
-				outtFileOutputJSON_1.append("{\"" + "personne" + "\":[");
-				boolean isFirst_tFileOutputJSON_1 = true;
-
-				/**
-				 * [tFileOutputJSON_1 begin ] stop
-				 */
-
-				/**
-				 * [tReplicate_1 begin ] start
-				 */
-
-				ok_Hash.put("tReplicate_1", false);
-				start_Hash.put("tReplicate_1", System.currentTimeMillis());
-
-				currentComponent = "tReplicate_1";
-
-				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "out1");
+				class Var__tXMLMap_1__Struct {
 				}
-
-				int tos_count_tReplicate_1 = 0;
-
-				/**
-				 * [tReplicate_1 begin ] stop
-				 */
-
-				/**
-				 * [tMap_1 begin ] start
-				 */
-
-				ok_Hash.put("tMap_1", false);
-				start_Hash.put("tMap_1", System.currentTimeMillis());
-
-				currentComponent = "tMap_1";
-
-				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row1");
-				}
-
-				int tos_count_tMap_1 = 0;
-
-// ###############################
-// # Lookup's keys initialization
-// ###############################        
-
-// ###############################
-// # Vars initialization
-				class Var__tMap_1__Struct {
-				}
-				Var__tMap_1__Struct Var__tMap_1 = new Var__tMap_1__Struct();
-// ###############################
-
+				Var__tXMLMap_1__Struct Var__tXMLMap_1 = new Var__tXMLMap_1__Struct();
 // ###############################
 // # Outputs initialization
-				out1Struct out1_tmp = new out1Struct();
+				out2Struct out2_tmp = new out2Struct();
+				out2Struct out2_save = null;
+// ###############################
+				int nb_line_tXMLMap_1 = 0;
+
+				XML_API_tXMLMap_1 xml_api_tXMLMap_1 = new XML_API_tXMLMap_1();
+
+				class GenerateDocument_out2 {
+
+					java.util.Map<String, Object> valueMap = null;
+
+					routines.system.DocumentGenerateOrderHelper orderHelper = new routines.system.DocumentGenerateOrderHelper(
+							1);
+
+					org.dom4j.Document doc = null;
+
+					org.dom4j.Element root4Group = null;
+
+					org.dom4j.io.OutputFormat format = null;
+
+					java.util.List<java.util.List<String>> groupbyList = null;
+					java.util.List<org.dom4j.Element> groupElementList = null;
+					int order = 0;
+
+					boolean isFirst = true;
+
+					boolean needRoot = true;
+
+					String currentValue = null;
+
+					public GenerateDocument_out2() {
+//    	this.treeNodeAPI = treeNodeAPI;
+
+						valueMap = new java.util.HashMap<String, Object>();
+
+						groupbyList = new java.util.ArrayList<java.util.List<String>>();
+						groupElementList = new java.util.ArrayList<org.dom4j.Element>();
+
+						doc = org.dom4j.DocumentHelper.createDocument();
+						format = org.dom4j.io.OutputFormat.createPrettyPrint();
+						format.setTrimText(false);
+					}
+
+					public org.dom4j.Document getDocument() {
+						generateOk();
+						return this.doc;
+					}
+
+					// do some work after document has been generated
+					private void generateOk() {
+						routines.system.NestXMLTool.replaceDefaultNameSpace(this.doc.getRootElement(), null);
+					}
+
+					// We generate the TreeNode_API object only if there is a document in the main
+					// input table.
+					void generateElements(boolean isInnerJoin, row5Struct row5, Var__tXMLMap_1__Struct Var) {
+
+						/*
+						 * if(this.treeNodeAPI==null) { this.treeNodeAPI = treeNodeAPI; }
+						 */
+
+						org.dom4j.Element subTreeRootParent = null;
+// build root xml tree 
+						if (needRoot) {
+							needRoot = false;
+							org.dom4j.Element root = null;
+							root = org.dom4j.DocumentHelper.createElement("root");
+							doc.add(root);
+							subTreeRootParent = root;
+							org.dom4j.Element root_0 = null;
+							root_0 = root.addElement("id");
+							valueMap.put("root_0", row5.id);
+							if (valueMap.get("root_0") != null) {
+								routines.system.NestXMLTool.setText(root_0,
+										FormatterUtils.fm(valueMap.get("root_0"), null));
+							}
+							org.dom4j.Element root_1 = null;
+							root_1 = root.addElement("nom_personne");
+							valueMap.put("root_1", row5.nom_personne + ' ' + row5.ville);
+							if (valueMap.get("root_1") != null) {
+								routines.system.NestXMLTool.setText(root_1,
+										FormatterUtils.fm(valueMap.get("root_1"), null));
+							}
+							root4Group = subTreeRootParent;
+						} else {
+							subTreeRootParent = root4Group;
+						}
+						/* build group xml tree */
+						boolean isNewElement = false;
+						isNewElement = false;
+					}
+				}
+
+				/**
+				 * [tXMLMap_1 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputXML_2 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputXML_2", false);
+				start_Hash.put("tFileInputXML_2", System.currentTimeMillis());
+
+				currentComponent = "tFileInputXML_2";
+
+				int tos_count_tFileInputXML_2 = 0;
+
+				int nb_line_tFileInputXML_2 = 0;
+
+				String os_tFileInputXML_2 = System.getProperty("os.name").toLowerCase();
+				boolean isWindows_tFileInputXML_2 = false;
+				if (os_tFileInputXML_2.indexOf("windows") > -1 || os_tFileInputXML_2.indexOf("nt") > -1) {
+					isWindows_tFileInputXML_2 = true;
+				}
+				class NameSpaceTool_tFileInputXML_2 {
+
+					public java.util.HashMap<String, String> xmlNameSpaceMap = new java.util.HashMap<String, String>();
+
+					private java.util.List<String> defualtNSPath = new java.util.ArrayList<String>();
+
+					public void countNSMap(org.dom4j.Element el) {
+						for (org.dom4j.Namespace ns : (java.util.List<org.dom4j.Namespace>) el.declaredNamespaces()) {
+							if (ns.getPrefix().trim().length() == 0) {
+								xmlNameSpaceMap.put("pre" + defualtNSPath.size(), ns.getURI());
+								String path = "";
+								org.dom4j.Element elTmp = el;
+								while (elTmp != null) {
+									if (elTmp.getNamespacePrefix() != null && elTmp.getNamespacePrefix().length() > 0) {
+										path = "/" + elTmp.getNamespacePrefix() + ":" + elTmp.getName() + path;
+									} else {
+										path = "/" + elTmp.getName() + path;
+									}
+									elTmp = elTmp.getParent();
+								}
+								defualtNSPath.add(path);
+							} else {
+								xmlNameSpaceMap.put(ns.getPrefix(), ns.getURI());
+							}
+
+						}
+						for (org.dom4j.Element e : (java.util.List<org.dom4j.Element>) el.elements()) {
+							countNSMap(e);
+						}
+					}
+
+					private final org.talend.xpath.XPathUtil util = new org.talend.xpath.XPathUtil();
+
+					{
+						util.setDefaultNSPath(defualtNSPath);
+					}
+
+					public String addDefaultNSPrefix(String path) {
+						return util.addDefaultNSPrefix(path);
+					}
+
+					public String addDefaultNSPrefix(String relativeXpression, String basePath) {
+						return util.addDefaultNSPrefix(relativeXpression, basePath);
+					}
+
+				}
+
+				class XML_API_tFileInputXML_2 {
+					public boolean isDefNull(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						if (node != null && node instanceof org.dom4j.Element) {
+							org.dom4j.Attribute attri = ((org.dom4j.Element) node).attribute("nil");
+							if (attri != null && ("true").equals(attri.getText())) {
+								return true;
+							}
+						}
+						return false;
+					}
+
+					public boolean isMissing(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						return node == null ? true : false;
+					}
+
+					public boolean isEmpty(org.dom4j.Node node) throws javax.xml.transform.TransformerException {
+						if (node != null) {
+							return node.getText().length() == 0;
+						}
+						return false;
+					}
+				}
+
+				org.dom4j.io.SAXReader reader_tFileInputXML_2 = new org.dom4j.io.SAXReader();
+				Object filename_tFileInputXML_2 = null;
+				try {
+					filename_tFileInputXML_2 = context.outputFoldrer + "fileGenerated.xml";
+				} catch (java.lang.Exception e) {
+
+					System.err.println(e.getMessage());
+
+				}
+				if (filename_tFileInputXML_2 != null && filename_tFileInputXML_2 instanceof String
+						&& filename_tFileInputXML_2.toString().startsWith("//")) {
+					if (!isWindows_tFileInputXML_2) {
+						filename_tFileInputXML_2 = filename_tFileInputXML_2.toString().replaceFirst("//", "/");
+					}
+				}
+
+				boolean isValidFile_tFileInputXML_2 = true;
+				org.dom4j.Document doc_tFileInputXML_2 = null;
+				java.io.Closeable toClose_tFileInputXML_2 = null;
+				try {
+					if (filename_tFileInputXML_2 instanceof java.io.InputStream) {
+						java.io.InputStream inputStream_tFileInputXML_2 = (java.io.InputStream) filename_tFileInputXML_2;
+						toClose_tFileInputXML_2 = inputStream_tFileInputXML_2;
+						doc_tFileInputXML_2 = reader_tFileInputXML_2.read(inputStream_tFileInputXML_2);
+					} else {
+						java.io.Reader unicodeReader_tFileInputXML_2 = new UnicodeReader(
+								new java.io.FileInputStream(String.valueOf(filename_tFileInputXML_2)), "ISO-8859-15");
+						toClose_tFileInputXML_2 = unicodeReader_tFileInputXML_2;
+						org.xml.sax.InputSource in_tFileInputXML_2 = new org.xml.sax.InputSource(
+								unicodeReader_tFileInputXML_2);
+						doc_tFileInputXML_2 = reader_tFileInputXML_2.read(in_tFileInputXML_2);
+					}
+				} catch (java.lang.Exception e) {
+
+					System.err.println(e.getMessage());
+					isValidFile_tFileInputXML_2 = false;
+				} finally {
+					if (toClose_tFileInputXML_2 != null) {
+						toClose_tFileInputXML_2.close();
+					}
+				}
+				if (isValidFile_tFileInputXML_2) {
+					NameSpaceTool_tFileInputXML_2 nsTool_tFileInputXML_2 = new NameSpaceTool_tFileInputXML_2();
+					nsTool_tFileInputXML_2.countNSMap(doc_tFileInputXML_2.getRootElement());
+					java.util.HashMap<String, String> xmlNameSpaceMap_tFileInputXML_2 = nsTool_tFileInputXML_2.xmlNameSpaceMap;
+
+					org.dom4j.XPath x_tFileInputXML_2 = doc_tFileInputXML_2
+							.createXPath(nsTool_tFileInputXML_2.addDefaultNSPrefix("root/personne"));
+					x_tFileInputXML_2.setNamespaceURIs(xmlNameSpaceMap_tFileInputXML_2);
+
+					java.util.List<org.dom4j.Node> nodeList_tFileInputXML_2 = (java.util.List<org.dom4j.Node>) x_tFileInputXML_2
+							.selectNodes(doc_tFileInputXML_2);
+					XML_API_tFileInputXML_2 xml_api_tFileInputXML_2 = new XML_API_tFileInputXML_2();
+					String str_tFileInputXML_2 = "";
+					org.dom4j.Node node_tFileInputXML_2 = null;
+
+//init all mapping xpaths
+					java.util.Map<Integer, org.dom4j.XPath> xpaths_tFileInputXML_2 = new java.util.HashMap<Integer, org.dom4j.XPath>();
+					class XPathUtil_tFileInputXML_2 {
+
+						public void initXPaths_0(java.util.Map<Integer, org.dom4j.XPath> xpaths,
+								NameSpaceTool_tFileInputXML_2 nsTool,
+								java.util.HashMap<String, String> xmlNameSpaceMap) {
+
+							org.dom4j.XPath xpath_0 = org.dom4j.DocumentHelper
+									.createXPath(nsTool.addDefaultNSPrefix("id", "root/personne"));
+							xpath_0.setNamespaceURIs(xmlNameSpaceMap);
+
+							xpaths.put(0, xpath_0);
+
+							org.dom4j.XPath xpath_1 = org.dom4j.DocumentHelper
+									.createXPath(nsTool.addDefaultNSPrefix("nom_personne", "root/personne"));
+							xpath_1.setNamespaceURIs(xmlNameSpaceMap);
+
+							xpaths.put(1, xpath_1);
+
+							org.dom4j.XPath xpath_2 = org.dom4j.DocumentHelper
+									.createXPath(nsTool.addDefaultNSPrefix("ville", "root/personne"));
+							xpath_2.setNamespaceURIs(xmlNameSpaceMap);
+
+							xpaths.put(2, xpath_2);
+
+						}
+
+						public void initXPaths(java.util.Map<Integer, org.dom4j.XPath> xpaths,
+								NameSpaceTool_tFileInputXML_2 nsTool,
+								java.util.HashMap<String, String> xmlNameSpaceMap) {
+
+							initXPaths_0(xpaths, nsTool, xmlNameSpaceMap);
+
+						}
+					}
+					XPathUtil_tFileInputXML_2 xPathUtil_tFileInputXML_2 = new XPathUtil_tFileInputXML_2();
+					xPathUtil_tFileInputXML_2.initXPaths(xpaths_tFileInputXML_2, nsTool_tFileInputXML_2,
+							xmlNameSpaceMap_tFileInputXML_2);
+					for (org.dom4j.Node temp_tFileInputXML_2 : nodeList_tFileInputXML_2) {
+						nb_line_tFileInputXML_2++;
+
+						row5 = null;
+						boolean whetherReject_tFileInputXML_2 = false;
+						row5 = new row5Struct();
+						try {
+							Object obj0_tFileInputXML_2 = xpaths_tFileInputXML_2.get(0).evaluate(temp_tFileInputXML_2);
+							if (obj0_tFileInputXML_2 == null) {
+								node_tFileInputXML_2 = null;
+								str_tFileInputXML_2 = "";
+
+							} else if (obj0_tFileInputXML_2 instanceof org.dom4j.Node) {
+								node_tFileInputXML_2 = (org.dom4j.Node) obj0_tFileInputXML_2;
+								str_tFileInputXML_2 = org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+										org.jaxen.dom4j.DocumentNavigator.getInstance());
+							} else if (obj0_tFileInputXML_2 instanceof String
+									|| obj0_tFileInputXML_2 instanceof Number) {
+								node_tFileInputXML_2 = temp_tFileInputXML_2;
+								str_tFileInputXML_2 = String.valueOf(obj0_tFileInputXML_2);
+							} else if (obj0_tFileInputXML_2 instanceof java.util.List) {
+								java.util.List<org.dom4j.Node> nodes_tFileInputXML_2 = (java.util.List<org.dom4j.Node>) obj0_tFileInputXML_2;
+								node_tFileInputXML_2 = nodes_tFileInputXML_2.size() > 0 ? nodes_tFileInputXML_2.get(0)
+										: null;
+								str_tFileInputXML_2 = node_tFileInputXML_2 == null ? ""
+										: org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+												org.jaxen.dom4j.DocumentNavigator.getInstance());
+							}
+							if (xml_api_tFileInputXML_2.isDefNull(node_tFileInputXML_2)) {
+								row5.id = null;
+							} else if (xml_api_tFileInputXML_2.isEmpty(node_tFileInputXML_2)) {
+								row5.id = "";
+							} else if (xml_api_tFileInputXML_2.isMissing(node_tFileInputXML_2)) {
+								row5.id = null;
+							} else {
+								row5.id = str_tFileInputXML_2;
+							}
+							Object obj1_tFileInputXML_2 = xpaths_tFileInputXML_2.get(1).evaluate(temp_tFileInputXML_2);
+							if (obj1_tFileInputXML_2 == null) {
+								node_tFileInputXML_2 = null;
+								str_tFileInputXML_2 = "";
+
+							} else if (obj1_tFileInputXML_2 instanceof org.dom4j.Node) {
+								node_tFileInputXML_2 = (org.dom4j.Node) obj1_tFileInputXML_2;
+								str_tFileInputXML_2 = org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+										org.jaxen.dom4j.DocumentNavigator.getInstance());
+							} else if (obj1_tFileInputXML_2 instanceof String
+									|| obj1_tFileInputXML_2 instanceof Number) {
+								node_tFileInputXML_2 = temp_tFileInputXML_2;
+								str_tFileInputXML_2 = String.valueOf(obj1_tFileInputXML_2);
+							} else if (obj1_tFileInputXML_2 instanceof java.util.List) {
+								java.util.List<org.dom4j.Node> nodes_tFileInputXML_2 = (java.util.List<org.dom4j.Node>) obj1_tFileInputXML_2;
+								node_tFileInputXML_2 = nodes_tFileInputXML_2.size() > 0 ? nodes_tFileInputXML_2.get(0)
+										: null;
+								str_tFileInputXML_2 = node_tFileInputXML_2 == null ? ""
+										: org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+												org.jaxen.dom4j.DocumentNavigator.getInstance());
+							}
+							if (xml_api_tFileInputXML_2.isDefNull(node_tFileInputXML_2)) {
+								row5.nom_personne = null;
+							} else if (xml_api_tFileInputXML_2.isEmpty(node_tFileInputXML_2)) {
+								row5.nom_personne = "";
+							} else if (xml_api_tFileInputXML_2.isMissing(node_tFileInputXML_2)) {
+								row5.nom_personne = null;
+							} else {
+								row5.nom_personne = str_tFileInputXML_2;
+							}
+							Object obj2_tFileInputXML_2 = xpaths_tFileInputXML_2.get(2).evaluate(temp_tFileInputXML_2);
+							if (obj2_tFileInputXML_2 == null) {
+								node_tFileInputXML_2 = null;
+								str_tFileInputXML_2 = "";
+
+							} else if (obj2_tFileInputXML_2 instanceof org.dom4j.Node) {
+								node_tFileInputXML_2 = (org.dom4j.Node) obj2_tFileInputXML_2;
+								str_tFileInputXML_2 = org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+										org.jaxen.dom4j.DocumentNavigator.getInstance());
+							} else if (obj2_tFileInputXML_2 instanceof String
+									|| obj2_tFileInputXML_2 instanceof Number) {
+								node_tFileInputXML_2 = temp_tFileInputXML_2;
+								str_tFileInputXML_2 = String.valueOf(obj2_tFileInputXML_2);
+							} else if (obj2_tFileInputXML_2 instanceof java.util.List) {
+								java.util.List<org.dom4j.Node> nodes_tFileInputXML_2 = (java.util.List<org.dom4j.Node>) obj2_tFileInputXML_2;
+								node_tFileInputXML_2 = nodes_tFileInputXML_2.size() > 0 ? nodes_tFileInputXML_2.get(0)
+										: null;
+								str_tFileInputXML_2 = node_tFileInputXML_2 == null ? ""
+										: org.jaxen.function.StringFunction.evaluate(node_tFileInputXML_2,
+												org.jaxen.dom4j.DocumentNavigator.getInstance());
+							}
+							if (xml_api_tFileInputXML_2.isDefNull(node_tFileInputXML_2)) {
+								row5.ville = null;
+							} else if (xml_api_tFileInputXML_2.isEmpty(node_tFileInputXML_2)) {
+								row5.ville = "";
+							} else if (xml_api_tFileInputXML_2.isMissing(node_tFileInputXML_2)) {
+								row5.ville = null;
+							} else {
+								row5.ville = str_tFileInputXML_2;
+							}
+
+						} catch (java.lang.Exception e) {
+							whetherReject_tFileInputXML_2 = true;
+							System.err.println(e.getMessage());
+							row5 = null;
+						}
+
+						/**
+						 * [tFileInputXML_2 begin ] stop
+						 */
+
+						/**
+						 * [tFileInputXML_2 main ] start
+						 */
+
+						currentComponent = "tFileInputXML_2";
+
+						tos_count_tFileInputXML_2++;
+
+						/**
+						 * [tFileInputXML_2 main ] stop
+						 */
+
+						/**
+						 * [tFileInputXML_2 process_data_begin ] start
+						 */
+
+						currentComponent = "tFileInputXML_2";
+
+						/**
+						 * [tFileInputXML_2 process_data_begin ] stop
+						 */
+// Start of branch "row5"
+						if (row5 != null) {
+
+							/**
+							 * [tXMLMap_1 main ] start
+							 */
+
+							currentComponent = "tXMLMap_1";
+
+							if (execStat) {
+								runStat.updateStatOnConnection(iterateId, 1, 1, "row5");
+							}
+
+							boolean rejectedInnerJoin_tXMLMap_1 = false;
+							boolean rejectedDocInnerJoin_tXMLMap_1 = false;
+							boolean mainRowRejected_tXMLMap_1 = false;
+							boolean isMatchDocRowtXMLMap_1 = false;
+
+							GenerateDocument_out2 gen_Doc_out2_tXMLMap_1 = new GenerateDocument_out2();
+							out2_tmp.personne = null;
+
+							{ // start of Var scope
+
+								// ###############################
+								// # Vars tables
+
+								Var__tXMLMap_1__Struct Var = Var__tXMLMap_1;
+								// ###############################
+								// # Output tables
+
+								out2 = null;
+
+// # Output table : 'out2'
+
+								gen_Doc_out2_tXMLMap_1.generateElements(rejectedDocInnerJoin_tXMLMap_1, row5, Var);
+
+								if (out2_tmp.personne == null) {
+									out2_tmp.personne = new routines.system.Document();
+									out2_tmp.personne.setDocument(gen_Doc_out2_tXMLMap_1.getDocument());
+								}
+
+								out2 = out2_tmp;
+								out2_save = out2_tmp;
 // ###############################
 
-				/**
-				 * [tMap_1 begin ] stop
-				 */
+							} // end of Var scope
 
-				/**
-				 * [tRowGenerator_1 begin ] start
-				 */
+							rejectedInnerJoin_tXMLMap_1 = false;
 
-				ok_Hash.put("tRowGenerator_1", false);
-				start_Hash.put("tRowGenerator_1", System.currentTimeMillis());
+							tos_count_tXMLMap_1++;
 
-				currentComponent = "tRowGenerator_1";
+							/**
+							 * [tXMLMap_1 main ] stop
+							 */
 
-				int tos_count_tRowGenerator_1 = 0;
+							/**
+							 * [tXMLMap_1 process_data_begin ] start
+							 */
 
-				int nb_line_tRowGenerator_1 = 0;
-				int nb_max_row_tRowGenerator_1 = 100;
+							currentComponent = "tXMLMap_1";
 
-				class tRowGenerator_1Randomizer {
-					public Integer getRandomid() {
+							/**
+							 * [tXMLMap_1 process_data_begin ] stop
+							 */
+// Start of branch "out2"
+							if (out2 != null) {
 
-						return Numeric.sequence("s1", 1, 1);
+								/**
+								 * [tLogRow_1 main ] start
+								 */
+
+								currentComponent = "tLogRow_1";
+
+								if (execStat) {
+									runStat.updateStatOnConnection(iterateId, 1, 1, "out2");
+								}
+
+///////////////////////		
+
+								String[] row_tLogRow_1 = new String[1];
+
+								if (out2.personne != null) { //
+									row_tLogRow_1[0] = String.valueOf(out2.personne);
+
+								} //
+
+								util_tLogRow_1.addRow(row_tLogRow_1);
+								nb_line_tLogRow_1++;
+//////
+
+//////                    
+
+///////////////////////    			
+
+								tos_count_tLogRow_1++;
+
+								/**
+								 * [tLogRow_1 main ] stop
+								 */
+
+								/**
+								 * [tLogRow_1 process_data_begin ] start
+								 */
+
+								currentComponent = "tLogRow_1";
+
+								/**
+								 * [tLogRow_1 process_data_begin ] stop
+								 */
+
+								/**
+								 * [tLogRow_1 process_data_end ] start
+								 */
+
+								currentComponent = "tLogRow_1";
+
+								/**
+								 * [tLogRow_1 process_data_end ] stop
+								 */
+
+							} // End of branch "out2"
+
+							/**
+							 * [tXMLMap_1 process_data_end ] start
+							 */
+
+							currentComponent = "tXMLMap_1";
+
+							/**
+							 * [tXMLMap_1 process_data_end ] stop
+							 */
+
+						} // End of branch "row5"
+
+						/**
+						 * [tFileInputXML_2 process_data_end ] start
+						 */
+
+						currentComponent = "tFileInputXML_2";
+
+						/**
+						 * [tFileInputXML_2 process_data_end ] stop
+						 */
+
+						/**
+						 * [tFileInputXML_2 end ] start
+						 */
+
+						currentComponent = "tFileInputXML_2";
 
 					}
-
-					public String getRandomnom() {
-
-						return StringHandling.UPCASE(TalendDataGenerator.getLastName());
-
-					}
-
-					public String getRandomprenom() {
-
-						return TalendDataGenerator.getFirstName();
-
-					}
-
-					public String getRandomville() {
-
-						return TalendDataGenerator.getUsCity();
-
-					}
 				}
-				tRowGenerator_1Randomizer randtRowGenerator_1 = new tRowGenerator_1Randomizer();
+				globalMap.put("tFileInputXML_2_NB_LINE", nb_line_tFileInputXML_2);
 
-				for (int itRowGenerator_1 = 0; itRowGenerator_1 < nb_max_row_tRowGenerator_1; itRowGenerator_1++) {
-					row1.id = randtRowGenerator_1.getRandomid();
-					row1.nom = randtRowGenerator_1.getRandomnom();
-					row1.prenom = randtRowGenerator_1.getRandomprenom();
-					row1.ville = randtRowGenerator_1.getRandomville();
-					nb_line_tRowGenerator_1++;
-
-					/**
-					 * [tRowGenerator_1 begin ] stop
-					 */
-
-					/**
-					 * [tRowGenerator_1 main ] start
-					 */
-
-					currentComponent = "tRowGenerator_1";
-
-					tos_count_tRowGenerator_1++;
-
-					/**
-					 * [tRowGenerator_1 main ] stop
-					 */
-
-					/**
-					 * [tRowGenerator_1 process_data_begin ] start
-					 */
-
-					currentComponent = "tRowGenerator_1";
-
-					/**
-					 * [tRowGenerator_1 process_data_begin ] stop
-					 */
-
-					/**
-					 * [tMap_1 main ] start
-					 */
-
-					currentComponent = "tMap_1";
-
-					if (execStat) {
-						runStat.updateStatOnConnection(iterateId, 1, 1, "row1");
-					}
-
-					boolean hasCasePrimitiveKeyWithNull_tMap_1 = false;
-
-					// ###############################
-					// # Input tables (lookups)
-					boolean rejectedInnerJoin_tMap_1 = false;
-					boolean mainRowRejected_tMap_1 = false;
-
-					// ###############################
-					{ // start of Var scope
-
-						// ###############################
-						// # Vars tables
-
-						Var__tMap_1__Struct Var = Var__tMap_1;// ###############################
-						// ###############################
-						// # Output tables
-
-						out1 = null;
-
-// # Output table : 'out1'
-						out1_tmp.id = row1.id;
-						out1_tmp.nom_prenom = row1.nom + ' ' + row1.prenom;
-						out1_tmp.ville = row1.ville;
-						out1 = out1_tmp;
-// ###############################
-
-					} // end of Var scope
-
-					rejectedInnerJoin_tMap_1 = false;
-
-					tos_count_tMap_1++;
-
-					/**
-					 * [tMap_1 main ] stop
-					 */
-
-					/**
-					 * [tMap_1 process_data_begin ] start
-					 */
-
-					currentComponent = "tMap_1";
-
-					/**
-					 * [tMap_1 process_data_begin ] stop
-					 */
-// Start of branch "out1"
-					if (out1 != null) {
-
-						/**
-						 * [tReplicate_1 main ] start
-						 */
-
-						currentComponent = "tReplicate_1";
-
-						if (execStat) {
-							runStat.updateStatOnConnection(iterateId, 1, 1, "out1");
-						}
-
-						row2 = new row2Struct();
-
-						row2.id = out1.id;
-						row2.nom_prenom = out1.nom_prenom;
-						row2.ville = out1.ville;
-						row3 = new row3Struct();
-
-						row3.id = out1.id;
-						row3.nom_prenom = out1.nom_prenom;
-						row3.ville = out1.ville;
-						row4 = new row4Struct();
-
-						row4.id = out1.id;
-						row4.nom_prenom = out1.nom_prenom;
-						row4.ville = out1.ville;
-
-						tos_count_tReplicate_1++;
-
-						/**
-						 * [tReplicate_1 main ] stop
-						 */
-
-						/**
-						 * [tReplicate_1 process_data_begin ] start
-						 */
-
-						currentComponent = "tReplicate_1";
-
-						/**
-						 * [tReplicate_1 process_data_begin ] stop
-						 */
-
-						/**
-						 * [tFileOutputXML_1 main ] start
-						 */
-
-						currentComponent = "tFileOutputXML_1";
-
-						if (execStat) {
-							runStat.updateStatOnConnection(iterateId, 1, 1, "row2");
-						}
-
-						StringBuilder tempRes_tFileOutputXML_1 = new StringBuilder("<" + "personne");
-						tempRes_tFileOutputXML_1.append(">");
-						out_tFileOutputXML_1.write(tempRes_tFileOutputXML_1.toString());
-
-						out_tFileOutputXML_1.newLine();
-						out_tFileOutputXML_1
-								.write("<" + "id" + ">" + ((row2.id == null) ? "" : (row2.id)) + "</" + "id" + ">");
-
-						out_tFileOutputXML_1.newLine();
-						out_tFileOutputXML_1.write("<" + "nom_prenom" + ">"
-								+ ((row2.nom_prenom == null) ? "" : (TalendString.checkCDATAForXML(row2.nom_prenom)))
-								+ "</" + "nom_prenom" + ">");
-
-						out_tFileOutputXML_1.newLine();
-						out_tFileOutputXML_1.write("<" + "ville" + ">"
-								+ ((row2.ville == null) ? "" : (TalendString.checkCDATAForXML(row2.ville))) + "</"
-								+ "ville" + ">");
-
-						out_tFileOutputXML_1.newLine();
-						out_tFileOutputXML_1.write("</" + "personne" + ">");
-
-						out_tFileOutputXML_1.newLine();
-
-						nb_line_tFileOutputXML_1++;
-
-						tos_count_tFileOutputXML_1++;
-
-						/**
-						 * [tFileOutputXML_1 main ] stop
-						 */
-
-						/**
-						 * [tFileOutputXML_1 process_data_begin ] start
-						 */
-
-						currentComponent = "tFileOutputXML_1";
-
-						/**
-						 * [tFileOutputXML_1 process_data_begin ] stop
-						 */
-
-						/**
-						 * [tFileOutputXML_1 process_data_end ] start
-						 */
-
-						currentComponent = "tFileOutputXML_1";
-
-						/**
-						 * [tFileOutputXML_1 process_data_end ] stop
-						 */
-
-						/**
-						 * [tFileOutputDelimited_1 main ] start
-						 */
-
-						currentComponent = "tFileOutputDelimited_1";
-
-						if (execStat) {
-							runStat.updateStatOnConnection(iterateId, 1, 1, "row3");
-						}
-
-						StringBuilder sb_tFileOutputDelimited_1 = new StringBuilder();
-						if (row3.id != null) {
-							sb_tFileOutputDelimited_1.append(row3.id);
-						}
-						sb_tFileOutputDelimited_1.append(OUT_DELIM_tFileOutputDelimited_1);
-						if (row3.nom_prenom != null) {
-							sb_tFileOutputDelimited_1.append(row3.nom_prenom);
-						}
-						sb_tFileOutputDelimited_1.append(OUT_DELIM_tFileOutputDelimited_1);
-						if (row3.ville != null) {
-							sb_tFileOutputDelimited_1.append(row3.ville);
-						}
-						sb_tFileOutputDelimited_1.append(OUT_DELIM_ROWSEP_tFileOutputDelimited_1);
-
-						nb_line_tFileOutputDelimited_1++;
-						resourceMap.put("nb_line_tFileOutputDelimited_1", nb_line_tFileOutputDelimited_1);
-
-						outtFileOutputDelimited_1.write(sb_tFileOutputDelimited_1.toString());
-
-						tos_count_tFileOutputDelimited_1++;
-
-						/**
-						 * [tFileOutputDelimited_1 main ] stop
-						 */
-
-						/**
-						 * [tFileOutputDelimited_1 process_data_begin ] start
-						 */
-
-						currentComponent = "tFileOutputDelimited_1";
-
-						/**
-						 * [tFileOutputDelimited_1 process_data_begin ] stop
-						 */
-
-						/**
-						 * [tFileOutputDelimited_1 process_data_end ] start
-						 */
-
-						currentComponent = "tFileOutputDelimited_1";
-
-						/**
-						 * [tFileOutputDelimited_1 process_data_end ] stop
-						 */
-
-						/**
-						 * [tFileOutputJSON_1 main ] start
-						 */
-
-						currentComponent = "tFileOutputJSON_1";
-
-						if (execStat) {
-							runStat.updateStatOnConnection(iterateId, 1, 1, "row4");
-						}
-
-						org.json.simple.JSONObject jsonRowtFileOutputJSON_1 = new org.json.simple.JSONObject();
-						if (row4.id != null) {
-
-							jsonRowtFileOutputJSON_1.put("id", row4.id);
-
-						} else {
-							jsonRowtFileOutputJSON_1.put("id", null);
-						}
-
-						if (row4.nom_prenom != null) {
-
-							jsonRowtFileOutputJSON_1.put("nom_prenom", row4.nom_prenom);
-
-						} else {
-							jsonRowtFileOutputJSON_1.put("nom_prenom", null);
-						}
-
-						if (row4.ville != null) {
-
-							jsonRowtFileOutputJSON_1.put("ville", row4.ville);
-
-						} else {
-							jsonRowtFileOutputJSON_1.put("ville", null);
-						}
-
-						if (!isFirst_tFileOutputJSON_1) {
-							outtFileOutputJSON_1.append(",");
-						}
-						isFirst_tFileOutputJSON_1 = false;
-						outtFileOutputJSON_1.append(jsonRowtFileOutputJSON_1.toJSONString());
-						nb_line_tFileOutputJSON_1++;
-
-						tos_count_tFileOutputJSON_1++;
-
-						/**
-						 * [tFileOutputJSON_1 main ] stop
-						 */
-
-						/**
-						 * [tFileOutputJSON_1 process_data_begin ] start
-						 */
-
-						currentComponent = "tFileOutputJSON_1";
-
-						/**
-						 * [tFileOutputJSON_1 process_data_begin ] stop
-						 */
-
-						/**
-						 * [tFileOutputJSON_1 process_data_end ] start
-						 */
-
-						currentComponent = "tFileOutputJSON_1";
-
-						/**
-						 * [tFileOutputJSON_1 process_data_end ] stop
-						 */
-
-						/**
-						 * [tReplicate_1 process_data_end ] start
-						 */
-
-						currentComponent = "tReplicate_1";
-
-						/**
-						 * [tReplicate_1 process_data_end ] stop
-						 */
-
-					} // End of branch "out1"
-
-					/**
-					 * [tMap_1 process_data_end ] start
-					 */
-
-					currentComponent = "tMap_1";
-
-					/**
-					 * [tMap_1 process_data_end ] stop
-					 */
-
-					/**
-					 * [tRowGenerator_1 process_data_end ] start
-					 */
-
-					currentComponent = "tRowGenerator_1";
-
-					/**
-					 * [tRowGenerator_1 process_data_end ] stop
-					 */
-
-					/**
-					 * [tRowGenerator_1 end ] start
-					 */
-
-					currentComponent = "tRowGenerator_1";
-
-				}
-				globalMap.put("tRowGenerator_1_NB_LINE", nb_line_tRowGenerator_1);
-
-				ok_Hash.put("tRowGenerator_1", true);
-				end_Hash.put("tRowGenerator_1", System.currentTimeMillis());
+				ok_Hash.put("tFileInputXML_2", true);
+				end_Hash.put("tFileInputXML_2", System.currentTimeMillis());
 
 				/**
-				 * [tRowGenerator_1 end ] stop
+				 * [tFileInputXML_2 end ] stop
 				 */
 
 				/**
-				 * [tMap_1 end ] start
+				 * [tXMLMap_1 end ] start
 				 */
 
-				currentComponent = "tMap_1";
-
-// ###############################
-// # Lookup hashes releasing
-// ###############################      
+				currentComponent = "tXMLMap_1";
 
 				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "row1");
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "row5");
 				}
 
-				ok_Hash.put("tMap_1", true);
-				end_Hash.put("tMap_1", System.currentTimeMillis());
+				ok_Hash.put("tXMLMap_1", true);
+				end_Hash.put("tXMLMap_1", System.currentTimeMillis());
 
 				/**
-				 * [tMap_1 end ] stop
+				 * [tXMLMap_1 end ] stop
 				 */
 
 				/**
-				 * [tReplicate_1 end ] start
+				 * [tLogRow_1 end ] start
 				 */
 
-				currentComponent = "tReplicate_1";
+				currentComponent = "tLogRow_1";
+
+//////
+
+				java.io.PrintStream consoleOut_tLogRow_1 = null;
+				if (globalMap.get("tLogRow_CONSOLE") != null) {
+					consoleOut_tLogRow_1 = (java.io.PrintStream) globalMap.get("tLogRow_CONSOLE");
+				} else {
+					consoleOut_tLogRow_1 = new java.io.PrintStream(new java.io.BufferedOutputStream(System.out));
+					globalMap.put("tLogRow_CONSOLE", consoleOut_tLogRow_1);
+				}
+
+				consoleOut_tLogRow_1.println(util_tLogRow_1.format().toString());
+				consoleOut_tLogRow_1.flush();
+//////
+				globalMap.put("tLogRow_1_NB_LINE", nb_line_tLogRow_1);
+
+///////////////////////    			
 
 				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "out1");
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "out2");
 				}
 
-				ok_Hash.put("tReplicate_1", true);
-				end_Hash.put("tReplicate_1", System.currentTimeMillis());
+				ok_Hash.put("tLogRow_1", true);
+				end_Hash.put("tLogRow_1", System.currentTimeMillis());
 
 				/**
-				 * [tReplicate_1 end ] stop
-				 */
-
-				/**
-				 * [tFileOutputXML_1 end ] start
-				 */
-
-				currentComponent = "tFileOutputXML_1";
-
-				out_tFileOutputXML_1.write(footers_tFileOutputXML_1[0]);
-
-				out_tFileOutputXML_1.newLine();
-				out_tFileOutputXML_1.close();
-				globalMap.put("tFileOutputXML_1_NB_LINE", nb_line_tFileOutputXML_1);
-
-				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "row2");
-				}
-
-				ok_Hash.put("tFileOutputXML_1", true);
-				end_Hash.put("tFileOutputXML_1", System.currentTimeMillis());
-
-				/**
-				 * [tFileOutputXML_1 end ] stop
-				 */
-
-				/**
-				 * [tFileOutputDelimited_1 end ] start
-				 */
-
-				currentComponent = "tFileOutputDelimited_1";
-
-				if (outtFileOutputDelimited_1 != null) {
-					outtFileOutputDelimited_1.flush();
-					outtFileOutputDelimited_1.close();
-				}
-
-				globalMap.put("tFileOutputDelimited_1_NB_LINE", nb_line_tFileOutputDelimited_1);
-				globalMap.put("tFileOutputDelimited_1_FILE_NAME", fileName_tFileOutputDelimited_1);
-
-				resourceMap.put("finish_tFileOutputDelimited_1", true);
-
-				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "row3");
-				}
-
-				ok_Hash.put("tFileOutputDelimited_1", true);
-				end_Hash.put("tFileOutputDelimited_1", System.currentTimeMillis());
-
-				/**
-				 * [tFileOutputDelimited_1 end ] stop
-				 */
-
-				/**
-				 * [tFileOutputJSON_1 end ] start
-				 */
-
-				currentComponent = "tFileOutputJSON_1";
-
-				outtFileOutputJSON_1.print("]}");
-				outtFileOutputJSON_1.close();
-				globalMap.put("tFileOutputJSON_1_NB_LINE", nb_line_tFileOutputJSON_1);
-
-				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "row4");
-				}
-
-				ok_Hash.put("tFileOutputJSON_1", true);
-				end_Hash.put("tFileOutputJSON_1", System.currentTimeMillis());
-
-				/**
-				 * [tFileOutputJSON_1 end ] stop
+				 * [tLogRow_1 end ] stop
 				 */
 
 			} // end the resume
@@ -1967,74 +1374,33 @@ public class jGenerateDataToFile implements TalendJob {
 			try {
 
 				/**
-				 * [tRowGenerator_1 finally ] start
+				 * [tFileInputXML_2 finally ] start
 				 */
 
-				currentComponent = "tRowGenerator_1";
+				currentComponent = "tFileInputXML_2";
 
 				/**
-				 * [tRowGenerator_1 finally ] stop
-				 */
-
-				/**
-				 * [tMap_1 finally ] start
-				 */
-
-				currentComponent = "tMap_1";
-
-				/**
-				 * [tMap_1 finally ] stop
+				 * [tFileInputXML_2 finally ] stop
 				 */
 
 				/**
-				 * [tReplicate_1 finally ] start
+				 * [tXMLMap_1 finally ] start
 				 */
 
-				currentComponent = "tReplicate_1";
+				currentComponent = "tXMLMap_1";
 
 				/**
-				 * [tReplicate_1 finally ] stop
-				 */
-
-				/**
-				 * [tFileOutputXML_1 finally ] start
-				 */
-
-				currentComponent = "tFileOutputXML_1";
-
-				/**
-				 * [tFileOutputXML_1 finally ] stop
+				 * [tXMLMap_1 finally ] stop
 				 */
 
 				/**
-				 * [tFileOutputDelimited_1 finally ] start
+				 * [tLogRow_1 finally ] start
 				 */
 
-				currentComponent = "tFileOutputDelimited_1";
-
-				if (resourceMap.get("finish_tFileOutputDelimited_1") == null) {
-
-					java.io.Writer outtFileOutputDelimited_1 = (java.io.Writer) resourceMap
-							.get("out_tFileOutputDelimited_1");
-					if (outtFileOutputDelimited_1 != null) {
-						outtFileOutputDelimited_1.flush();
-						outtFileOutputDelimited_1.close();
-					}
-
-				}
+				currentComponent = "tLogRow_1";
 
 				/**
-				 * [tFileOutputDelimited_1 finally ] stop
-				 */
-
-				/**
-				 * [tFileOutputJSON_1 finally ] start
-				 */
-
-				currentComponent = "tFileOutputJSON_1";
-
-				/**
-				 * [tFileOutputJSON_1 finally ] stop
+				 * [tLogRow_1 finally ] stop
 				 */
 
 			} catch (java.lang.Exception e) {
@@ -2045,7 +1411,7 @@ public class jGenerateDataToFile implements TalendJob {
 			resourceMap = null;
 		}
 
-		globalMap.put("tRowGenerator_1_SUBPROCESS_STATE", 1);
+		globalMap.put("tFileInputXML_2_SUBPROCESS_STATE", 1);
 	}
 
 	public String resuming_logs_dir_path = null;
@@ -2247,14 +1613,14 @@ public class jGenerateDataToFile implements TalendJob {
 
 		try {
 			errorCode = null;
-			tRowGenerator_1Process(globalMap);
+			tFileInputXML_2Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
 			}
-		} catch (TalendException e_tRowGenerator_1) {
-			globalMap.put("tRowGenerator_1_SUBPROCESS_STATE", -1);
+		} catch (TalendException e_tFileInputXML_2) {
+			globalMap.put("tFileInputXML_2_SUBPROCESS_STATE", -1);
 
-			e_tRowGenerator_1.printStackTrace();
+			e_tFileInputXML_2.printStackTrace();
 
 		}
 
@@ -2409,6 +1775,6 @@ public class jGenerateDataToFile implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 70972 characters generated by Talend Open Studio for Data Integration on the
- * August 19, 2023 1:53:27 PM CEST
+ * 57361 characters generated by Talend Open Studio for Data Integration on the
+ * August 19, 2023 5:36:50 PM CEST
  ************************************************************************************************/

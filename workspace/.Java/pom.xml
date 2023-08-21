@@ -17,6 +17,11 @@
       <version>2.1.1</version>
     </dependency>
     <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.6</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.12.1</version>
@@ -38,16 +43,16 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>talend_file_enhanced_20070724</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>talendcsv</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.example.icommerce_reporting.code</groupId>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>xpathutil-1.0.0</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.formation_talend.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>

@@ -22,6 +22,7 @@
     <module>jobs/process/job_test/test_null_0.1</module>
     <module>jobs/process/job_test/testdate_0.1</module>
     <module>jobs/process/job_test/jiteratetoflow_0.1</module>
+    <module>jobs/process/job_test/tuserest_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PRISE_EN_MAIN</talend.project.name>
