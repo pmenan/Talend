@@ -6,6 +6,7 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.management.relation.Relation"/>
 <fullyQualifiedTypeName name="routines.Relational"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

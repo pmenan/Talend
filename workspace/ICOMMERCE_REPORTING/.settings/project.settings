@@ -61,31 +61,31 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_FILES_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/.metadata\"",
+        "value" : "context.projectFolder+TalendDate.getDate(\"YYYYMMDD\")",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "FILENAME_STATS",
-        "value" : "\"stats_file.txt\"",
+        "value" : "\"stats_file_TalendDate.getDate(\"YYYYMMDD\").txt\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "FILENAME_LOGS",
-        "value" : "\"logs_file.txt\"",
+        "value" : "\"logs_file_+TalendDate.getDate(\"YYYYMMDD\")+\".txt\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "FILENAME_METTER",
-        "value" : "\"meter_file.txt\"",
+        "value" : "\"meter_file_+TalendDate.getDate(\"YYYYMMDD\")+\".txt\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:qfbmiL72AQZ+7M5TSYgihbIq7TDjptu/CRKsJRAi",
+        "value" : "enc:system.encryption.key.v1:GqN2W9In+dEvoqCPKIyJSOGRsh/us9olQgxo33nq",
         "contextMode" : false
       }, {
         "show" : true,
@@ -393,7 +393,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:DYLbqBcMPa7x9VqLNTSEF6Nj17aOxDgXk2IZ5JA1vgJxmVo8TkG0qHhqFd0=",
+        "value" : "enc:system.encryption.key.v1:LnWPv6lieRLnM80zgXOdoX7LBkuNwJZT1Q0HDuzuHgpocq2pQDxg5CihA3M=",
         "contextMode" : false
       }, {
         "show" : true,
@@ -423,7 +423,7 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "NOT_LOAD_OLD_VARIABLE",
-        "value" : "Warning",
+        "value" : "Info",
         "contextMode" : false
       }, {
         "show" : true,
