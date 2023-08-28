@@ -7299,3 +7299,2802 @@ There may be some other errors caused by JVM compatibility. Make sure your JVM s
 
 !ENTRY org.eclipse.core.resources 2 10035 2023-08-27 16:19:08.063
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-08-28 19:54:56.259 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-08-28 19:54:57.030
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-08-28 19:54:57.030
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:00.388
+!MESSAGE 2023-08-28 19:55:00,388 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-28 19:55:01.033
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:07.417
+!MESSAGE 2023-08-28 19:55:07,409 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-08-28 19:55:19.375
+!MESSAGE 2023-08-28 19:55:19,374 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:24.642
+!MESSAGE 2023-08-28 19:55:24,642 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:24.642
+!MESSAGE 2023-08-28 19:55:24,642 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /PRISE_EN_MAIN_ROUTINES/src/main/java overlaps with sources folder /PRISE_EN_MAIN_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:24.652
+!MESSAGE 2023-08-28 19:55:24,652 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:24.660
+!MESSAGE 2023-08-28 19:55:24,660 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:27.390
+!MESSAGE 2023-08-28 19:55:27,390 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - D:\git_repo\Talend\workspace\PRISE_EN_MAIN\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:27.390
+!MESSAGE 2023-08-28 19:55:27,390 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:29.740
+!MESSAGE 2023-08-28 19:55:29,740 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on prise_en_main
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:55:30.575
+!MESSAGE 2023-08-28 19:55:30,575 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-08-28 19:55:43.099
+!MESSAGE 2023-08-28 19:55:43,099 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-08-28 19:55:43.114
+!MESSAGE 2023-08-28 19:55:43,114 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:56:11.571
+!MESSAGE 2023-08-28 19:56:11,571 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:56:11.756
+!MESSAGE 2023-08-28 19:56:11,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:56:11.756
+!MESSAGE 2023-08-28 19:56:11,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:56:11.756
+!MESSAGE 2023-08-28 19:56:11,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:56:11.756
+!MESSAGE 2023-08-28 19:56:11,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-08-28 19:56:14.164
+!MESSAGE 2023-08-28 19:56:14,164 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:23.813
+!MESSAGE 2023-08-28 19:59:23,813 INFO  org.talend.commons.exception.CommonExceptionHandler  - Job jUpperData can not be found. Maybe it is removed.
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:26.454
+!MESSAGE 2023-08-28 19:59:26,454 INFO  org.talend.commons.exception.CommonExceptionHandler  - Job jUpperData can not be found. Maybe it is removed.
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 19:59:36.405
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.416
+!MESSAGE 2023-08-28 19:59:36,416 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.549
+!MESSAGE 2023-08-28 19:59:36,549 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.728
+!MESSAGE 2023-08-28 19:59:36,728 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.728
+!MESSAGE 2023-08-28 19:59:36,728 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.728
+!MESSAGE 2023-08-28 19:59:36,728 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.728
+!MESSAGE 2023-08-28 19:59:36,728 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:36.913
+!MESSAGE 2023-08-28 19:59:36,913 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:37.228
+!MESSAGE 2023-08-28 19:59:37,228 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 19:59:37.520
+!MESSAGE 2023-08-28 19:59:37,520 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=4008 %*
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 20:00:13.012
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.074
+!MESSAGE 2023-08-28 20:00:13,074 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.180
+!MESSAGE 2023-08-28 20:00:13,180 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.374
+!MESSAGE 2023-08-28 20:00:13,374 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.374
+!MESSAGE 2023-08-28 20:00:13,374 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.374
+!MESSAGE 2023-08-28 20:00:13,374 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.390
+!MESSAGE 2023-08-28 20:00:13,390 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.526
+!MESSAGE 2023-08-28 20:00:13,526 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.704
+!MESSAGE 2023-08-28 20:00:13,704 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:13.871
+!MESSAGE 2023-08-28 20:00:13,870 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=3595 %*
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 20:00:57.514
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.574
+!MESSAGE 2023-08-28 20:00:57,574 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.699
+!MESSAGE 2023-08-28 20:00:57,699 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.860
+!MESSAGE 2023-08-28 20:00:57,860 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.860
+!MESSAGE 2023-08-28 20:00:57,860 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.860
+!MESSAGE 2023-08-28 20:00:57,860 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.860
+!MESSAGE 2023-08-28 20:00:57,860 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:57.991
+!MESSAGE 2023-08-28 20:00:57,990 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:58.162
+!MESSAGE 2023-08-28 20:00:58,162 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:00:58.316
+!MESSAGE 2023-08-28 20:00:58,316 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=3716 %*
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 20:01:50.080
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.151
+!MESSAGE 2023-08-28 20:01:50,151 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.263
+!MESSAGE 2023-08-28 20:01:50,263 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.454
+!MESSAGE 2023-08-28 20:01:50,454 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.464
+!MESSAGE 2023-08-28 20:01:50,454 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.464
+!MESSAGE 2023-08-28 20:01:50,464 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.464
+!MESSAGE 2023-08-28 20:01:50,464 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.564
+!MESSAGE 2023-08-28 20:01:50,560 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.717
+!MESSAGE 2023-08-28 20:01:50,717 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:01:50.896
+!MESSAGE 2023-08-28 20:01:50,896 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=3477 %*
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 20:05:59.069
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.137
+!MESSAGE 2023-08-28 20:05:59,137 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.290
+!MESSAGE 2023-08-28 20:05:59,290 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.491
+!MESSAGE 2023-08-28 20:05:59,491 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.491
+!MESSAGE 2023-08-28 20:05:59,491 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.499
+!MESSAGE 2023-08-28 20:05:59,499 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.501
+!MESSAGE 2023-08-28 20:05:59,501 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.666
+!MESSAGE 2023-08-28 20:05:59,665 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:05:59.896
+!MESSAGE 2023-08-28 20:05:59,896 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:00.065
+!MESSAGE 2023-08-28 20:06:00,064 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=3956 %*
+
+
+!ENTRY org.talend.designer.runprocess 2 0 2023-08-28 20:06:15.291
+!MESSAGE ESB configuration folder does not exists - file:/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/esb
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.347
+!MESSAGE 2023-08-28 20:06:15,347 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.487
+!MESSAGE 2023-08-28 20:06:15,487 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.769
+!MESSAGE 2023-08-28 20:06:15,769 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.769
+!MESSAGE 2023-08-28 20:06:15,769 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.771
+!MESSAGE 2023-08-28 20:06:15,771 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.771
+!MESSAGE 2023-08-28 20:06:15,771 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TUSEREST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:15.928
+!MESSAGE 2023-08-28 20:06:15,928 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:16.133
+!MESSAGE 2023-08-28 20:06:16,133 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:06:16.317
+!MESSAGE 2023-08-28 20:06:16,317 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/tuserest_0.1/target/classpath.jar; prise_en_main.tuserest_0_1.tUseRest --context=Default --stat_port=3695 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:08.251
+!MESSAGE 2023-08-28 20:07:08,251 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:08.377
+!MESSAGE 2023-08-28 20:07:08,377 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:08.377
+!MESSAGE 2023-08-28 20:07:08,377 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:08.377
+!MESSAGE 2023-08-28 20:07:08,377 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:08.377
+!MESSAGE 2023-08-28 20:07:08,377 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:12.788
+!MESSAGE 2023-08-28 20:07:12,788 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:12.876
+!MESSAGE 2023-08-28 20:07:12,875 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.004
+!MESSAGE 2023-08-28 20:07:13,004 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.004
+!MESSAGE 2023-08-28 20:07:13,004 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.004
+!MESSAGE 2023-08-28 20:07:13,004 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.004
+!MESSAGE 2023-08-28 20:07:13,004 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.096
+!MESSAGE 2023-08-28 20:07:13,094 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:07:13.221
+!MESSAGE 2023-08-28 20:07:13,221 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 20:07:13.291
+!MESSAGE 2023-08-28 20:07:13,291 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 834
+Detail Message: Type mismatch: cannot convert from Date to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 834
+Detail Message: Type mismatch: cannot convert from Date to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.678
+!MESSAGE 2023-08-28 20:08:04,678 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.763
+!MESSAGE 2023-08-28 20:08:04,763 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.912
+!MESSAGE 2023-08-28 20:08:04,912 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.912
+!MESSAGE 2023-08-28 20:08:04,912 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.915
+!MESSAGE 2023-08-28 20:08:04,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.916
+!MESSAGE 2023-08-28 20:08:04,916 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:04.980
+!MESSAGE 2023-08-28 20:08:04,980 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:08:05.094
+!MESSAGE 2023-08-28 20:08:05,092 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 20:08:05.109
+!MESSAGE 2023-08-28 20:08:05,109 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 834
+Detail Message: Type mismatch: cannot convert from Date to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 834
+Detail Message: Type mismatch: cannot convert from Date to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.326
+!MESSAGE 2023-08-28 20:09:42,326 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.405
+!MESSAGE 2023-08-28 20:09:42,405 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.522
+!MESSAGE 2023-08-28 20:09:42,522 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.522
+!MESSAGE 2023-08-28 20:09:42,522 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.522
+!MESSAGE 2023-08-28 20:09:42,522 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.522
+!MESSAGE 2023-08-28 20:09:42,522 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.607
+!MESSAGE 2023-08-28 20:09:42,605 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:42.736
+!MESSAGE 2023-08-28 20:09:42,735 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:46.732
+!MESSAGE 2023-08-28 20:09:46,732 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:46.801
+!MESSAGE 2023-08-28 20:09:46,801 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.033
+!MESSAGE 2023-08-28 20:09:47,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.033
+!MESSAGE 2023-08-28 20:09:47,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.033
+!MESSAGE 2023-08-28 20:09:47,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.033
+!MESSAGE 2023-08-28 20:09:47,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.096
+!MESSAGE 2023-08-28 20:09:47,096 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.200
+!MESSAGE 2023-08-28 20:09:47,200 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:09:47.381
+!MESSAGE 2023-08-28 20:09:47,381 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3870 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:11:19.267
+!MESSAGE 2023-08-28 20:11:19,267 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:11:19.267
+!MESSAGE 2023-08-28 20:11:19,267 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:11:19.267
+!MESSAGE 2023-08-28 20:11:19,267 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:11:19.267
+!MESSAGE 2023-08-28 20:11:19,267 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.100
+!MESSAGE 2023-08-28 20:12:04,100 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.179
+!MESSAGE 2023-08-28 20:12:04,179 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.310
+!MESSAGE 2023-08-28 20:12:04,310 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.320
+!MESSAGE 2023-08-28 20:12:04,310 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.320
+!MESSAGE 2023-08-28 20:12:04,320 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.322
+!MESSAGE 2023-08-28 20:12:04,320 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.383
+!MESSAGE 2023-08-28 20:12:04,383 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:04.538
+!MESSAGE 2023-08-28 20:12:04,537 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 20:12:04.558
+!MESSAGE 2023-08-28 20:12:04,557 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 818
+Detail Message: parseTalendDate cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 818
+Detail Message: parseTalendDate cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.267
+!MESSAGE 2023-08-28 20:12:40,267 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.348
+!MESSAGE 2023-08-28 20:12:40,348 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.467
+!MESSAGE 2023-08-28 20:12:40,467 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.483
+!MESSAGE 2023-08-28 20:12:40,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.483
+!MESSAGE 2023-08-28 20:12:40,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.483
+!MESSAGE 2023-08-28 20:12:40,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.573
+!MESSAGE 2023-08-28 20:12:40,573 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.695
+!MESSAGE 2023-08-28 20:12:40,694 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:12:40.849
+!MESSAGE 2023-08-28 20:12:40,849 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3844 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.320
+!MESSAGE 2023-08-28 20:13:14,320 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.414
+!MESSAGE 2023-08-28 20:13:14,412 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.547
+!MESSAGE 2023-08-28 20:13:14,547 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.547
+!MESSAGE 2023-08-28 20:13:14,547 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.555
+!MESSAGE 2023-08-28 20:13:14,547 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.555
+!MESSAGE 2023-08-28 20:13:14,555 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.598
+!MESSAGE 2023-08-28 20:13:14,598 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.700
+!MESSAGE 2023-08-28 20:13:14,700 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:14.844
+!MESSAGE 2023-08-28 20:13:14,844 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=4061 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.709
+!MESSAGE 2023-08-28 20:13:31,709 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.782
+!MESSAGE 2023-08-28 20:13:31,782 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.927
+!MESSAGE 2023-08-28 20:13:31,927 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.943
+!MESSAGE 2023-08-28 20:13:31,927 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.943
+!MESSAGE 2023-08-28 20:13:31,943 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.943
+!MESSAGE 2023-08-28 20:13:31,943 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:31.983
+!MESSAGE 2023-08-28 20:13:31,983 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:32.075
+!MESSAGE 2023-08-28 20:13:32,059 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:13:32.157
+!MESSAGE 2023-08-28 20:13:32,156 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3711 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.055
+!MESSAGE 2023-08-28 20:14:04,055 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.142
+!MESSAGE 2023-08-28 20:14:04,142 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.269
+!MESSAGE 2023-08-28 20:14:04,269 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.269
+!MESSAGE 2023-08-28 20:14:04,269 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.269
+!MESSAGE 2023-08-28 20:14:04,269 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.269
+!MESSAGE 2023-08-28 20:14:04,269 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.332
+!MESSAGE 2023-08-28 20:14:04,330 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 20:14:04.456
+!MESSAGE 2023-08-28 20:14:04,456 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 20:14:04.503
+!MESSAGE 2023-08-28 20:14:04,502 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1421
+Detail Message: The method parseDate(String, String) in the type TalendDate is not applicable for the arguments (String, Date)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1421
+Detail Message: The method parseDate(String, String) in the type TalendDate is not applicable for the arguments (String, Date)
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:615)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2068)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1448)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.644
+!MESSAGE 2023-08-28 21:27:08,644 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.725
+!MESSAGE 2023-08-28 21:27:08,725 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.856
+!MESSAGE 2023-08-28 21:27:08,856 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.856
+!MESSAGE 2023-08-28 21:27:08,856 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.856
+!MESSAGE 2023-08-28 21:27:08,856 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.856
+!MESSAGE 2023-08-28 21:27:08,856 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:08.922
+!MESSAGE 2023-08-28 21:27:08,917 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:27:09.081
+!MESSAGE 2023-08-28 21:27:09,081 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:27:09.106
+!MESSAGE 2023-08-28 21:27:09,104 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1567
+Detail Message: Syntax error, insert ")" to complete Expression
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1567
+Detail Message: Syntax error, insert ")" to complete Expression
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:47.966
+!MESSAGE 2023-08-28 21:29:47,966 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.030
+!MESSAGE 2023-08-28 21:29:48,030 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.153
+!MESSAGE 2023-08-28 21:29:48,153 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.153
+!MESSAGE 2023-08-28 21:29:48,153 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.153
+!MESSAGE 2023-08-28 21:29:48,153 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.153
+!MESSAGE 2023-08-28 21:29:48,153 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.202
+!MESSAGE 2023-08-28 21:29:48,200 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:29:48.371
+!MESSAGE 2023-08-28 21:29:48,370 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:29:48.388
+!MESSAGE 2023-08-28 21:29:48,388 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1326
+Detail Message: Type mismatch: cannot convert from String to Date
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1326
+Detail Message: Type mismatch: cannot convert from String to Date
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 0 0 2023-08-28 21:30:06.429
+!MESSAGE 2023-08-28 21:30:06,429 WARN  org.talend.commons.exception.CommonExceptionHandler  - Dangling meta character '+' near index 0
++
+^
+
+!STACK 0
+java.util.regex.PatternSyntaxException: Dangling meta character '+' near index 0
++
+^
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.sequence(Unknown Source)
+	at java.util.regex.Pattern.expr(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getFilterRegex(TalendEditorPaletteFactory.java:1218)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addComponentsByNameFilter(TalendEditorPaletteFactory.java:603)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:456)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:381)
+	at org.talend.designer.core.assist.TalendEditorComponentProposalProvider.getProposals(TalendEditorComponentProposalProvider.java:57)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.getProposals(ContentProposalAdapter.java:1999)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.openProposalPopup(ContentProposalAdapter.java:1848)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.lambda$3(ContentProposalAdapter.java:2032)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 0 0 2023-08-28 21:30:06.571
+!MESSAGE 2023-08-28 21:30:06,571 WARN  org.talend.commons.exception.CommonExceptionHandler  - Dangling meta character '+' near index 0
++
+^
+
+!STACK 0
+java.util.regex.PatternSyntaxException: Dangling meta character '+' near index 0
++
+^
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.sequence(Unknown Source)
+	at java.util.regex.Pattern.expr(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getFilterRegex(TalendEditorPaletteFactory.java:1218)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addComponentsByNameFilter(TalendEditorPaletteFactory.java:603)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addDelegateComponents(TalendEditorPaletteFactory.java:654)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:511)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:381)
+	at org.talend.designer.core.assist.TalendEditorComponentProposalProvider.getProposals(TalendEditorComponentProposalProvider.java:57)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.getProposals(ContentProposalAdapter.java:1999)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.openProposalPopup(ContentProposalAdapter.java:1848)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.lambda$3(ContentProposalAdapter.java:2032)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 0 0 2023-08-28 21:30:06.922
+!MESSAGE 2023-08-28 21:30:06,922 WARN  org.talend.commons.exception.CommonExceptionHandler  - Dangling meta character '+' near index 0
++
+^
+
+!STACK 0
+java.util.regex.PatternSyntaxException: Dangling meta character '+' near index 0
++
+^
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.sequence(Unknown Source)
+	at java.util.regex.Pattern.expr(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getFilterRegex(TalendEditorPaletteFactory.java:1218)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addComponentsByNameFilter(TalendEditorPaletteFactory.java:603)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:456)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:381)
+	at org.talend.designer.core.assist.TalendEditorComponentProposalProvider.getProposals(TalendEditorComponentProposalProvider.java:57)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.getProposals(ContentProposalAdapter.java:1999)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.access$9(ContentProposalAdapter.java:1985)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.recomputeProposals(ContentProposalAdapter.java:948)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.lambda$5(ContentProposalAdapter.java:973)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 0 0 2023-08-28 21:30:06.943
+!MESSAGE 2023-08-28 21:30:06,943 WARN  org.talend.commons.exception.CommonExceptionHandler  - Dangling meta character '+' near index 0
++
+^
+
+!STACK 0
+java.util.regex.PatternSyntaxException: Dangling meta character '+' near index 0
++
+^
+	at java.util.regex.Pattern.error(Unknown Source)
+	at java.util.regex.Pattern.sequence(Unknown Source)
+	at java.util.regex.Pattern.expr(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at java.util.regex.Pattern.<init>(Unknown Source)
+	at java.util.regex.Pattern.compile(Unknown Source)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getFilterRegex(TalendEditorPaletteFactory.java:1218)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addComponentsByNameFilter(TalendEditorPaletteFactory.java:603)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.addDelegateComponents(TalendEditorPaletteFactory.java:654)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:511)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:381)
+	at org.talend.designer.core.assist.TalendEditorComponentProposalProvider.getProposals(TalendEditorComponentProposalProvider.java:57)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.getProposals(ContentProposalAdapter.java:1999)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter.access$9(ContentProposalAdapter.java:1985)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.recomputeProposals(ContentProposalAdapter.java:948)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.lambda$5(ContentProposalAdapter.java:973)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.126
+!MESSAGE 2023-08-28 21:32:49,126 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.174
+!MESSAGE 2023-08-28 21:32:49,174 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.304
+!MESSAGE 2023-08-28 21:32:49,304 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.304
+!MESSAGE 2023-08-28 21:32:49,304 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.304
+!MESSAGE 2023-08-28 21:32:49,304 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.319
+!MESSAGE 2023-08-28 21:32:49,319 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.349
+!MESSAGE 2023-08-28 21:32:49,349 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:32:49.453
+!MESSAGE 2023-08-28 21:32:49,453 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:32:49.472
+!MESSAGE 2023-08-28 21:32:49,472 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.678
+!MESSAGE 2023-08-28 21:33:45,678 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.741
+!MESSAGE 2023-08-28 21:33:45,741 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.846
+!MESSAGE 2023-08-28 21:33:45,846 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.846
+!MESSAGE 2023-08-28 21:33:45,846 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.846
+!MESSAGE 2023-08-28 21:33:45,846 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.846
+!MESSAGE 2023-08-28 21:33:45,846 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.880
+!MESSAGE 2023-08-28 21:33:45,880 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:33:45.964
+!MESSAGE 2023-08-28 21:33:45,964 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:33:45.980
+!MESSAGE 2023-08-28 21:33:45,980 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.125
+!MESSAGE 2023-08-28 21:34:55,125 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.188
+!MESSAGE 2023-08-28 21:34:55,188 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.296
+!MESSAGE 2023-08-28 21:34:55,296 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.296
+!MESSAGE 2023-08-28 21:34:55,296 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.296
+!MESSAGE 2023-08-28 21:34:55,296 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.296
+!MESSAGE 2023-08-28 21:34:55,296 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.336
+!MESSAGE 2023-08-28 21:34:55,336 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:34:55.426
+!MESSAGE 2023-08-28 21:34:55,415 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:34:55.436
+!MESSAGE 2023-08-28 21:34:55,436 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.001
+!MESSAGE 2023-08-28 21:36:26,001 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.067
+!MESSAGE 2023-08-28 21:36:26,067 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.151
+!MESSAGE 2023-08-28 21:36:26,151 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.151
+!MESSAGE 2023-08-28 21:36:26,151 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.151
+!MESSAGE 2023-08-28 21:36:26,151 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.151
+!MESSAGE 2023-08-28 21:36:26,151 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.198
+!MESSAGE 2023-08-28 21:36:26,198 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:36:26.268
+!MESSAGE 2023-08-28 21:36:26,268 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:36:26.284
+!MESSAGE 2023-08-28 21:36:26,284 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1041
+Detail Message: The method ss() is undefined for the type testDate
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.001
+!MESSAGE 2023-08-28 21:37:29,001 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.049
+!MESSAGE 2023-08-28 21:37:29,049 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.131
+!MESSAGE 2023-08-28 21:37:29,131 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.131
+!MESSAGE 2023-08-28 21:37:29,131 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.147
+!MESSAGE 2023-08-28 21:37:29,147 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.147
+!MESSAGE 2023-08-28 21:37:29,147 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.182
+!MESSAGE 2023-08-28 21:37:29,182 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:37:29.252
+!MESSAGE 2023-08-28 21:37:29,252 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.177
+!MESSAGE 2023-08-28 21:38:09,177 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.251
+!MESSAGE 2023-08-28 21:38:09,251 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.354
+!MESSAGE 2023-08-28 21:38:09,354 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.354
+!MESSAGE 2023-08-28 21:38:09,354 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.354
+!MESSAGE 2023-08-28 21:38:09,354 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.354
+!MESSAGE 2023-08-28 21:38:09,354 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.394
+!MESSAGE 2023-08-28 21:38:09,394 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:09.463
+!MESSAGE 2023-08-28 21:38:09,463 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:46.913
+!MESSAGE 2023-08-28 21:38:46,913 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:46.979
+!MESSAGE 2023-08-28 21:38:46,979 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.127
+!MESSAGE 2023-08-28 21:38:47,112 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.127
+!MESSAGE 2023-08-28 21:38:47,127 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.127
+!MESSAGE 2023-08-28 21:38:47,127 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.127
+!MESSAGE 2023-08-28 21:38:47,127 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.164
+!MESSAGE 2023-08-28 21:38:47,164 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.245
+!MESSAGE 2023-08-28 21:38:47,245 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:38:47.397
+!MESSAGE 2023-08-28 21:38:47,397 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3620 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.731
+!MESSAGE 2023-08-28 21:45:21,731 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.762
+!MESSAGE 2023-08-28 21:45:21,762 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.835
+!MESSAGE 2023-08-28 21:45:21,835 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.835
+!MESSAGE 2023-08-28 21:45:21,835 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.835
+!MESSAGE 2023-08-28 21:45:21,835 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.835
+!MESSAGE 2023-08-28 21:45:21,835 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.866
+!MESSAGE 2023-08-28 21:45:21,866 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:45:21.947
+!MESSAGE 2023-08-28 21:45:21,947 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:45:21.953
+!MESSAGE 2023-08-28 21:45:21,953 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1367
+Detail Message: Type mismatch: cannot convert from String to Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1367
+Detail Message: Type mismatch: cannot convert from String to Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.429
+!MESSAGE 2023-08-28 21:46:25,429 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.486
+!MESSAGE 2023-08-28 21:46:25,486 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.595
+!MESSAGE 2023-08-28 21:46:25,595 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.595
+!MESSAGE 2023-08-28 21:46:25,595 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.595
+!MESSAGE 2023-08-28 21:46:25,595 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.595
+!MESSAGE 2023-08-28 21:46:25,595 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.629
+!MESSAGE 2023-08-28 21:46:25,629 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:25.714
+!MESSAGE 2023-08-28 21:46:25,714 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:28.910
+!MESSAGE 2023-08-28 21:46:28,910 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:28.958
+!MESSAGE 2023-08-28 21:46:28,958 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.090
+!MESSAGE 2023-08-28 21:46:29,090 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.090
+!MESSAGE 2023-08-28 21:46:29,090 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.105
+!MESSAGE 2023-08-28 21:46:29,105 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.105
+!MESSAGE 2023-08-28 21:46:29,105 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.132
+!MESSAGE 2023-08-28 21:46:29,132 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.201
+!MESSAGE 2023-08-28 21:46:29,199 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:46:29.334
+!MESSAGE 2023-08-28 21:46:29,334 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3510 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.284
+!MESSAGE 2023-08-28 21:53:13,284 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.357
+!MESSAGE 2023-08-28 21:53:13,357 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.436
+!MESSAGE 2023-08-28 21:53:13,436 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.453
+!MESSAGE 2023-08-28 21:53:13,436 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.453
+!MESSAGE 2023-08-28 21:53:13,453 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.453
+!MESSAGE 2023-08-28 21:53:13,453 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.486
+!MESSAGE 2023-08-28 21:53:13,486 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:53:13.584
+!MESSAGE 2023-08-28 21:53:13,584 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 21:53:13.595
+!MESSAGE 2023-08-28 21:53:13,595 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1716
+Detail Message: Type mismatch: cannot convert from String to Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1716
+Detail Message: Type mismatch: cannot convert from String to Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.503
+!MESSAGE 2023-08-28 21:54:43,503 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.544
+!MESSAGE 2023-08-28 21:54:43,544 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.620
+!MESSAGE 2023-08-28 21:54:43,620 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.620
+!MESSAGE 2023-08-28 21:54:43,620 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.620
+!MESSAGE 2023-08-28 21:54:43,620 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.620
+!MESSAGE 2023-08-28 21:54:43,620 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.640
+!MESSAGE 2023-08-28 21:54:43,640 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:54:43.723
+!MESSAGE 2023-08-28 21:54:43,721 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.069
+!MESSAGE 2023-08-28 21:56:24,069 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.121
+!MESSAGE 2023-08-28 21:56:24,121 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.204
+!MESSAGE 2023-08-28 21:56:24,204 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.204
+!MESSAGE 2023-08-28 21:56:24,204 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.232
+!MESSAGE 2023-08-28 21:56:24,232 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.233
+!MESSAGE 2023-08-28 21:56:24,233 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.264
+!MESSAGE 2023-08-28 21:56:24,264 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:24.342
+!MESSAGE 2023-08-28 21:56:24,342 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.324
+!MESSAGE 2023-08-28 21:56:40,324 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.371
+!MESSAGE 2023-08-28 21:56:40,355 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.451
+!MESSAGE 2023-08-28 21:56:40,451 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.451
+!MESSAGE 2023-08-28 21:56:40,451 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.467
+!MESSAGE 2023-08-28 21:56:40,467 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.467
+!MESSAGE 2023-08-28 21:56:40,467 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.499
+!MESSAGE 2023-08-28 21:56:40,499 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.579
+!MESSAGE 2023-08-28 21:56:40,579 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 21:56:40.721
+!MESSAGE 2023-08-28 21:56:40,721 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3588 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.530
+!MESSAGE 2023-08-28 22:34:06,530 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.595
+!MESSAGE 2023-08-28 22:34:06,595 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.686
+!MESSAGE 2023-08-28 22:34:06,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.686
+!MESSAGE 2023-08-28 22:34:06,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.686
+!MESSAGE 2023-08-28 22:34:06,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.686
+!MESSAGE 2023-08-28 22:34:06,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.725
+!MESSAGE 2023-08-28 22:34:06,717 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:06.788
+!MESSAGE 2023-08-28 22:34:06,788 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:16.867
+!MESSAGE 2023-08-28 22:34:16,867 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:16.924
+!MESSAGE 2023-08-28 22:34:16,916 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.048
+!MESSAGE 2023-08-28 22:34:17,048 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.048
+!MESSAGE 2023-08-28 22:34:17,048 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.048
+!MESSAGE 2023-08-28 22:34:17,048 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.048
+!MESSAGE 2023-08-28 22:34:17,048 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.085
+!MESSAGE 2023-08-28 22:34:17,081 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.153
+!MESSAGE 2023-08-28 22:34:17,153 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:34:17.313
+!MESSAGE 2023-08-28 22:34:17,313 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3606 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.549
+!MESSAGE 2023-08-28 22:35:11,549 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.590
+!MESSAGE 2023-08-28 22:35:11,590 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.660
+!MESSAGE 2023-08-28 22:35:11,660 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.668
+!MESSAGE 2023-08-28 22:35:11,660 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.669
+!MESSAGE 2023-08-28 22:35:11,669 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.669
+!MESSAGE 2023-08-28 22:35:11,669 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.701
+!MESSAGE 2023-08-28 22:35:11,701 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:11.762
+!MESSAGE 2023-08-28 22:35:11,762 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:14.781
+!MESSAGE 2023-08-28 22:35:14,781 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:14.812
+!MESSAGE 2023-08-28 22:35:14,812 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.008
+!MESSAGE 2023-08-28 22:35:15,008 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.008
+!MESSAGE 2023-08-28 22:35:15,008 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.008
+!MESSAGE 2023-08-28 22:35:15,008 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.008
+!MESSAGE 2023-08-28 22:35:15,008 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.066
+!MESSAGE 2023-08-28 22:35:15,065 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.126
+!MESSAGE 2023-08-28 22:35:15,126 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:15.211
+!MESSAGE 2023-08-28 22:35:15,211 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3489 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:57.859
+!MESSAGE 2023-08-28 22:35:57,859 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:57.912
+!MESSAGE 2023-08-28 22:35:57,912 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.034
+!MESSAGE 2023-08-28 22:35:58,034 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.034
+!MESSAGE 2023-08-28 22:35:58,034 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.042
+!MESSAGE 2023-08-28 22:35:58,042 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.042
+!MESSAGE 2023-08-28 22:35:58,042 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.073
+!MESSAGE 2023-08-28 22:35:58,073 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:35:58.146
+!MESSAGE 2023-08-28 22:35:58,146 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.369
+!MESSAGE 2023-08-28 22:36:02,369 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.467
+!MESSAGE 2023-08-28 22:36:02,467 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.572
+!MESSAGE 2023-08-28 22:36:02,571 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.572
+!MESSAGE 2023-08-28 22:36:02,572 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.574
+!MESSAGE 2023-08-28 22:36:02,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.575
+!MESSAGE 2023-08-28 22:36:02,575 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.623
+!MESSAGE 2023-08-28 22:36:02,623 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.691
+!MESSAGE 2023-08-28 22:36:02,691 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:02.835
+!MESSAGE 2023-08-28 22:36:02,835 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3354 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:56.817
+!MESSAGE 2023-08-28 22:36:56,817 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:56.914
+!MESSAGE 2023-08-28 22:36:56,914 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.006
+!MESSAGE 2023-08-28 22:36:57,004 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.006
+!MESSAGE 2023-08-28 22:36:57,006 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.006
+!MESSAGE 2023-08-28 22:36:57,006 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.006
+!MESSAGE 2023-08-28 22:36:57,006 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.046
+!MESSAGE 2023-08-28 22:36:57,046 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.117
+!MESSAGE 2023-08-28 22:36:57,117 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:36:57.199
+!MESSAGE 2023-08-28 22:36:57,199 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3457 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:57.919
+!MESSAGE 2023-08-28 22:37:57,919 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:57.980
+!MESSAGE 2023-08-28 22:37:57,980 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.050
+!MESSAGE 2023-08-28 22:37:58,050 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.058
+!MESSAGE 2023-08-28 22:37:58,050 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.059
+!MESSAGE 2023-08-28 22:37:58,059 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.059
+!MESSAGE 2023-08-28 22:37:58,059 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.102
+!MESSAGE 2023-08-28 22:37:58,102 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:37:58.173
+!MESSAGE 2023-08-28 22:37:58,173 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:01.933
+!MESSAGE 2023-08-28 22:38:01,933 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.046
+!MESSAGE 2023-08-28 22:38:02,046 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.136
+!MESSAGE 2023-08-28 22:38:02,136 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.136
+!MESSAGE 2023-08-28 22:38:02,136 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.136
+!MESSAGE 2023-08-28 22:38:02,136 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.136
+!MESSAGE 2023-08-28 22:38:02,136 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.175
+!MESSAGE 2023-08-28 22:38:02,175 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.238
+!MESSAGE 2023-08-28 22:38:02,238 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:02.390
+!MESSAGE 2023-08-28 22:38:02,390 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3977 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.079
+!MESSAGE 2023-08-28 22:38:50,079 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.138
+!MESSAGE 2023-08-28 22:38:50,138 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.219
+!MESSAGE 2023-08-28 22:38:50,219 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.219
+!MESSAGE 2023-08-28 22:38:50,219 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.219
+!MESSAGE 2023-08-28 22:38:50,219 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.219
+!MESSAGE 2023-08-28 22:38:50,219 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.270
+!MESSAGE 2023-08-28 22:38:50,268 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:50.349
+!MESSAGE 2023-08-28 22:38:50,349 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.014
+!MESSAGE 2023-08-28 22:38:53,014 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.106
+!MESSAGE 2023-08-28 22:38:53,106 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.182
+!MESSAGE 2023-08-28 22:38:53,182 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.182
+!MESSAGE 2023-08-28 22:38:53,182 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.182
+!MESSAGE 2023-08-28 22:38:53,182 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.182
+!MESSAGE 2023-08-28 22:38:53,182 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.226
+!MESSAGE 2023-08-28 22:38:53,226 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.300
+!MESSAGE 2023-08-28 22:38:53,300 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:38:53.384
+!MESSAGE 2023-08-28 22:38:53,384 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3650 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.463
+!MESSAGE 2023-08-28 22:39:36,463 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.566
+!MESSAGE 2023-08-28 22:39:36,566 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.650
+!MESSAGE 2023-08-28 22:39:36,650 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.650
+!MESSAGE 2023-08-28 22:39:36,650 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.650
+!MESSAGE 2023-08-28 22:39:36,650 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.650
+!MESSAGE 2023-08-28 22:39:36,650 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.695
+!MESSAGE 2023-08-28 22:39:36,695 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.761
+!MESSAGE 2023-08-28 22:39:36,761 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:39:36.835
+!MESSAGE 2023-08-28 22:39:36,835 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3979 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.322
+!MESSAGE 2023-08-28 22:41:05,322 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.360
+!MESSAGE 2023-08-28 22:41:05,360 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.438
+!MESSAGE 2023-08-28 22:41:05,438 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.438
+!MESSAGE 2023-08-28 22:41:05,438 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.438
+!MESSAGE 2023-08-28 22:41:05,438 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.438
+!MESSAGE 2023-08-28 22:41:05,438 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.469
+!MESSAGE 2023-08-28 22:41:05,469 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:05.539
+!MESSAGE 2023-08-28 22:41:05,539 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.335
+!MESSAGE 2023-08-28 22:41:08,335 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.446
+!MESSAGE 2023-08-28 22:41:08,446 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.574
+!MESSAGE 2023-08-28 22:41:08,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.574
+!MESSAGE 2023-08-28 22:41:08,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.574
+!MESSAGE 2023-08-28 22:41:08,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.574
+!MESSAGE 2023-08-28 22:41:08,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.618
+!MESSAGE 2023-08-28 22:41:08,618 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.687
+!MESSAGE 2023-08-28 22:41:08,687 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:08.776
+!MESSAGE 2023-08-28 22:41:08,776 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3360 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.566
+!MESSAGE 2023-08-28 22:41:40,566 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.675
+!MESSAGE 2023-08-28 22:41:40,675 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.767
+!MESSAGE 2023-08-28 22:41:40,767 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.768
+!MESSAGE 2023-08-28 22:41:40,768 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.768
+!MESSAGE 2023-08-28 22:41:40,768 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.768
+!MESSAGE 2023-08-28 22:41:40,768 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.794
+!MESSAGE 2023-08-28 22:41:40,794 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:40.869
+!MESSAGE 2023-08-28 22:41:40,869 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:41:41.014
+!MESSAGE 2023-08-28 22:41:41,014 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3687 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.484
+!MESSAGE 2023-08-28 22:43:01,484 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.589
+!MESSAGE 2023-08-28 22:43:01,589 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.703
+!MESSAGE 2023-08-28 22:43:01,703 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.703
+!MESSAGE 2023-08-28 22:43:01,703 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.703
+!MESSAGE 2023-08-28 22:43:01,703 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.703
+!MESSAGE 2023-08-28 22:43:01,703 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.747
+!MESSAGE 2023-08-28 22:43:01,747 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:01.834
+!MESSAGE 2023-08-28 22:43:01,834 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-08-28 22:43:01.856
+!MESSAGE 2023-08-28 22:43:01,847 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1774
+Detail Message: Syntax error, insert ";" to complete Statement
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "testDate" has a compile errors, please fix and export again.
+Error Line: 1774
+Detail Message: Syntax error, insert ";" to complete Statement
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:615)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2068)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1448)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:26.858
+!MESSAGE 2023-08-28 22:43:26,858 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:26.919
+!MESSAGE 2023-08-28 22:43:26,919 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.010
+!MESSAGE 2023-08-28 22:43:27,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.010
+!MESSAGE 2023-08-28 22:43:27,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.010
+!MESSAGE 2023-08-28 22:43:27,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.010
+!MESSAGE 2023-08-28 22:43:27,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /PRISE_EN_MAIN_TESTDATE_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.051
+!MESSAGE 2023-08-28 22:43:27,050 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.156
+!MESSAGE 2023-08-28 22:43:27,156 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/PRISE_EN_MAIN_ROUTINES: org.example.prise_en_main.code:routines:7.3.1 with classifier  to /PRISE_EN_MAIN_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-08-28 22:43:27.324
+!MESSAGE 2023-08-28 22:43:27,324 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/PRISE_EN_MAIN/poms/jobs/process/job_test/testdate_0.1/target/classpath.jar; prise_en_main.testdate_0_1.testDate --context=Default --stat_port=3713 %*
+

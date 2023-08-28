@@ -261,6 +261,66 @@ public class testDate implements TalendJob {
 		}
 	}
 
+	public void tFixedFlowInput_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_2_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_1_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_2_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_4_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFixedFlowInput_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
 	public void tFixedFlowInput_2_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
@@ -291,6 +351,14 @@ public class testDate implements TalendJob {
 		tFixedFlowInput_2_onSubJobError(exception, errorComponent, globalMap);
 	}
 
+	public void tFixedFlowInput_1_onSubJobError(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap) throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(), ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
 	public void tFixedFlowInput_2_onSubJobError(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
@@ -299,20 +367,32 @@ public class testDate implements TalendJob {
 
 	}
 
-	public static class testStruct implements routines.system.IPersistableRow<testStruct> {
+	public static class out1Struct implements routines.system.IPersistableRow<out1Struct> {
 		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
 		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
 
-		public java.util.Date stringDate;
+		public java.util.Date inputDate;
 
-		public java.util.Date getStringDate() {
-			return this.stringDate;
+		public java.util.Date getInputDate() {
+			return this.inputDate;
 		}
 
-		public String test;
+		public String year;
 
-		public String getTest() {
-			return this.test;
+		public String getYear() {
+			return this.year;
+		}
+
+		public String moth;
+
+		public String getMoth() {
+			return this.moth;
+		}
+
+		public String day;
+
+		public String getDay() {
+			return this.day;
 		}
 
 		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
@@ -374,9 +454,1820 @@ public class testDate implements TalendJob {
 
 					int length = 0;
 
+					this.inputDate = readDate(dis);
+
+					this.year = readString(dis);
+
+					this.moth = readString(dis);
+
+					this.day = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// java.util.Date
+
+				writeDate(this.inputDate, dos);
+
+				// String
+
+				writeString(this.year, dos);
+
+				// String
+
+				writeString(this.moth, dos);
+
+				// String
+
+				writeString(this.day, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("inputDate=" + String.valueOf(inputDate));
+			sb.append(",year=" + year);
+			sb.append(",moth=" + moth);
+			sb.append(",day=" + day);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(out1Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class out2Struct implements routines.system.IPersistableRow<out2Struct> {
+		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
+		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
+
+		public java.util.Date stringToDate;
+
+		public java.util.Date getStringToDate() {
+			return this.stringToDate;
+		}
+
+		public Integer year;
+
+		public Integer getYear() {
+			return this.year;
+		}
+
+		public Integer moth;
+
+		public Integer getMoth() {
+			return this.moth;
+		}
+
+		public Integer day;
+
+		public Integer getDay() {
+			return this.day;
+		}
+
+		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
+			java.util.Date dateReturn = null;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				dateReturn = null;
+			} else {
+				dateReturn = new Date(dis.readLong());
+			}
+			return dateReturn;
+		}
+
+		private void writeDate(java.util.Date date1, ObjectOutputStream dos) throws IOException {
+			if (date1 == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeLong(date1.getTime());
+			}
+		}
+
+		private Integer readInteger(ObjectInputStream dis) throws IOException {
+			Integer intReturn;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				intReturn = null;
+			} else {
+				intReturn = dis.readInt();
+			}
+			return intReturn;
+		}
+
+		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
+			if (intNum == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeInt(intNum);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_PRISE_EN_MAIN_testDate) {
+
+				try {
+
+					int length = 0;
+
+					this.stringToDate = readDate(dis);
+
+					this.year = readInteger(dis);
+
+					this.moth = readInteger(dis);
+
+					this.day = readInteger(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// java.util.Date
+
+				writeDate(this.stringToDate, dos);
+
+				// Integer
+
+				writeInteger(this.year, dos);
+
+				// Integer
+
+				writeInteger(this.moth, dos);
+
+				// Integer
+
+				writeInteger(this.day, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("stringToDate=" + String.valueOf(stringToDate));
+			sb.append(",year=" + String.valueOf(year));
+			sb.append(",moth=" + String.valueOf(moth));
+			sb.append(",day=" + String.valueOf(day));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(out2Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row3Struct implements routines.system.IPersistableRow<row3Struct> {
+		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
+		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
+
+		public java.util.Date stringToDate;
+
+		public java.util.Date getStringToDate() {
+			return this.stringToDate;
+		}
+
+		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
+			java.util.Date dateReturn = null;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				dateReturn = null;
+			} else {
+				dateReturn = new Date(dis.readLong());
+			}
+			return dateReturn;
+		}
+
+		private void writeDate(java.util.Date date1, ObjectOutputStream dos) throws IOException {
+			if (date1 == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeLong(date1.getTime());
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_PRISE_EN_MAIN_testDate) {
+
+				try {
+
+					int length = 0;
+
+					this.stringToDate = readDate(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// java.util.Date
+
+				writeDate(this.stringToDate, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("stringToDate=" + String.valueOf(stringToDate));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row3Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class isDateStruct implements routines.system.IPersistableRow<isDateStruct> {
+		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
+		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
+
+		public java.util.Date stringToDate;
+
+		public java.util.Date getStringToDate() {
+			return this.stringToDate;
+		}
+
+		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
+			java.util.Date dateReturn = null;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				dateReturn = null;
+			} else {
+				dateReturn = new Date(dis.readLong());
+			}
+			return dateReturn;
+		}
+
+		private void writeDate(java.util.Date date1, ObjectOutputStream dos) throws IOException {
+			if (date1 == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeLong(date1.getTime());
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_PRISE_EN_MAIN_testDate) {
+
+				try {
+
+					int length = 0;
+
+					this.stringToDate = readDate(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// java.util.Date
+
+				writeDate(this.stringToDate, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("stringToDate=" + String.valueOf(stringToDate));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(isDateStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row1Struct implements routines.system.IPersistableRow<row1Struct> {
+		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
+		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
+
+		public String stringDate;
+
+		public String getStringDate() {
+			return this.stringDate;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_PRISE_EN_MAIN_testDate.length) {
+					if (length < 1024 && commonByteArray_PRISE_EN_MAIN_testDate.length == 0) {
+						commonByteArray_PRISE_EN_MAIN_testDate = new byte[1024];
+					} else {
+						commonByteArray_PRISE_EN_MAIN_testDate = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_PRISE_EN_MAIN_testDate, 0, length);
+				strReturn = new String(commonByteArray_PRISE_EN_MAIN_testDate, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_PRISE_EN_MAIN_testDate) {
+
+				try {
+
+					int length = 0;
+
+					this.stringDate = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.stringDate, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("stringDate=" + stringDate);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row1Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFixedFlowInput_1Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFixedFlowInput_1_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception().getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row1Struct row1 = new row1Struct();
+				isDateStruct isDate = new isDateStruct();
+				isDateStruct row3 = isDate;
+				out1Struct out1 = new out1Struct();
+				out2Struct out2 = new out2Struct();
+
+				/**
+				 * [tLogRow_2 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_2", false);
+				start_Hash.put("tLogRow_2", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_2";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "out1");
+				}
+
+				int tos_count_tLogRow_2 = 0;
+
+				///////////////////////
+
+				class Util_tLogRow_2 {
+
+					String[] des_top = { ".", ".", "-", "+" };
+
+					String[] des_head = { "|=", "=|", "-", "+" };
+
+					String[] des_bottom = { "'", "'", "-", "+" };
+
+					String name = "";
+
+					java.util.List<String[]> list = new java.util.ArrayList<String[]>();
+
+					int[] colLengths = new int[4];
+
+					public void addRow(String[] row) {
+
+						for (int i = 0; i < 4; i++) {
+							if (row[i] != null) {
+								colLengths[i] = Math.max(colLengths[i], row[i].length());
+							}
+						}
+						list.add(row);
+					}
+
+					public void setTableName(String name) {
+
+						this.name = name;
+					}
+
+					public StringBuilder format() {
+
+						StringBuilder sb = new StringBuilder();
+
+						sb.append(print(des_top));
+
+						int totals = 0;
+						for (int i = 0; i < colLengths.length; i++) {
+							totals = totals + colLengths[i];
+						}
+
+						// name
+						sb.append("|");
+						int k = 0;
+						for (k = 0; k < (totals + 3 - name.length()) / 2; k++) {
+							sb.append(' ');
+						}
+						sb.append(name);
+						for (int i = 0; i < totals + 3 - name.length() - k; i++) {
+							sb.append(' ');
+						}
+						sb.append("|\n");
+
+						// head and rows
+						sb.append(print(des_head));
+						for (int i = 0; i < list.size(); i++) {
+
+							String[] row = list.get(i);
+
+							java.util.Formatter formatter = new java.util.Formatter(new StringBuilder());
+
+							StringBuilder sbformat = new StringBuilder();
+							sbformat.append("|%1$-");
+							sbformat.append(colLengths[0]);
+							sbformat.append("s");
+
+							sbformat.append("|%2$-");
+							sbformat.append(colLengths[1]);
+							sbformat.append("s");
+
+							sbformat.append("|%3$-");
+							sbformat.append(colLengths[2]);
+							sbformat.append("s");
+
+							sbformat.append("|%4$-");
+							sbformat.append(colLengths[3]);
+							sbformat.append("s");
+
+							sbformat.append("|\n");
+
+							formatter.format(sbformat.toString(), (Object[]) row);
+
+							sb.append(formatter.toString());
+							if (i == 0)
+								sb.append(print(des_head)); // print the head
+						}
+
+						// end
+						sb.append(print(des_bottom));
+						return sb;
+					}
+
+					private StringBuilder print(String[] fillChars) {
+						StringBuilder sb = new StringBuilder();
+						// first column
+						sb.append(fillChars[0]);
+						for (int i = 0; i < colLengths[0] - fillChars[0].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+
+						for (int i = 0; i < colLengths[1] - fillChars[3].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+						for (int i = 0; i < colLengths[2] - fillChars[3].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+
+						// last column
+						for (int i = 0; i < colLengths[3] - fillChars[1].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[1]);
+						sb.append("\n");
+						return sb;
+					}
+
+					public boolean isTableEmpty() {
+						if (list.size() > 1)
+							return false;
+						return true;
+					}
+				}
+				Util_tLogRow_2 util_tLogRow_2 = new Util_tLogRow_2();
+				util_tLogRow_2.setTableName("tLogRow_2");
+				util_tLogRow_2.addRow(new String[] { "inputDate", "year", "moth", "day", });
+				StringBuilder strBuffer_tLogRow_2 = null;
+				int nb_line_tLogRow_2 = 0;
+///////////////////////    			
+
+				/**
+				 * [tLogRow_2 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_4", false);
+				start_Hash.put("tLogRow_4", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_4";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "out2");
+				}
+
+				int tos_count_tLogRow_4 = 0;
+
+				///////////////////////
+
+				class Util_tLogRow_4 {
+
+					String[] des_top = { ".", ".", "-", "+" };
+
+					String[] des_head = { "|=", "=|", "-", "+" };
+
+					String[] des_bottom = { "'", "'", "-", "+" };
+
+					String name = "";
+
+					java.util.List<String[]> list = new java.util.ArrayList<String[]>();
+
+					int[] colLengths = new int[4];
+
+					public void addRow(String[] row) {
+
+						for (int i = 0; i < 4; i++) {
+							if (row[i] != null) {
+								colLengths[i] = Math.max(colLengths[i], row[i].length());
+							}
+						}
+						list.add(row);
+					}
+
+					public void setTableName(String name) {
+
+						this.name = name;
+					}
+
+					public StringBuilder format() {
+
+						StringBuilder sb = new StringBuilder();
+
+						sb.append(print(des_top));
+
+						int totals = 0;
+						for (int i = 0; i < colLengths.length; i++) {
+							totals = totals + colLengths[i];
+						}
+
+						// name
+						sb.append("|");
+						int k = 0;
+						for (k = 0; k < (totals + 3 - name.length()) / 2; k++) {
+							sb.append(' ');
+						}
+						sb.append(name);
+						for (int i = 0; i < totals + 3 - name.length() - k; i++) {
+							sb.append(' ');
+						}
+						sb.append("|\n");
+
+						// head and rows
+						sb.append(print(des_head));
+						for (int i = 0; i < list.size(); i++) {
+
+							String[] row = list.get(i);
+
+							java.util.Formatter formatter = new java.util.Formatter(new StringBuilder());
+
+							StringBuilder sbformat = new StringBuilder();
+							sbformat.append("|%1$-");
+							sbformat.append(colLengths[0]);
+							sbformat.append("s");
+
+							sbformat.append("|%2$-");
+							sbformat.append(colLengths[1]);
+							sbformat.append("s");
+
+							sbformat.append("|%3$-");
+							sbformat.append(colLengths[2]);
+							sbformat.append("s");
+
+							sbformat.append("|%4$-");
+							sbformat.append(colLengths[3]);
+							sbformat.append("s");
+
+							sbformat.append("|\n");
+
+							formatter.format(sbformat.toString(), (Object[]) row);
+
+							sb.append(formatter.toString());
+							if (i == 0)
+								sb.append(print(des_head)); // print the head
+						}
+
+						// end
+						sb.append(print(des_bottom));
+						return sb;
+					}
+
+					private StringBuilder print(String[] fillChars) {
+						StringBuilder sb = new StringBuilder();
+						// first column
+						sb.append(fillChars[0]);
+						for (int i = 0; i < colLengths[0] - fillChars[0].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+
+						for (int i = 0; i < colLengths[1] - fillChars[3].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+						for (int i = 0; i < colLengths[2] - fillChars[3].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[3]);
+
+						// last column
+						for (int i = 0; i < colLengths[3] - fillChars[1].length() + 1; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[1]);
+						sb.append("\n");
+						return sb;
+					}
+
+					public boolean isTableEmpty() {
+						if (list.size() > 1)
+							return false;
+						return true;
+					}
+				}
+				Util_tLogRow_4 util_tLogRow_4 = new Util_tLogRow_4();
+				util_tLogRow_4.setTableName("tLogRow_4");
+				util_tLogRow_4.addRow(new String[] { "stringToDate", "year", "moth", "day", });
+				StringBuilder strBuffer_tLogRow_4 = null;
+				int nb_line_tLogRow_4 = 0;
+///////////////////////    			
+
+				/**
+				 * [tLogRow_4 begin ] stop
+				 */
+
+				/**
+				 * [tMap_1 begin ] start
+				 */
+
+				ok_Hash.put("tMap_1", false);
+				start_Hash.put("tMap_1", System.currentTimeMillis());
+
+				currentComponent = "tMap_1";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row3");
+				}
+
+				int tos_count_tMap_1 = 0;
+
+// ###############################
+// # Lookup's keys initialization
+// ###############################        
+
+// ###############################
+// # Vars initialization
+				class Var__tMap_1__Struct {
+				}
+				Var__tMap_1__Struct Var__tMap_1 = new Var__tMap_1__Struct();
+// ###############################
+
+// ###############################
+// # Outputs initialization
+				out1Struct out1_tmp = new out1Struct();
+				out2Struct out2_tmp = new out2Struct();
+// ###############################
+
+				/**
+				 * [tMap_1 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_1", false);
+				start_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_1";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "isDate");
+				}
+
+				int tos_count_tLogRow_1 = 0;
+
+				///////////////////////
+
+				class Util_tLogRow_1 {
+
+					String[] des_top = { ".", ".", "-", "+" };
+
+					String[] des_head = { "|=", "=|", "-", "+" };
+
+					String[] des_bottom = { "'", "'", "-", "+" };
+
+					String name = "";
+
+					java.util.List<String[]> list = new java.util.ArrayList<String[]>();
+
+					int[] colLengths = new int[1];
+
+					public void addRow(String[] row) {
+
+						for (int i = 0; i < 1; i++) {
+							if (row[i] != null) {
+								colLengths[i] = Math.max(colLengths[i], row[i].length());
+							}
+						}
+						list.add(row);
+					}
+
+					public void setTableName(String name) {
+
+						this.name = name;
+					}
+
+					public StringBuilder format() {
+
+						StringBuilder sb = new StringBuilder();
+
+						sb.append(print(des_top));
+
+						int totals = 0;
+						for (int i = 0; i < colLengths.length; i++) {
+							totals = totals + colLengths[i];
+						}
+
+						// name
+						sb.append("|");
+						int k = 0;
+						for (k = 0; k < (totals + 0 - name.length()) / 2; k++) {
+							sb.append(' ');
+						}
+						sb.append(name);
+						for (int i = 0; i < totals + 0 - name.length() - k; i++) {
+							sb.append(' ');
+						}
+						sb.append("|\n");
+
+						// head and rows
+						sb.append(print(des_head));
+						for (int i = 0; i < list.size(); i++) {
+
+							String[] row = list.get(i);
+
+							java.util.Formatter formatter = new java.util.Formatter(new StringBuilder());
+
+							StringBuilder sbformat = new StringBuilder();
+							sbformat.append("|%1$-");
+							sbformat.append(colLengths[0]);
+							sbformat.append("s");
+
+							sbformat.append("|\n");
+
+							formatter.format(sbformat.toString(), (Object[]) row);
+
+							sb.append(formatter.toString());
+							if (i == 0)
+								sb.append(print(des_head)); // print the head
+						}
+
+						// end
+						sb.append(print(des_bottom));
+						return sb;
+					}
+
+					private StringBuilder print(String[] fillChars) {
+						StringBuilder sb = new StringBuilder();
+						// first column
+						sb.append(fillChars[0]);
+
+						// last column
+						for (int i = 0; i < colLengths[0] - fillChars[0].length() - fillChars[1].length() + 2; i++) {
+							sb.append(fillChars[2]);
+						}
+						sb.append(fillChars[1]);
+						sb.append("\n");
+						return sb;
+					}
+
+					public boolean isTableEmpty() {
+						if (list.size() > 1)
+							return false;
+						return true;
+					}
+				}
+				Util_tLogRow_1 util_tLogRow_1 = new Util_tLogRow_1();
+				util_tLogRow_1.setTableName("tLogRow_1");
+				util_tLogRow_1.addRow(new String[] { "stringToDate", });
+				StringBuilder strBuffer_tLogRow_1 = null;
+				int nb_line_tLogRow_1 = 0;
+///////////////////////    			
+
+				/**
+				 * [tLogRow_1 begin ] stop
+				 */
+
+				/**
+				 * [tMap_2 begin ] start
+				 */
+
+				ok_Hash.put("tMap_2", false);
+				start_Hash.put("tMap_2", System.currentTimeMillis());
+
+				currentComponent = "tMap_2";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row1");
+				}
+
+				int tos_count_tMap_2 = 0;
+
+// ###############################
+// # Lookup's keys initialization
+// ###############################        
+
+// ###############################
+// # Vars initialization
+				class Var__tMap_2__Struct {
+				}
+				Var__tMap_2__Struct Var__tMap_2 = new Var__tMap_2__Struct();
+// ###############################
+
+// ###############################
+// # Outputs initialization
+				isDateStruct isDate_tmp = new isDateStruct();
+// ###############################
+
+				/**
+				 * [tMap_2 begin ] stop
+				 */
+
+				/**
+				 * [tFixedFlowInput_1 begin ] start
+				 */
+
+				ok_Hash.put("tFixedFlowInput_1", false);
+				start_Hash.put("tFixedFlowInput_1", System.currentTimeMillis());
+
+				currentComponent = "tFixedFlowInput_1";
+
+				int tos_count_tFixedFlowInput_1 = 0;
+
+				for (int i_tFixedFlowInput_1 = 0; i_tFixedFlowInput_1 < 1; i_tFixedFlowInput_1++) {
+
+					row1.stringDate = "12-10-2022 15:25:31";
+
+					/**
+					 * [tFixedFlowInput_1 begin ] stop
+					 */
+
+					/**
+					 * [tFixedFlowInput_1 main ] start
+					 */
+
+					currentComponent = "tFixedFlowInput_1";
+
+					tos_count_tFixedFlowInput_1++;
+
+					/**
+					 * [tFixedFlowInput_1 main ] stop
+					 */
+
+					/**
+					 * [tFixedFlowInput_1 process_data_begin ] start
+					 */
+
+					currentComponent = "tFixedFlowInput_1";
+
+					/**
+					 * [tFixedFlowInput_1 process_data_begin ] stop
+					 */
+
+					/**
+					 * [tMap_2 main ] start
+					 */
+
+					currentComponent = "tMap_2";
+
+					if (execStat) {
+						runStat.updateStatOnConnection(iterateId, 1, 1, "row1");
+					}
+
+					boolean hasCasePrimitiveKeyWithNull_tMap_2 = false;
+
+					// ###############################
+					// # Input tables (lookups)
+					boolean rejectedInnerJoin_tMap_2 = false;
+					boolean mainRowRejected_tMap_2 = false;
+
+					// ###############################
+					{ // start of Var scope
+
+						// ###############################
+						// # Vars tables
+
+						Var__tMap_2__Struct Var = Var__tMap_2;// ###############################
+						// ###############################
+						// # Output tables
+
+						isDate = null;
+
+// # Output table : 'isDate'
+						isDate_tmp.stringToDate = TalendDate.parseDate("dd-MM-yyyy HH:mm:ss", row1.stringDate);
+						isDate = isDate_tmp;
+// ###############################
+
+					} // end of Var scope
+
+					rejectedInnerJoin_tMap_2 = false;
+
+					tos_count_tMap_2++;
+
+					/**
+					 * [tMap_2 main ] stop
+					 */
+
+					/**
+					 * [tMap_2 process_data_begin ] start
+					 */
+
+					currentComponent = "tMap_2";
+
+					/**
+					 * [tMap_2 process_data_begin ] stop
+					 */
+// Start of branch "isDate"
+					if (isDate != null) {
+
+						/**
+						 * [tLogRow_1 main ] start
+						 */
+
+						currentComponent = "tLogRow_1";
+
+						if (execStat) {
+							runStat.updateStatOnConnection(iterateId, 1, 1, "isDate");
+						}
+
+///////////////////////		
+
+						String[] row_tLogRow_1 = new String[1];
+
+						if (isDate.stringToDate != null) { //
+							row_tLogRow_1[0] = FormatterUtils.format_Date(isDate.stringToDate, "dd-MM-yyyy HH:mm:ss");
+
+						} //
+
+						util_tLogRow_1.addRow(row_tLogRow_1);
+						nb_line_tLogRow_1++;
+//////
+
+//////                    
+
+///////////////////////    			
+
+						row3 = isDate;
+
+						tos_count_tLogRow_1++;
+
+						/**
+						 * [tLogRow_1 main ] stop
+						 */
+
+						/**
+						 * [tLogRow_1 process_data_begin ] start
+						 */
+
+						currentComponent = "tLogRow_1";
+
+						/**
+						 * [tLogRow_1 process_data_begin ] stop
+						 */
+
+						/**
+						 * [tMap_1 main ] start
+						 */
+
+						currentComponent = "tMap_1";
+
+						if (execStat) {
+							runStat.updateStatOnConnection(iterateId, 1, 1, "row3");
+						}
+
+						boolean hasCasePrimitiveKeyWithNull_tMap_1 = false;
+
+						// ###############################
+						// # Input tables (lookups)
+						boolean rejectedInnerJoin_tMap_1 = false;
+						boolean mainRowRejected_tMap_1 = false;
+
+						// ###############################
+						{ // start of Var scope
+
+							// ###############################
+							// # Vars tables
+
+							Var__tMap_1__Struct Var = Var__tMap_1;// ###############################
+							// ###############################
+							// # Output tables
+
+							out1 = null;
+							out2 = null;
+
+// # Output table : 'out1'
+							out1_tmp.inputDate = row3.stringToDate;
+							out1_tmp.year = TalendDate.formatDate("yyyy", row3.stringToDate);
+							out1_tmp.moth = TalendDate.formatDate("MM", row3.stringToDate);
+							out1_tmp.day = TalendDate.formatDate("dd", row3.stringToDate);
+							out1 = out1_tmp;
+
+// # Output table : 'out2'
+							out2_tmp.stringToDate = row3.stringToDate;
+							out2_tmp.year = TalendDate.getPartOfDate("YEAR", row3.stringToDate);
+							out2_tmp.moth = TalendDate.getPartOfDate("MONTH", row3.stringToDate) + 1;
+							out2_tmp.day = TalendDate.getPartOfDate("DAY_OF_MONTH", row3.stringToDate);
+							out2 = out2_tmp;
+// ###############################
+
+						} // end of Var scope
+
+						rejectedInnerJoin_tMap_1 = false;
+
+						tos_count_tMap_1++;
+
+						/**
+						 * [tMap_1 main ] stop
+						 */
+
+						/**
+						 * [tMap_1 process_data_begin ] start
+						 */
+
+						currentComponent = "tMap_1";
+
+						/**
+						 * [tMap_1 process_data_begin ] stop
+						 */
+// Start of branch "out1"
+						if (out1 != null) {
+
+							/**
+							 * [tLogRow_2 main ] start
+							 */
+
+							currentComponent = "tLogRow_2";
+
+							if (execStat) {
+								runStat.updateStatOnConnection(iterateId, 1, 1, "out1");
+							}
+
+///////////////////////		
+
+							String[] row_tLogRow_2 = new String[4];
+
+							if (out1.inputDate != null) { //
+								row_tLogRow_2[0] = FormatterUtils.format_Date(out1.inputDate, "dd-MM-yyyy HH:mm:ss");
+
+							} //
+
+							if (out1.year != null) { //
+								row_tLogRow_2[1] = String.valueOf(out1.year);
+
+							} //
+
+							if (out1.moth != null) { //
+								row_tLogRow_2[2] = String.valueOf(out1.moth);
+
+							} //
+
+							if (out1.day != null) { //
+								row_tLogRow_2[3] = String.valueOf(out1.day);
+
+							} //
+
+							util_tLogRow_2.addRow(row_tLogRow_2);
+							nb_line_tLogRow_2++;
+//////
+
+//////                    
+
+///////////////////////    			
+
+							tos_count_tLogRow_2++;
+
+							/**
+							 * [tLogRow_2 main ] stop
+							 */
+
+							/**
+							 * [tLogRow_2 process_data_begin ] start
+							 */
+
+							currentComponent = "tLogRow_2";
+
+							/**
+							 * [tLogRow_2 process_data_begin ] stop
+							 */
+
+							/**
+							 * [tLogRow_2 process_data_end ] start
+							 */
+
+							currentComponent = "tLogRow_2";
+
+							/**
+							 * [tLogRow_2 process_data_end ] stop
+							 */
+
+						} // End of branch "out1"
+
+// Start of branch "out2"
+						if (out2 != null) {
+
+							/**
+							 * [tLogRow_4 main ] start
+							 */
+
+							currentComponent = "tLogRow_4";
+
+							if (execStat) {
+								runStat.updateStatOnConnection(iterateId, 1, 1, "out2");
+							}
+
+///////////////////////		
+
+							String[] row_tLogRow_4 = new String[4];
+
+							if (out2.stringToDate != null) { //
+								row_tLogRow_4[0] = FormatterUtils.format_Date(out2.stringToDate, "dd-MM-yyyy HH:mm:ss");
+
+							} //
+
+							if (out2.year != null) { //
+								row_tLogRow_4[1] = String.valueOf(out2.year);
+
+							} //
+
+							if (out2.moth != null) { //
+								row_tLogRow_4[2] = String.valueOf(out2.moth);
+
+							} //
+
+							if (out2.day != null) { //
+								row_tLogRow_4[3] = String.valueOf(out2.day);
+
+							} //
+
+							util_tLogRow_4.addRow(row_tLogRow_4);
+							nb_line_tLogRow_4++;
+//////
+
+//////                    
+
+///////////////////////    			
+
+							tos_count_tLogRow_4++;
+
+							/**
+							 * [tLogRow_4 main ] stop
+							 */
+
+							/**
+							 * [tLogRow_4 process_data_begin ] start
+							 */
+
+							currentComponent = "tLogRow_4";
+
+							/**
+							 * [tLogRow_4 process_data_begin ] stop
+							 */
+
+							/**
+							 * [tLogRow_4 process_data_end ] start
+							 */
+
+							currentComponent = "tLogRow_4";
+
+							/**
+							 * [tLogRow_4 process_data_end ] stop
+							 */
+
+						} // End of branch "out2"
+
+						/**
+						 * [tMap_1 process_data_end ] start
+						 */
+
+						currentComponent = "tMap_1";
+
+						/**
+						 * [tMap_1 process_data_end ] stop
+						 */
+
+						/**
+						 * [tLogRow_1 process_data_end ] start
+						 */
+
+						currentComponent = "tLogRow_1";
+
+						/**
+						 * [tLogRow_1 process_data_end ] stop
+						 */
+
+					} // End of branch "isDate"
+
+					/**
+					 * [tMap_2 process_data_end ] start
+					 */
+
+					currentComponent = "tMap_2";
+
+					/**
+					 * [tMap_2 process_data_end ] stop
+					 */
+
+					/**
+					 * [tFixedFlowInput_1 process_data_end ] start
+					 */
+
+					currentComponent = "tFixedFlowInput_1";
+
+					/**
+					 * [tFixedFlowInput_1 process_data_end ] stop
+					 */
+
+					/**
+					 * [tFixedFlowInput_1 end ] start
+					 */
+
+					currentComponent = "tFixedFlowInput_1";
+
+				}
+				globalMap.put("tFixedFlowInput_1_NB_LINE", 1);
+
+				ok_Hash.put("tFixedFlowInput_1", true);
+				end_Hash.put("tFixedFlowInput_1", System.currentTimeMillis());
+
+				/**
+				 * [tFixedFlowInput_1 end ] stop
+				 */
+
+				/**
+				 * [tMap_2 end ] start
+				 */
+
+				currentComponent = "tMap_2";
+
+// ###############################
+// # Lookup hashes releasing
+// ###############################      
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "row1");
+				}
+
+				ok_Hash.put("tMap_2", true);
+				end_Hash.put("tMap_2", System.currentTimeMillis());
+
+				/**
+				 * [tMap_2 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 end ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+//////
+
+				java.io.PrintStream consoleOut_tLogRow_1 = null;
+				if (globalMap.get("tLogRow_CONSOLE") != null) {
+					consoleOut_tLogRow_1 = (java.io.PrintStream) globalMap.get("tLogRow_CONSOLE");
+				} else {
+					consoleOut_tLogRow_1 = new java.io.PrintStream(new java.io.BufferedOutputStream(System.out));
+					globalMap.put("tLogRow_CONSOLE", consoleOut_tLogRow_1);
+				}
+
+				consoleOut_tLogRow_1.println(util_tLogRow_1.format().toString());
+				consoleOut_tLogRow_1.flush();
+//////
+				globalMap.put("tLogRow_1_NB_LINE", nb_line_tLogRow_1);
+
+///////////////////////    			
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "isDate");
+				}
+
+				ok_Hash.put("tLogRow_1", true);
+				end_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_1 end ] stop
+				 */
+
+				/**
+				 * [tMap_1 end ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+// ###############################
+// # Lookup hashes releasing
+// ###############################      
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "row3");
+				}
+
+				ok_Hash.put("tMap_1", true);
+				end_Hash.put("tMap_1", System.currentTimeMillis());
+
+				/**
+				 * [tMap_1 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_2 end ] start
+				 */
+
+				currentComponent = "tLogRow_2";
+
+//////
+
+				java.io.PrintStream consoleOut_tLogRow_2 = null;
+				if (globalMap.get("tLogRow_CONSOLE") != null) {
+					consoleOut_tLogRow_2 = (java.io.PrintStream) globalMap.get("tLogRow_CONSOLE");
+				} else {
+					consoleOut_tLogRow_2 = new java.io.PrintStream(new java.io.BufferedOutputStream(System.out));
+					globalMap.put("tLogRow_CONSOLE", consoleOut_tLogRow_2);
+				}
+
+				consoleOut_tLogRow_2.println(util_tLogRow_2.format().toString());
+				consoleOut_tLogRow_2.flush();
+//////
+				globalMap.put("tLogRow_2_NB_LINE", nb_line_tLogRow_2);
+
+///////////////////////    			
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "out1");
+				}
+
+				ok_Hash.put("tLogRow_2", true);
+				end_Hash.put("tLogRow_2", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_2 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 end ] start
+				 */
+
+				currentComponent = "tLogRow_4";
+
+//////
+
+				java.io.PrintStream consoleOut_tLogRow_4 = null;
+				if (globalMap.get("tLogRow_CONSOLE") != null) {
+					consoleOut_tLogRow_4 = (java.io.PrintStream) globalMap.get("tLogRow_CONSOLE");
+				} else {
+					consoleOut_tLogRow_4 = new java.io.PrintStream(new java.io.BufferedOutputStream(System.out));
+					globalMap.put("tLogRow_CONSOLE", consoleOut_tLogRow_4);
+				}
+
+				consoleOut_tLogRow_4.println(util_tLogRow_4.format().toString());
+				consoleOut_tLogRow_4.flush();
+//////
+				globalMap.put("tLogRow_4_NB_LINE", nb_line_tLogRow_4);
+
+///////////////////////    			
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "out2");
+				}
+
+				ok_Hash.put("tLogRow_4", true);
+				end_Hash.put("tLogRow_4", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_4 end ] stop
+				 */
+
+			} // end the resume
+
+			if (resumeEntryMethodName == null || globalResumeTicket) {
+				resumeUtil.addLog("CHECKPOINT", "CONNECTION:SUBJOB_OK:tFixedFlowInput_1:OnSubjobOk", "",
+						Thread.currentThread().getId() + "", "", "", "", "", "");
+			}
+
+			if (execStat) {
+				runStat.updateStatOnConnection("OnSubjobOk1", 0, "ok");
+			}
+
+			tFixedFlowInput_2Process(globalMap);
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent, globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFixedFlowInput_1 finally ] start
+				 */
+
+				currentComponent = "tFixedFlowInput_1";
+
+				/**
+				 * [tFixedFlowInput_1 finally ] stop
+				 */
+
+				/**
+				 * [tMap_2 finally ] start
+				 */
+
+				currentComponent = "tMap_2";
+
+				/**
+				 * [tMap_2 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 finally ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+				/**
+				 * [tLogRow_1 finally ] stop
+				 */
+
+				/**
+				 * [tMap_1 finally ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+				/**
+				 * [tMap_1 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_2 finally ] start
+				 */
+
+				currentComponent = "tLogRow_2";
+
+				/**
+				 * [tLogRow_2 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 finally ] start
+				 */
+
+				currentComponent = "tLogRow_4";
+
+				/**
+				 * [tLogRow_4 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFixedFlowInput_1_SUBPROCESS_STATE", 1);
+	}
+
+	public static class testStruct implements routines.system.IPersistableRow<testStruct> {
+		final static byte[] commonByteArrayLock_PRISE_EN_MAIN_testDate = new byte[0];
+		static byte[] commonByteArray_PRISE_EN_MAIN_testDate = new byte[0];
+
+		public java.util.Date stringDate;
+
+		public java.util.Date getStringDate() {
+			return this.stringDate;
+		}
+
+		public java.util.Date test;
+
+		public java.util.Date getTest() {
+			return this.test;
+		}
+
+		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
+			java.util.Date dateReturn = null;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				dateReturn = null;
+			} else {
+				dateReturn = new Date(dis.readLong());
+			}
+			return dateReturn;
+		}
+
+		private void writeDate(java.util.Date date1, ObjectOutputStream dos) throws IOException {
+			if (date1 == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeLong(date1.getTime());
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_PRISE_EN_MAIN_testDate) {
+
+				try {
+
+					int length = 0;
+
 					this.stringDate = readDate(dis);
 
-					this.test = readString(dis);
+					this.test = readDate(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -394,9 +2285,9 @@ public class testDate implements TalendJob {
 
 				writeDate(this.stringDate, dos);
 
-				// String
+				// java.util.Date
 
-				writeString(this.test, dos);
+				writeDate(this.test, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -410,7 +2301,7 @@ public class testDate implements TalendJob {
 			sb.append(super.toString());
 			sb.append("[");
 			sb.append("stringDate=" + String.valueOf(stringDate));
-			sb.append(",test=" + test);
+			sb.append(",test=" + String.valueOf(test));
 			sb.append("]");
 
 			return sb.toString();
@@ -845,7 +2736,7 @@ public class testDate implements TalendJob {
 
 // # Output table : 'test'
 						test_tmp.stringDate = TestConvertionString.stringToString(row2.stringDate);
-						test_tmp.test = TestConvertionString.stringToString(row2.test);
+						test_tmp.test = TalendDate.parseDate("yyyy-MM-dd", row2.test);
 						test = test_tmp;
 // ###############################
 
@@ -891,7 +2782,7 @@ public class testDate implements TalendJob {
 						} //
 
 						if (test.test != null) { //
-							row_tLogRow_3[1] = String.valueOf(test.test);
+							row_tLogRow_3[1] = FormatterUtils.format_Date(test.test, "yyyy-MM-dd");
 
 						} //
 
@@ -1273,14 +3164,14 @@ public class testDate implements TalendJob {
 
 		try {
 			errorCode = null;
-			tFixedFlowInput_2Process(globalMap);
+			tFixedFlowInput_1Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
 			}
-		} catch (TalendException e_tFixedFlowInput_2) {
-			globalMap.put("tFixedFlowInput_2_SUBPROCESS_STATE", -1);
+		} catch (TalendException e_tFixedFlowInput_1) {
+			globalMap.put("tFixedFlowInput_1_SUBPROCESS_STATE", -1);
 
-			e_tFixedFlowInput_2.printStackTrace();
+			e_tFixedFlowInput_1.printStackTrace();
 
 		}
 
@@ -1434,6 +3325,6 @@ public class testDate implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 43602 characters generated by Talend Open Studio for Data Integration on the
- * 3 janvier 2023 22:30:18 CET
+ * 95852 characters generated by Talend Open Studio for Data Integration on the
+ * August 28, 2023 10:43:26 PM CEST
  ************************************************************************************************/

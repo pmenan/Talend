@@ -11,7 +11,7 @@
   <groupId>org.example.prise_en_main.job</groupId>
   <artifactId>testDate</artifactId>
   <version>0.1.0</version>
-  <name>PRISE_EN_MAIN testDate-0.1.0 (0.1,Jobs)</name>
+  <name>PRISE_EN_MAIN testDate-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
