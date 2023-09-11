@@ -604,7 +604,7 @@ public class jOdsTypeClient implements TalendJob {
 		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tDBOutput_2_error(Exception exception, String errorComponent,
+	public void tDBOutput_1_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
@@ -614,7 +614,7 @@ public class jOdsTypeClient implements TalendJob {
 		tFileInputDelimited_1_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tDBOutput_1_error(Exception exception, String errorComponent,
+	public void tDBOutput_2_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
@@ -2585,194 +2585,6 @@ public class jOdsTypeClient implements TalendJob {
 
 	}
 
-	public static class UpdateBLCurrentStruct implements routines.system.IPersistableRow<UpdateBLCurrentStruct> {
-		final static byte[] commonByteArrayLock_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
-		static byte[] commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
-		protected static final int DEFAULT_HASHCODE = 1;
-		protected static final int PRIME = 31;
-		protected int hashCode = DEFAULT_HASHCODE;
-		public boolean hashCodeDirty = true;
-
-		public String loopKey;
-
-		public String CD_TYPE_CLIENT;
-
-		public String getCD_TYPE_CLIENT() {
-			return this.CD_TYPE_CLIENT;
-		}
-
-		public int BL_LIGNE_ACTIVE;
-
-		public int getBL_LIGNE_ACTIVE() {
-			return this.BL_LIGNE_ACTIVE;
-		}
-
-		@Override
-		public int hashCode() {
-			if (this.hashCodeDirty) {
-				final int prime = PRIME;
-				int result = DEFAULT_HASHCODE;
-
-				result = prime * result + ((this.CD_TYPE_CLIENT == null) ? 0 : this.CD_TYPE_CLIENT.hashCode());
-
-				this.hashCode = result;
-				this.hashCodeDirty = false;
-			}
-			return this.hashCode;
-		}
-
-		@Override
-		public boolean equals(Object obj) {
-			if (this == obj)
-				return true;
-			if (obj == null)
-				return false;
-			if (getClass() != obj.getClass())
-				return false;
-			final UpdateBLCurrentStruct other = (UpdateBLCurrentStruct) obj;
-
-			if (this.CD_TYPE_CLIENT == null) {
-				if (other.CD_TYPE_CLIENT != null)
-					return false;
-
-			} else if (!this.CD_TYPE_CLIENT.equals(other.CD_TYPE_CLIENT))
-
-				return false;
-
-			return true;
-		}
-
-		public void copyDataTo(UpdateBLCurrentStruct other) {
-
-			other.CD_TYPE_CLIENT = this.CD_TYPE_CLIENT;
-			other.BL_LIGNE_ACTIVE = this.BL_LIGNE_ACTIVE;
-
-		}
-
-		public void copyKeysDataTo(UpdateBLCurrentStruct other) {
-
-			other.CD_TYPE_CLIENT = this.CD_TYPE_CLIENT;
-
-		}
-
-		private String readString(ObjectInputStream dis) throws IOException {
-			String strReturn = null;
-			int length = 0;
-			length = dis.readInt();
-			if (length == -1) {
-				strReturn = null;
-			} else {
-				if (length > commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient.length) {
-					if (length < 1024 && commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient.length == 0) {
-						commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[1024];
-					} else {
-						commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[2 * length];
-					}
-				}
-				dis.readFully(commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient, 0, length);
-				strReturn = new String(commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient, 0, length, utf8Charset);
-			}
-			return strReturn;
-		}
-
-		private void writeString(String str, ObjectOutputStream dos) throws IOException {
-			if (str == null) {
-				dos.writeInt(-1);
-			} else {
-				byte[] byteArray = str.getBytes(utf8Charset);
-				dos.writeInt(byteArray.length);
-				dos.write(byteArray);
-			}
-		}
-
-		public void readData(ObjectInputStream dis) {
-
-			synchronized (commonByteArrayLock_ICOMMERCE_REPORTING_jOdsTypeClient) {
-
-				try {
-
-					int length = 0;
-
-					this.CD_TYPE_CLIENT = readString(dis);
-
-					this.BL_LIGNE_ACTIVE = dis.readInt();
-
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-
-				}
-
-			}
-
-		}
-
-		public void writeData(ObjectOutputStream dos) {
-			try {
-
-				// String
-
-				writeString(this.CD_TYPE_CLIENT, dos);
-
-				// int
-
-				dos.writeInt(this.BL_LIGNE_ACTIVE);
-
-			} catch (IOException e) {
-				throw new RuntimeException(e);
-			}
-
-		}
-
-		public String toString() {
-
-			StringBuilder sb = new StringBuilder();
-			sb.append(super.toString());
-			sb.append("[");
-			sb.append("CD_TYPE_CLIENT=" + CD_TYPE_CLIENT);
-			sb.append(",BL_LIGNE_ACTIVE=" + String.valueOf(BL_LIGNE_ACTIVE));
-			sb.append("]");
-
-			return sb.toString();
-		}
-
-		/**
-		 * Compare keys
-		 */
-		public int compareTo(UpdateBLCurrentStruct other) {
-
-			int returnValue = -1;
-
-			returnValue = checkNullsAndCompare(this.CD_TYPE_CLIENT, other.CD_TYPE_CLIENT);
-			if (returnValue != 0) {
-				return returnValue;
-			}
-
-			return returnValue;
-		}
-
-		private int checkNullsAndCompare(Object object1, Object object2) {
-			int returnValue = 0;
-			if (object1 instanceof Comparable && object2 instanceof Comparable) {
-				returnValue = ((Comparable) object1).compareTo(object2);
-			} else if (object1 != null && object2 != null) {
-				returnValue = compareStrings(object1.toString(), object2.toString());
-			} else if (object1 == null && object2 != null) {
-				returnValue = 1;
-			} else if (object1 != null && object2 == null) {
-				returnValue = -1;
-			} else {
-				returnValue = 0;
-			}
-
-			return returnValue;
-		}
-
-		private int compareStrings(String string1, String string2) {
-			return string1.compareTo(string2);
-		}
-
-	}
-
 	public static class insertNewValueStruct implements routines.system.IPersistableRow<insertNewValueStruct> {
 		final static byte[] commonByteArrayLock_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
 		static byte[] commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
@@ -3004,6 +2816,194 @@ public class jOdsTypeClient implements TalendJob {
 		 * Compare keys
 		 */
 		public int compareTo(insertNewValueStruct other) {
+
+			int returnValue = -1;
+
+			returnValue = checkNullsAndCompare(this.CD_TYPE_CLIENT, other.CD_TYPE_CLIENT);
+			if (returnValue != 0) {
+				return returnValue;
+			}
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(), object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class UpdateBLCurrentStruct implements routines.system.IPersistableRow<UpdateBLCurrentStruct> {
+		final static byte[] commonByteArrayLock_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
+		static byte[] commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[0];
+		protected static final int DEFAULT_HASHCODE = 1;
+		protected static final int PRIME = 31;
+		protected int hashCode = DEFAULT_HASHCODE;
+		public boolean hashCodeDirty = true;
+
+		public String loopKey;
+
+		public String CD_TYPE_CLIENT;
+
+		public String getCD_TYPE_CLIENT() {
+			return this.CD_TYPE_CLIENT;
+		}
+
+		public int BL_LIGNE_ACTIVE;
+
+		public int getBL_LIGNE_ACTIVE() {
+			return this.BL_LIGNE_ACTIVE;
+		}
+
+		@Override
+		public int hashCode() {
+			if (this.hashCodeDirty) {
+				final int prime = PRIME;
+				int result = DEFAULT_HASHCODE;
+
+				result = prime * result + ((this.CD_TYPE_CLIENT == null) ? 0 : this.CD_TYPE_CLIENT.hashCode());
+
+				this.hashCode = result;
+				this.hashCodeDirty = false;
+			}
+			return this.hashCode;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			final UpdateBLCurrentStruct other = (UpdateBLCurrentStruct) obj;
+
+			if (this.CD_TYPE_CLIENT == null) {
+				if (other.CD_TYPE_CLIENT != null)
+					return false;
+
+			} else if (!this.CD_TYPE_CLIENT.equals(other.CD_TYPE_CLIENT))
+
+				return false;
+
+			return true;
+		}
+
+		public void copyDataTo(UpdateBLCurrentStruct other) {
+
+			other.CD_TYPE_CLIENT = this.CD_TYPE_CLIENT;
+			other.BL_LIGNE_ACTIVE = this.BL_LIGNE_ACTIVE;
+
+		}
+
+		public void copyKeysDataTo(UpdateBLCurrentStruct other) {
+
+			other.CD_TYPE_CLIENT = this.CD_TYPE_CLIENT;
+
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient.length) {
+					if (length < 1024 && commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient.length == 0) {
+						commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[1024];
+					} else {
+						commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient, 0, length);
+				strReturn = new String(commonByteArray_ICOMMERCE_REPORTING_jOdsTypeClient, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_ICOMMERCE_REPORTING_jOdsTypeClient) {
+
+				try {
+
+					int length = 0;
+
+					this.CD_TYPE_CLIENT = readString(dis);
+
+					this.BL_LIGNE_ACTIVE = dis.readInt();
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.CD_TYPE_CLIENT, dos);
+
+				// int
+
+				dos.writeInt(this.BL_LIGNE_ACTIVE);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("CD_TYPE_CLIENT=" + CD_TYPE_CLIENT);
+			sb.append(",BL_LIGNE_ACTIVE=" + String.valueOf(BL_LIGNE_ACTIVE));
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(UpdateBLCurrentStruct other) {
 
 			int returnValue = -1;
 
@@ -4580,13 +4580,70 @@ public class jOdsTypeClient implements TalendJob {
 				out1Struct row2 = out1;
 				row3Struct row3 = new row3Struct();
 				row4Struct row4 = new row4Struct();
-				UpdateBLCurrentStruct UpdateBLCurrent = new UpdateBLCurrentStruct();
 				insertNewValueStruct insertNewValue = new insertNewValueStruct();
+				UpdateBLCurrentStruct UpdateBLCurrent = new UpdateBLCurrentStruct();
 				updateExistingStruct updateExisting = new updateExistingStruct();
 				row7Struct row7 = new row7Struct();
 				DuplicatesValuesStruct DuplicatesValues = new DuplicatesValuesStruct();
 				row6Struct row6 = new row6Struct();
 				rejectNullValueStruct rejectNullValue = new rejectNullValueStruct();
+
+				/**
+				 * [tDBOutput_1 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_1", false);
+				start_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_1";
+
+				if (execStat) {
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "insertNewValue");
+				}
+
+				int tos_count_tDBOutput_1 = 0;
+
+				String dbschema_tDBOutput_1 = null;
+				dbschema_tDBOutput_1 = (String) globalMap.get("schema_" + "tDBConnection_1");
+
+				String tableName_tDBOutput_1 = null;
+				if (dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0) {
+					tableName_tDBOutput_1 = ("ODS_TYPE_CLIENT");
+				} else {
+					tableName_tDBOutput_1 = dbschema_tDBOutput_1 + "\".\"" + ("ODS_TYPE_CLIENT");
+				}
+
+				int nb_line_tDBOutput_1 = 0;
+				int nb_line_update_tDBOutput_1 = 0;
+				int nb_line_inserted_tDBOutput_1 = 0;
+				int nb_line_deleted_tDBOutput_1 = 0;
+				int nb_line_rejected_tDBOutput_1 = 0;
+
+				int deletedCount_tDBOutput_1 = 0;
+				int updatedCount_tDBOutput_1 = 0;
+				int insertedCount_tDBOutput_1 = 0;
+				int rejectedCount_tDBOutput_1 = 0;
+
+				boolean whetherReject_tDBOutput_1 = false;
+
+				java.sql.Connection conn_tDBOutput_1 = null;
+				String dbUser_tDBOutput_1 = null;
+
+				conn_tDBOutput_1 = (java.sql.Connection) globalMap.get("conn_tDBConnection_1");
+
+				int batchSize_tDBOutput_1 = 10000;
+				int batchSizeCounter_tDBOutput_1 = 0;
+
+				int count_tDBOutput_1 = 0;
+				String insert_tDBOutput_1 = "INSERT INTO \"" + tableName_tDBOutput_1
+						+ "\" (\"CD_TYPE_CLIENT\",\"LB_TYPE_CLIENT\",\"LB_NOM_FICHIER\",\"DT_INSERTION\",\"BL_LIGNE_ACTIVE\",\"LB_JOB_NAME\") VALUES (?,?,?,?,?,?)";
+
+				java.sql.PreparedStatement pstmt_tDBOutput_1 = conn_tDBOutput_1.prepareStatement(insert_tDBOutput_1);
+				resourceMap.put("pstmt_tDBOutput_1", pstmt_tDBOutput_1);
+
+				/**
+				 * [tDBOutput_1 begin ] stop
+				 */
 
 				/**
 				 * [tDBOutput_2 begin ] start
@@ -4646,63 +4703,6 @@ public class jOdsTypeClient implements TalendJob {
 
 				/**
 				 * [tDBOutput_2 begin ] stop
-				 */
-
-				/**
-				 * [tDBOutput_1 begin ] start
-				 */
-
-				ok_Hash.put("tDBOutput_1", false);
-				start_Hash.put("tDBOutput_1", System.currentTimeMillis());
-
-				currentComponent = "tDBOutput_1";
-
-				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "insertNewValue");
-				}
-
-				int tos_count_tDBOutput_1 = 0;
-
-				String dbschema_tDBOutput_1 = null;
-				dbschema_tDBOutput_1 = (String) globalMap.get("schema_" + "tDBConnection_1");
-
-				String tableName_tDBOutput_1 = null;
-				if (dbschema_tDBOutput_1 == null || dbschema_tDBOutput_1.trim().length() == 0) {
-					tableName_tDBOutput_1 = ("ODS_TYPE_CLIENT");
-				} else {
-					tableName_tDBOutput_1 = dbschema_tDBOutput_1 + "\".\"" + ("ODS_TYPE_CLIENT");
-				}
-
-				int nb_line_tDBOutput_1 = 0;
-				int nb_line_update_tDBOutput_1 = 0;
-				int nb_line_inserted_tDBOutput_1 = 0;
-				int nb_line_deleted_tDBOutput_1 = 0;
-				int nb_line_rejected_tDBOutput_1 = 0;
-
-				int deletedCount_tDBOutput_1 = 0;
-				int updatedCount_tDBOutput_1 = 0;
-				int insertedCount_tDBOutput_1 = 0;
-				int rejectedCount_tDBOutput_1 = 0;
-
-				boolean whetherReject_tDBOutput_1 = false;
-
-				java.sql.Connection conn_tDBOutput_1 = null;
-				String dbUser_tDBOutput_1 = null;
-
-				conn_tDBOutput_1 = (java.sql.Connection) globalMap.get("conn_tDBConnection_1");
-
-				int batchSize_tDBOutput_1 = 10000;
-				int batchSizeCounter_tDBOutput_1 = 0;
-
-				int count_tDBOutput_1 = 0;
-				String insert_tDBOutput_1 = "INSERT INTO \"" + tableName_tDBOutput_1
-						+ "\" (\"CD_TYPE_CLIENT\",\"LB_TYPE_CLIENT\",\"LB_NOM_FICHIER\",\"DT_INSERTION\",\"BL_LIGNE_ACTIVE\",\"LB_JOB_NAME\") VALUES (?,?,?,?,?,?)";
-
-				java.sql.PreparedStatement pstmt_tDBOutput_1 = conn_tDBOutput_1.prepareStatement(insert_tDBOutput_1);
-				resourceMap.put("pstmt_tDBOutput_1", pstmt_tDBOutput_1);
-
-				/**
-				 * [tDBOutput_1 begin ] stop
 				 */
 
 				/**
@@ -5639,101 +5639,6 @@ public class jOdsTypeClient implements TalendJob {
 										/**
 										 * [tMap_1 process_data_begin ] stop
 										 */
-// Start of branch "UpdateBLCurrent"
-										if (UpdateBLCurrent != null) {
-
-											/**
-											 * [tDBOutput_2 main ] start
-											 */
-
-											currentComponent = "tDBOutput_2";
-
-											if (execStat) {
-												runStat.updateStatOnConnection(iterateId, 1, 1, "UpdateBLCurrent");
-											}
-
-											whetherReject_tDBOutput_2 = false;
-											pstmt_tDBOutput_2.setInt(1, UpdateBLCurrent.BL_LIGNE_ACTIVE);
-
-											if (UpdateBLCurrent.CD_TYPE_CLIENT == null) {
-												pstmt_tDBOutput_2.setNull(2 + count_tDBOutput_2,
-														java.sql.Types.VARCHAR);
-											} else {
-												pstmt_tDBOutput_2.setString(2 + count_tDBOutput_2,
-														UpdateBLCurrent.CD_TYPE_CLIENT);
-											}
-
-											pstmt_tDBOutput_2.addBatch();
-											nb_line_tDBOutput_2++;
-
-											batchSizeCounter_tDBOutput_2++;
-
-											if ((batchSize_tDBOutput_2 > 0)
-													&& (batchSize_tDBOutput_2 <= batchSizeCounter_tDBOutput_2)) {
-												try {
-													int countSum_tDBOutput_2 = 0;
-
-													for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2.executeBatch()) {
-														countSum_tDBOutput_2 += (countEach_tDBOutput_2 < 0 ? 0
-																: countEach_tDBOutput_2);
-													}
-
-													updatedCount_tDBOutput_2 += countSum_tDBOutput_2;
-
-													batchSizeCounter_tDBOutput_2 = 0;
-												} catch (java.sql.BatchUpdateException e_tDBOutput_2) {
-													java.sql.SQLException ne_tDBOutput_2 = e_tDBOutput_2
-															.getNextException(), sqle_tDBOutput_2 = null;
-													String errormessage_tDBOutput_2;
-													if (ne_tDBOutput_2 != null) {
-														// build new exception to provide the original cause
-														sqle_tDBOutput_2 = new java.sql.SQLException(
-																e_tDBOutput_2.getMessage() + "\ncaused by: "
-																		+ ne_tDBOutput_2.getMessage(),
-																ne_tDBOutput_2.getSQLState(),
-																ne_tDBOutput_2.getErrorCode(), ne_tDBOutput_2);
-														errormessage_tDBOutput_2 = sqle_tDBOutput_2.getMessage();
-													} else {
-														errormessage_tDBOutput_2 = e_tDBOutput_2.getMessage();
-													}
-
-													if (ne_tDBOutput_2 != null) {
-														throw (sqle_tDBOutput_2);
-													} else {
-														throw (e_tDBOutput_2);
-													}
-
-												}
-											}
-
-											tos_count_tDBOutput_2++;
-
-											/**
-											 * [tDBOutput_2 main ] stop
-											 */
-
-											/**
-											 * [tDBOutput_2 process_data_begin ] start
-											 */
-
-											currentComponent = "tDBOutput_2";
-
-											/**
-											 * [tDBOutput_2 process_data_begin ] stop
-											 */
-
-											/**
-											 * [tDBOutput_2 process_data_end ] start
-											 */
-
-											currentComponent = "tDBOutput_2";
-
-											/**
-											 * [tDBOutput_2 process_data_end ] stop
-											 */
-
-										} // End of branch "UpdateBLCurrent"
-
 // Start of branch "insertNewValue"
 										if (insertNewValue != null) {
 
@@ -5851,6 +5756,101 @@ public class jOdsTypeClient implements TalendJob {
 											 */
 
 										} // End of branch "insertNewValue"
+
+// Start of branch "UpdateBLCurrent"
+										if (UpdateBLCurrent != null) {
+
+											/**
+											 * [tDBOutput_2 main ] start
+											 */
+
+											currentComponent = "tDBOutput_2";
+
+											if (execStat) {
+												runStat.updateStatOnConnection(iterateId, 1, 1, "UpdateBLCurrent");
+											}
+
+											whetherReject_tDBOutput_2 = false;
+											pstmt_tDBOutput_2.setInt(1, UpdateBLCurrent.BL_LIGNE_ACTIVE);
+
+											if (UpdateBLCurrent.CD_TYPE_CLIENT == null) {
+												pstmt_tDBOutput_2.setNull(2 + count_tDBOutput_2,
+														java.sql.Types.VARCHAR);
+											} else {
+												pstmt_tDBOutput_2.setString(2 + count_tDBOutput_2,
+														UpdateBLCurrent.CD_TYPE_CLIENT);
+											}
+
+											pstmt_tDBOutput_2.addBatch();
+											nb_line_tDBOutput_2++;
+
+											batchSizeCounter_tDBOutput_2++;
+
+											if ((batchSize_tDBOutput_2 > 0)
+													&& (batchSize_tDBOutput_2 <= batchSizeCounter_tDBOutput_2)) {
+												try {
+													int countSum_tDBOutput_2 = 0;
+
+													for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2.executeBatch()) {
+														countSum_tDBOutput_2 += (countEach_tDBOutput_2 < 0 ? 0
+																: countEach_tDBOutput_2);
+													}
+
+													updatedCount_tDBOutput_2 += countSum_tDBOutput_2;
+
+													batchSizeCounter_tDBOutput_2 = 0;
+												} catch (java.sql.BatchUpdateException e_tDBOutput_2) {
+													java.sql.SQLException ne_tDBOutput_2 = e_tDBOutput_2
+															.getNextException(), sqle_tDBOutput_2 = null;
+													String errormessage_tDBOutput_2;
+													if (ne_tDBOutput_2 != null) {
+														// build new exception to provide the original cause
+														sqle_tDBOutput_2 = new java.sql.SQLException(
+																e_tDBOutput_2.getMessage() + "\ncaused by: "
+																		+ ne_tDBOutput_2.getMessage(),
+																ne_tDBOutput_2.getSQLState(),
+																ne_tDBOutput_2.getErrorCode(), ne_tDBOutput_2);
+														errormessage_tDBOutput_2 = sqle_tDBOutput_2.getMessage();
+													} else {
+														errormessage_tDBOutput_2 = e_tDBOutput_2.getMessage();
+													}
+
+													if (ne_tDBOutput_2 != null) {
+														throw (sqle_tDBOutput_2);
+													} else {
+														throw (e_tDBOutput_2);
+													}
+
+												}
+											}
+
+											tos_count_tDBOutput_2++;
+
+											/**
+											 * [tDBOutput_2 main ] stop
+											 */
+
+											/**
+											 * [tDBOutput_2 process_data_begin ] start
+											 */
+
+											currentComponent = "tDBOutput_2";
+
+											/**
+											 * [tDBOutput_2 process_data_begin ] stop
+											 */
+
+											/**
+											 * [tDBOutput_2 process_data_end ] start
+											 */
+
+											currentComponent = "tDBOutput_2";
+
+											/**
+											 * [tDBOutput_2 process_data_end ] stop
+											 */
+
+										} // End of branch "UpdateBLCurrent"
 
 // Start of branch "updateExisting"
 										if (updateExisting != null) {
@@ -6644,74 +6644,6 @@ public class jOdsTypeClient implements TalendJob {
 				 */
 
 				/**
-				 * [tDBOutput_2 end ] start
-				 */
-
-				currentComponent = "tDBOutput_2";
-
-				try {
-					int countSum_tDBOutput_2 = 0;
-					if (pstmt_tDBOutput_2 != null && batchSizeCounter_tDBOutput_2 > 0) {
-
-						for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2.executeBatch()) {
-							countSum_tDBOutput_2 += (countEach_tDBOutput_2 < 0 ? 0 : countEach_tDBOutput_2);
-						}
-
-					}
-
-					updatedCount_tDBOutput_2 += countSum_tDBOutput_2;
-
-				} catch (java.sql.BatchUpdateException e_tDBOutput_2) {
-					java.sql.SQLException ne_tDBOutput_2 = e_tDBOutput_2.getNextException(), sqle_tDBOutput_2 = null;
-					String errormessage_tDBOutput_2;
-					if (ne_tDBOutput_2 != null) {
-						// build new exception to provide the original cause
-						sqle_tDBOutput_2 = new java.sql.SQLException(
-								e_tDBOutput_2.getMessage() + "\ncaused by: " + ne_tDBOutput_2.getMessage(),
-								ne_tDBOutput_2.getSQLState(), ne_tDBOutput_2.getErrorCode(), ne_tDBOutput_2);
-						errormessage_tDBOutput_2 = sqle_tDBOutput_2.getMessage();
-					} else {
-						errormessage_tDBOutput_2 = e_tDBOutput_2.getMessage();
-					}
-
-					if (ne_tDBOutput_2 != null) {
-						throw (sqle_tDBOutput_2);
-					} else {
-						throw (e_tDBOutput_2);
-					}
-
-				}
-
-				if (pstmt_tDBOutput_2 != null) {
-
-					pstmt_tDBOutput_2.close();
-					resourceMap.remove("pstmt_tDBOutput_2");
-				}
-				resourceMap.put("statementClosed_tDBOutput_2", true);
-
-				nb_line_deleted_tDBOutput_2 = nb_line_deleted_tDBOutput_2 + deletedCount_tDBOutput_2;
-				nb_line_update_tDBOutput_2 = nb_line_update_tDBOutput_2 + updatedCount_tDBOutput_2;
-				nb_line_inserted_tDBOutput_2 = nb_line_inserted_tDBOutput_2 + insertedCount_tDBOutput_2;
-				nb_line_rejected_tDBOutput_2 = nb_line_rejected_tDBOutput_2 + rejectedCount_tDBOutput_2;
-
-				globalMap.put("tDBOutput_2_NB_LINE", nb_line_tDBOutput_2);
-				globalMap.put("tDBOutput_2_NB_LINE_UPDATED", nb_line_update_tDBOutput_2);
-				globalMap.put("tDBOutput_2_NB_LINE_INSERTED", nb_line_inserted_tDBOutput_2);
-				globalMap.put("tDBOutput_2_NB_LINE_DELETED", nb_line_deleted_tDBOutput_2);
-				globalMap.put("tDBOutput_2_NB_LINE_REJECTED", nb_line_rejected_tDBOutput_2);
-
-				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "UpdateBLCurrent");
-				}
-
-				ok_Hash.put("tDBOutput_2", true);
-				end_Hash.put("tDBOutput_2", System.currentTimeMillis());
-
-				/**
-				 * [tDBOutput_2 end ] stop
-				 */
-
-				/**
 				 * [tDBOutput_1 end ] start
 				 */
 
@@ -6777,6 +6709,74 @@ public class jOdsTypeClient implements TalendJob {
 
 				/**
 				 * [tDBOutput_1 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_2 end ] start
+				 */
+
+				currentComponent = "tDBOutput_2";
+
+				try {
+					int countSum_tDBOutput_2 = 0;
+					if (pstmt_tDBOutput_2 != null && batchSizeCounter_tDBOutput_2 > 0) {
+
+						for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2.executeBatch()) {
+							countSum_tDBOutput_2 += (countEach_tDBOutput_2 < 0 ? 0 : countEach_tDBOutput_2);
+						}
+
+					}
+
+					updatedCount_tDBOutput_2 += countSum_tDBOutput_2;
+
+				} catch (java.sql.BatchUpdateException e_tDBOutput_2) {
+					java.sql.SQLException ne_tDBOutput_2 = e_tDBOutput_2.getNextException(), sqle_tDBOutput_2 = null;
+					String errormessage_tDBOutput_2;
+					if (ne_tDBOutput_2 != null) {
+						// build new exception to provide the original cause
+						sqle_tDBOutput_2 = new java.sql.SQLException(
+								e_tDBOutput_2.getMessage() + "\ncaused by: " + ne_tDBOutput_2.getMessage(),
+								ne_tDBOutput_2.getSQLState(), ne_tDBOutput_2.getErrorCode(), ne_tDBOutput_2);
+						errormessage_tDBOutput_2 = sqle_tDBOutput_2.getMessage();
+					} else {
+						errormessage_tDBOutput_2 = e_tDBOutput_2.getMessage();
+					}
+
+					if (ne_tDBOutput_2 != null) {
+						throw (sqle_tDBOutput_2);
+					} else {
+						throw (e_tDBOutput_2);
+					}
+
+				}
+
+				if (pstmt_tDBOutput_2 != null) {
+
+					pstmt_tDBOutput_2.close();
+					resourceMap.remove("pstmt_tDBOutput_2");
+				}
+				resourceMap.put("statementClosed_tDBOutput_2", true);
+
+				nb_line_deleted_tDBOutput_2 = nb_line_deleted_tDBOutput_2 + deletedCount_tDBOutput_2;
+				nb_line_update_tDBOutput_2 = nb_line_update_tDBOutput_2 + updatedCount_tDBOutput_2;
+				nb_line_inserted_tDBOutput_2 = nb_line_inserted_tDBOutput_2 + insertedCount_tDBOutput_2;
+				nb_line_rejected_tDBOutput_2 = nb_line_rejected_tDBOutput_2 + rejectedCount_tDBOutput_2;
+
+				globalMap.put("tDBOutput_2_NB_LINE", nb_line_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_UPDATED", nb_line_update_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_INSERTED", nb_line_inserted_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_DELETED", nb_line_deleted_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_REJECTED", nb_line_rejected_tDBOutput_2);
+
+				if (execStat) {
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "UpdateBLCurrent");
+				}
+
+				ok_Hash.put("tDBOutput_2", true);
+				end_Hash.put("tDBOutput_2", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_2 end ] stop
 				 */
 
 				/**
@@ -7117,24 +7117,6 @@ public class jOdsTypeClient implements TalendJob {
 				 */
 
 				/**
-				 * [tDBOutput_2 finally ] start
-				 */
-
-				currentComponent = "tDBOutput_2";
-
-				if (resourceMap.get("statementClosed_tDBOutput_2") == null) {
-					java.sql.PreparedStatement pstmtToClose_tDBOutput_2 = null;
-					if ((pstmtToClose_tDBOutput_2 = (java.sql.PreparedStatement) resourceMap
-							.remove("pstmt_tDBOutput_2")) != null) {
-						pstmtToClose_tDBOutput_2.close();
-					}
-				}
-
-				/**
-				 * [tDBOutput_2 finally ] stop
-				 */
-
-				/**
 				 * [tDBOutput_1 finally ] start
 				 */
 
@@ -7150,6 +7132,24 @@ public class jOdsTypeClient implements TalendJob {
 
 				/**
 				 * [tDBOutput_1 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_2 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_2";
+
+				if (resourceMap.get("statementClosed_tDBOutput_2") == null) {
+					java.sql.PreparedStatement pstmtToClose_tDBOutput_2 = null;
+					if ((pstmtToClose_tDBOutput_2 = (java.sql.PreparedStatement) resourceMap
+							.remove("pstmt_tDBOutput_2")) != null) {
+						pstmtToClose_tDBOutput_2.close();
+					}
+				}
+
+				/**
+				 * [tDBOutput_2 finally ] stop
 				 */
 
 				/**
@@ -7600,7 +7600,7 @@ public class jOdsTypeClient implements TalendJob {
 				// outputs:(row5,row5) | target node:tAdvancedHash_row5 - inputs:(row5)
 				// outputs:()
 				// linked node: tMap_1 - inputs:(row4,row5)
-				// outputs:(UpdateBLCurrent,insertNewValue,updateExisting)
+				// outputs:(insertNewValue,UpdateBLCurrent,updateExisting)
 
 				org.talend.designer.components.lookup.common.ICommonLookup.MATCHING_MODE matchingModeEnum_row5 = org.talend.designer.components.lookup.common.ICommonLookup.MATCHING_MODE.UNIQUE_MATCH;
 
@@ -11758,5 +11758,5 @@ public class jOdsTypeClient implements TalendJob {
 }
 /************************************************************************************************
  * 349858 characters generated by Talend Open Studio for Data Integration on the
- * August 27, 2023 3:57:12 PM CEST
+ * September 11, 2023 3:00:53 PM CEST
  ************************************************************************************************/

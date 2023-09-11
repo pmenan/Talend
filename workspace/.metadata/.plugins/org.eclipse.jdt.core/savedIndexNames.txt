@@ -1,7 +1,1 @@
 INDEX VERSION 1.131+D:\git_repo\Talend\workspace\.metadata\.plugins\org.eclipse.jdt.core
-1242787514.index
-2372338927.index
-2819687125.index
-83550890.index
-2427313103.index
-776695350.index

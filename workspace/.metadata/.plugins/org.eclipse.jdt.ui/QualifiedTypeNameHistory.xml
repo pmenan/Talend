@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="javax.management.relation.Relation"/>
 <fullyQualifiedTypeName name="routines.Relational"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="sun.security.krb5.internal.SeqNumber"/>
 </qualifiedTypeNameHistroy>
