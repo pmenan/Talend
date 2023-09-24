@@ -11448,3 +11448,2200 @@ There may be some other errors caused by JVM compatibility. Make sure your JVM s
 
 !ENTRY org.eclipse.core.resources 2 10035 2023-09-11 15:17:25.334
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-09-18 21:29:47.072 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-09-18 21:29:48.122
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-09-18 21:29:48.126
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-18 21:29:51.948
+!MESSAGE 2023-09-18 21:29:51,948 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-18 21:29:52.387
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-18 21:29:57.042
+!MESSAGE 2023-09-18 21:29:57,041 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-18 21:48:58.981
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-09-24 19:20:14.337 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-09-24 19:20:15.181
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-09-24 19:20:15.197
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:18.840
+!MESSAGE 2023-09-24 19:20:18,835 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-24 19:20:19.329
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:25.895
+!MESSAGE 2023-09-24 19:20:25,895 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-09-24 19:20:47.522
+!MESSAGE 2023-09-24 19:20:47,522 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:52.493
+!MESSAGE 2023-09-24 19:20:52,493 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:52.493
+!MESSAGE 2023-09-24 19:20:52,493 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java overlaps with sources folder /ICOMMERCE_REPORTING_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:52.493
+!MESSAGE 2023-09-24 19:20:52,493 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:52.493
+!MESSAGE 2023-09-24 19:20:52,493 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:55.054
+!MESSAGE 2023-09-24 19:20:55,054 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - D:\git_repo\Talend\workspace\ICOMMERCE_REPORTING\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:55.094
+!MESSAGE 2023-09-24 19:20:55,054 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:57.540
+!MESSAGE 2023-09-24 19:20:57,540 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on ICOMMERCE_REPORTING
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:20:58.347
+!MESSAGE 2023-09-24 19:20:58,347 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-09-24 19:21:11.468
+!MESSAGE 2023-09-24 19:21:11,468 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-09-24 19:21:11.483
+!MESSAGE 2023-09-24 19:21:11,483 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:22:02.427
+!MESSAGE 2023-09-24 19:22:02,427 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:22:02.543
+!MESSAGE 2023-09-24 19:22:02,542 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:22:02.544
+!MESSAGE 2023-09-24 19:22:02,543 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:22:02.553
+!MESSAGE 2023-09-24 19:22:02,551 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:22:02.554
+!MESSAGE 2023-09-24 19:22:02,553 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:09.952
+!MESSAGE 2023-09-24 19:28:09,952 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.027
+!MESSAGE 2023-09-24 19:28:10,027 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.162
+!MESSAGE 2023-09-24 19:28:10,162 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.164
+!MESSAGE 2023-09-24 19:28:10,163 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.166
+!MESSAGE 2023-09-24 19:28:10,165 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.166
+!MESSAGE 2023-09-24 19:28:10,166 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.229
+!MESSAGE 2023-09-24 19:28:10,229 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:28:10.382
+!MESSAGE 2023-09-24 19:28:10,381 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:28:10.472
+!MESSAGE 2023-09-24 19:28:10,472 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:27.931
+!MESSAGE 2023-09-24 19:30:27,931 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.000
+!MESSAGE 2023-09-24 19:30:28,000 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.063
+!MESSAGE 2023-09-24 19:30:28,063 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.063
+!MESSAGE 2023-09-24 19:30:28,063 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.078
+!MESSAGE 2023-09-24 19:30:28,078 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.078
+!MESSAGE 2023-09-24 19:30:28,078 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.130
+!MESSAGE 2023-09-24 19:30:28,124 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:30:28.199
+!MESSAGE 2023-09-24 19:30:28,199 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:30:28.222
+!MESSAGE 2023-09-24 19:30:28,222 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1119
+Detail Message: myList cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1119
+Detail Message: myList cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.467
+!MESSAGE 2023-09-24 19:31:05,467 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.530
+!MESSAGE 2023-09-24 19:31:05,530 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.610
+!MESSAGE 2023-09-24 19:31:05,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.610
+!MESSAGE 2023-09-24 19:31:05,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.610
+!MESSAGE 2023-09-24 19:31:05,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.610
+!MESSAGE 2023-09-24 19:31:05,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.660
+!MESSAGE 2023-09-24 19:31:05,660 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:05.730
+!MESSAGE 2023-09-24 19:31:05,730 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:31:05.762
+!MESSAGE 2023-09-24 19:31:05,746 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1102
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1102
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.588
+!MESSAGE 2023-09-24 19:31:26,587 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.652
+!MESSAGE 2023-09-24 19:31:26,652 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.763
+!MESSAGE 2023-09-24 19:31:26,763 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.763
+!MESSAGE 2023-09-24 19:31:26,763 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.763
+!MESSAGE 2023-09-24 19:31:26,763 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.772
+!MESSAGE 2023-09-24 19:31:26,763 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.814
+!MESSAGE 2023-09-24 19:31:26,814 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:31:26.895
+!MESSAGE 2023-09-24 19:31:26,895 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:31:26.908
+!MESSAGE 2023-09-24 19:31:26,908 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1117
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1117
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.397
+!MESSAGE 2023-09-24 19:32:22,397 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.471
+!MESSAGE 2023-09-24 19:32:22,471 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.533
+!MESSAGE 2023-09-24 19:32:22,533 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.533
+!MESSAGE 2023-09-24 19:32:22,533 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.533
+!MESSAGE 2023-09-24 19:32:22,533 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.533
+!MESSAGE 2023-09-24 19:32:22,533 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.599
+!MESSAGE 2023-09-24 19:32:22,598 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:22.691
+!MESSAGE 2023-09-24 19:32:22,691 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:32:22.711
+!MESSAGE 2023-09-24 19:32:22,711 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1103
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1103
+Detail Message: myListe cannot be resolved
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.033
+!MESSAGE 2023-09-24 19:32:39,033 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.108
+!MESSAGE 2023-09-24 19:32:39,092 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.229
+!MESSAGE 2023-09-24 19:32:39,228 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.230
+!MESSAGE 2023-09-24 19:32:39,229 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.232
+!MESSAGE 2023-09-24 19:32:39,232 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.233
+!MESSAGE 2023-09-24 19:32:39,232 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.267
+!MESSAGE 2023-09-24 19:32:39,267 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:32:39.355
+!MESSAGE 2023-09-24 19:32:39,355 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:32:39.371
+!MESSAGE 2023-09-24 19:32:39,371 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1105
+Detail Message: myList cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1105
+Detail Message: myList cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.123
+!MESSAGE 2023-09-24 19:33:12,123 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.184
+!MESSAGE 2023-09-24 19:33:12,184 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.280
+!MESSAGE 2023-09-24 19:33:12,279 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.280
+!MESSAGE 2023-09-24 19:33:12,280 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.281
+!MESSAGE 2023-09-24 19:33:12,281 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.282
+!MESSAGE 2023-09-24 19:33:12,282 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.328
+!MESSAGE 2023-09-24 19:33:12,328 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:33:12.399
+!MESSAGE 2023-09-24 19:33:12,399 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:33:12.416
+!MESSAGE 2023-09-24 19:33:12,416 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.020
+!MESSAGE 2023-09-24 19:42:48,020 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.089
+!MESSAGE 2023-09-24 19:42:48,089 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.202
+!MESSAGE 2023-09-24 19:42:48,202 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.202
+!MESSAGE 2023-09-24 19:42:48,202 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.202
+!MESSAGE 2023-09-24 19:42:48,202 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.202
+!MESSAGE 2023-09-24 19:42:48,202 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.249
+!MESSAGE 2023-09-24 19:42:48,249 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:42:48.346
+!MESSAGE 2023-09-24 19:42:48,346 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:42:48.362
+!MESSAGE 2023-09-24 19:42:48,362 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1110
+Detail Message: ArrayList cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1110
+Detail Message: ArrayList cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.619
+!MESSAGE 2023-09-24 19:43:31,619 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.669
+!MESSAGE 2023-09-24 19:43:31,669 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.758
+!MESSAGE 2023-09-24 19:43:31,758 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.758
+!MESSAGE 2023-09-24 19:43:31,758 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.758
+!MESSAGE 2023-09-24 19:43:31,758 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.758
+!MESSAGE 2023-09-24 19:43:31,758 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.804
+!MESSAGE 2023-09-24 19:43:31,804 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:31.874
+!MESSAGE 2023-09-24 19:43:31,874 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:43:31.889
+!MESSAGE 2023-09-24 19:43:31,889 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1108
+Detail Message: Syntax error on token "import", assert expected
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.509
+!MESSAGE 2023-09-24 19:43:45,509 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.580
+!MESSAGE 2023-09-24 19:43:45,580 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.662
+!MESSAGE 2023-09-24 19:43:45,662 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.662
+!MESSAGE 2023-09-24 19:43:45,662 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.662
+!MESSAGE 2023-09-24 19:43:45,662 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.662
+!MESSAGE 2023-09-24 19:43:45,662 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.710
+!MESSAGE 2023-09-24 19:43:45,710 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:43:45.791
+!MESSAGE 2023-09-24 19:43:45,791 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.378
+!MESSAGE 2023-09-24 19:44:25,378 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.432
+!MESSAGE 2023-09-24 19:44:25,432 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.514
+!MESSAGE 2023-09-24 19:44:25,514 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.514
+!MESSAGE 2023-09-24 19:44:25,514 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.514
+!MESSAGE 2023-09-24 19:44:25,514 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.514
+!MESSAGE 2023-09-24 19:44:25,514 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.565
+!MESSAGE 2023-09-24 19:44:25,565 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.656
+!MESSAGE 2023-09-24 19:44:25,656 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:44:25.832
+!MESSAGE 2023-09-24 19:44:25,832 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ICOMMERCE_REPORTING/poms/jobs/process/OTHER_JOBS/jcollectionhandling_0.1/target/classpath.jar; icommerce_reporting.jcollectionhandling_0_1.jCollectionHandling --context=Default --stat_port=3945 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.608
+!MESSAGE 2023-09-24 19:48:20,608 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.663
+!MESSAGE 2023-09-24 19:48:20,663 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.730
+!MESSAGE 2023-09-24 19:48:20,730 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.730
+!MESSAGE 2023-09-24 19:48:20,730 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.730
+!MESSAGE 2023-09-24 19:48:20,730 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.730
+!MESSAGE 2023-09-24 19:48:20,730 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.775
+!MESSAGE 2023-09-24 19:48:20,775 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:48:20.857
+!MESSAGE 2023-09-24 19:48:20,857 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:48:20.863
+!MESSAGE 2023-09-24 19:48:20,863 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1315
+Detail Message: java.util.HashMap cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1315
+Detail Message: java.util.HashMap cannot be resolved to a variable
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.830
+!MESSAGE 2023-09-24 19:49:14,829 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.878
+!MESSAGE 2023-09-24 19:49:14,878 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.954
+!MESSAGE 2023-09-24 19:49:14,954 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.954
+!MESSAGE 2023-09-24 19:49:14,954 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.959
+!MESSAGE 2023-09-24 19:49:14,959 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.960
+!MESSAGE 2023-09-24 19:49:14,959 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:14.999
+!MESSAGE 2023-09-24 19:49:14,999 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:49:15.071
+!MESSAGE 2023-09-24 19:49:15,071 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:49:15.087
+!MESSAGE 2023-09-24 19:49:15,087 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.555
+!MESSAGE 2023-09-24 19:50:15,555 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.611
+!MESSAGE 2023-09-24 19:50:15,611 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.688
+!MESSAGE 2023-09-24 19:50:15,688 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.688
+!MESSAGE 2023-09-24 19:50:15,688 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.688
+!MESSAGE 2023-09-24 19:50:15,688 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.688
+!MESSAGE 2023-09-24 19:50:15,688 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.720
+!MESSAGE 2023-09-24 19:50:15,720 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:15.790
+!MESSAGE 2023-09-24 19:50:15,790 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:50:15.807
+!MESSAGE 2023-09-24 19:50:15,807 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.515
+!MESSAGE 2023-09-24 19:50:21,515 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.560
+!MESSAGE 2023-09-24 19:50:21,560 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.640
+!MESSAGE 2023-09-24 19:50:21,640 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.640
+!MESSAGE 2023-09-24 19:50:21,640 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.640
+!MESSAGE 2023-09-24 19:50:21,640 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.640
+!MESSAGE 2023-09-24 19:50:21,640 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.682
+!MESSAGE 2023-09-24 19:50:21,682 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:21.762
+!MESSAGE 2023-09-24 19:50:21,762 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:50:21.779
+!MESSAGE 2023-09-24 19:50:21,779 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.051
+!MESSAGE 2023-09-24 19:50:56,051 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.098
+!MESSAGE 2023-09-24 19:50:56,098 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.183
+!MESSAGE 2023-09-24 19:50:56,183 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.183
+!MESSAGE 2023-09-24 19:50:56,183 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.183
+!MESSAGE 2023-09-24 19:50:56,183 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.183
+!MESSAGE 2023-09-24 19:50:56,183 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.217
+!MESSAGE 2023-09-24 19:50:56,217 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:50:56.281
+!MESSAGE 2023-09-24 19:50:56,281 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:50:56.298
+!MESSAGE 2023-09-24 19:50:56,298 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.039
+!MESSAGE 2023-09-24 19:51:35,039 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.109
+!MESSAGE 2023-09-24 19:51:35,104 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.209
+!MESSAGE 2023-09-24 19:51:35,209 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.209
+!MESSAGE 2023-09-24 19:51:35,209 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.209
+!MESSAGE 2023-09-24 19:51:35,209 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.209
+!MESSAGE 2023-09-24 19:51:35,209 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.260
+!MESSAGE 2023-09-24 19:51:35,260 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:35.320
+!MESSAGE 2023-09-24 19:51:35,320 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:51:35.336
+!MESSAGE 2023-09-24 19:51:35,336 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.770
+!MESSAGE 2023-09-24 19:51:52,770 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.815
+!MESSAGE 2023-09-24 19:51:52,815 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.876
+!MESSAGE 2023-09-24 19:51:52,876 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.876
+!MESSAGE 2023-09-24 19:51:52,876 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.876
+!MESSAGE 2023-09-24 19:51:52,876 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.876
+!MESSAGE 2023-09-24 19:51:52,876 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.907
+!MESSAGE 2023-09-24 19:51:52,907 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:51:52.985
+!MESSAGE 2023-09-24 19:51:52,985 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:51:53.001
+!MESSAGE 2023-09-24 19:51:53,001 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:18.271
+!MESSAGE 2023-09-24 19:52:18,269 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:18.308
+!MESSAGE 2023-09-24 19:52:18,308 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:18.308
+!MESSAGE 2023-09-24 19:52:18,308 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:18.310
+!MESSAGE 2023-09-24 19:52:18,310 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:18.310
+!MESSAGE 2023-09-24 19:52:18,310 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.770
+!MESSAGE 2023-09-24 19:52:35,770 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.833
+!MESSAGE 2023-09-24 19:52:35,833 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.913
+!MESSAGE 2023-09-24 19:52:35,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.913
+!MESSAGE 2023-09-24 19:52:35,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.913
+!MESSAGE 2023-09-24 19:52:35,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.913
+!MESSAGE 2023-09-24 19:52:35,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:35.966
+!MESSAGE 2023-09-24 19:52:35,966 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:52:36.034
+!MESSAGE 2023-09-24 19:52:36,034 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 19:52:36.077
+!MESSAGE 2023-09-24 19:52:36,077 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1287
+Detail Message: HashMap cannot be resolved to a type
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.555
+!MESSAGE 2023-09-24 19:53:42,555 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.606
+!MESSAGE 2023-09-24 19:53:42,606 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.686
+!MESSAGE 2023-09-24 19:53:42,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.686
+!MESSAGE 2023-09-24 19:53:42,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.686
+!MESSAGE 2023-09-24 19:53:42,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.686
+!MESSAGE 2023-09-24 19:53:42,686 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.738
+!MESSAGE 2023-09-24 19:53:42,738 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 19:53:42.806
+!MESSAGE 2023-09-24 19:53:42,806 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:48.989
+!MESSAGE 2023-09-24 20:01:48,989 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.041
+!MESSAGE 2023-09-24 20:01:49,041 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.125
+!MESSAGE 2023-09-24 20:01:49,125 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.125
+!MESSAGE 2023-09-24 20:01:49,125 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.125
+!MESSAGE 2023-09-24 20:01:49,125 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.125
+!MESSAGE 2023-09-24 20:01:49,125 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.177
+!MESSAGE 2023-09-24 20:01:49,177 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:01:49.253
+!MESSAGE 2023-09-24 20:01:49,253 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2023-09-24 20:01:49.272
+!MESSAGE 2023-09-24 20:01:49,272 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1332
+Detail Message: Syntax error on tokens, delete these tokens
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "jCollectionHandling" has a compile errors, please fix and export again.
+Error Line: 1332
+Detail Message: Syntax error on tokens, delete these tokens
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1309)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1090)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2099)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart.lambda$1(MultiPageEditorPart.java:288)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3194)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1877)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.680
+!MESSAGE 2023-09-24 20:02:00,680 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.726
+!MESSAGE 2023-09-24 20:02:00,726 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.796
+!MESSAGE 2023-09-24 20:02:00,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.796
+!MESSAGE 2023-09-24 20:02:00,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.796
+!MESSAGE 2023-09-24 20:02:00,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.796
+!MESSAGE 2023-09-24 20:02:00,796 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.827
+!MESSAGE 2023-09-24 20:02:00,827 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:02:00.888
+!MESSAGE 2023-09-24 20:02:00,888 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.394
+!MESSAGE 2023-09-24 20:03:07,384 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.434
+!MESSAGE 2023-09-24 20:03:07,434 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.510
+!MESSAGE 2023-09-24 20:03:07,510 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.513
+!MESSAGE 2023-09-24 20:03:07,513 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.513
+!MESSAGE 2023-09-24 20:03:07,513 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.513
+!MESSAGE 2023-09-24 20:03:07,513 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.558
+!MESSAGE 2023-09-24 20:03:07,557 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:07.620
+!MESSAGE 2023-09-24 20:03:07,619 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.450
+!MESSAGE 2023-09-24 20:03:13,450 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.499
+!MESSAGE 2023-09-24 20:03:13,499 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.657
+!MESSAGE 2023-09-24 20:03:13,657 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.657
+!MESSAGE 2023-09-24 20:03:13,657 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.657
+!MESSAGE 2023-09-24 20:03:13,657 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.657
+!MESSAGE 2023-09-24 20:03:13,657 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.694
+!MESSAGE 2023-09-24 20:03:13,694 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.748
+!MESSAGE 2023-09-24 20:03:13,748 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:03:13.849
+!MESSAGE 2023-09-24 20:03:13,849 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ICOMMERCE_REPORTING/poms/jobs/process/OTHER_JOBS/jcollectionhandling_0.1/target/classpath.jar; icommerce_reporting.jcollectionhandling_0_1.jCollectionHandling --context=Default --stat_port=3628 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.622
+!MESSAGE 2023-09-24 20:15:18,622 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.740
+!MESSAGE 2023-09-24 20:15:18,740 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.820
+!MESSAGE 2023-09-24 20:15:18,820 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.820
+!MESSAGE 2023-09-24 20:15:18,820 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.820
+!MESSAGE 2023-09-24 20:15:18,820 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.820
+!MESSAGE 2023-09-24 20:15:18,820 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.861
+!MESSAGE 2023-09-24 20:15:18,861 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:18.915
+!MESSAGE 2023-09-24 20:15:18,915 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:19.009
+!MESSAGE 2023-09-24 20:15:19,009 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ICOMMERCE_REPORTING/poms/jobs/process/OTHER_JOBS/jcollectionhandling_0.1/target/classpath.jar; icommerce_reporting.jcollectionhandling_0_1.jCollectionHandling --context=Default --stat_port=4015 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.736
+!MESSAGE 2023-09-24 20:15:36,736 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.795
+!MESSAGE 2023-09-24 20:15:36,795 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.911
+!MESSAGE 2023-09-24 20:15:36,911 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.911
+!MESSAGE 2023-09-24 20:15:36,911 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.925
+!MESSAGE 2023-09-24 20:15:36,925 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.925
+!MESSAGE 2023-09-24 20:15:36,925 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:36.969
+!MESSAGE 2023-09-24 20:15:36,969 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:37.025
+!MESSAGE 2023-09-24 20:15:37,025 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:47.954
+!MESSAGE 2023-09-24 20:15:47,954 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:47.974
+!MESSAGE 2023-09-24 20:15:47,974 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:47.974
+!MESSAGE 2023-09-24 20:15:47,974 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:47.974
+!MESSAGE 2023-09-24 20:15:47,974 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:47.974
+!MESSAGE 2023-09-24 20:15:47,974 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.463
+!MESSAGE 2023-09-24 20:15:52,463 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.525
+!MESSAGE 2023-09-24 20:15:52,525 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.609
+!MESSAGE 2023-09-24 20:15:52,609 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.609
+!MESSAGE 2023-09-24 20:15:52,609 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.609
+!MESSAGE 2023-09-24 20:15:52,609 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.609
+!MESSAGE 2023-09-24 20:15:52,609 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ICOMMERCE_REPORTING_JCOLLECTIONHANDLING_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.674
+!MESSAGE 2023-09-24 20:15:52,674 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.727
+!MESSAGE 2023-09-24 20:15:52,727 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ICOMMERCE_REPORTING_ROUTINES: org.example.icommerce_reporting.code:routines:7.3.1 with classifier  to /ICOMMERCE_REPORTING_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-09-24 20:15:52.841
+!MESSAGE 2023-09-24 20:15:52,841 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ICOMMERCE_REPORTING/poms/jobs/process/OTHER_JOBS/jcollectionhandling_0.1/target/classpath.jar; icommerce_reporting.jcollectionhandling_0_1.jCollectionHandling --context=Default --stat_port=4034 %*
+

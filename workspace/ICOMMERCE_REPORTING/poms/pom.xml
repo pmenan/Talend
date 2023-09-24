@@ -18,6 +18,7 @@
     <module>jobs/process/ODS/jodstypeclient_0.1</module>
     <module>jobs/process/OTHER_JOBS/jupperdata_0.1</module>
     <module>jobs/process/ODS/jodsvente_0.1</module>
+    <module>jobs/process/OTHER_JOBS/jcollectionhandling_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ICOMMERCE_REPORTING</talend.project.name>
