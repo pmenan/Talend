@@ -1,5 +1,5 @@
-COLLECTOR_SYNC_NB=22
+COLLECTOR_SYNC_NB=23
 data_collector=true
-data_collector_last_time=2023-09-11 15\:17\:24
+data_collector_last_time=2023-10-24 18\:42\:08
 eclipse.preferences.version=1
 first.time.launch=false
