@@ -111,12 +111,16 @@ public class cFileHandling extends org.apache.camel.builder.RouteBuilder impleme
 		readContextValues(contextStr);
 
 		from("file://D:/git_repo/Talend/inputFolder/ESB" + "?noop=false" + "&autoCreate=true" + "&flatten=false"
-				+ "&bufferSize=128")
-						.routeId("cFileHandling_cFile_1")
+				+ "&bufferSize=128").routeId("cFileHandling_cFile_1").setHeader("dateJour")
+						.simple("${date:now:yyyyMMdd_HHmmss}").id("cFileHandling_cSetHeader_1")
 						.log(org.apache.camel.LoggingLevel.WARN, "cFileHandling.cLog_1",
-								"Nom fichier : ${in.header.CamelFileName}")
+								"Nom fichier : ${in.header.CamelFileName} \n Dossier parent : ${in.header.CamelFileParent} \n File Path : ${in.header.CamelFileAbsolutePath} \n Date Traitement : ${in.header.dateJour}")
 
-						.id("cFileHandling_cLog_1");
+						.id("cFileHandling_cLog_1")
+						.to("file://D:/git_repo/Talend/outFolder/ESB" + "?noop=true" + "&autoCreate=true"
+								+ "&flatten=false" + "&fileName=${in.header.dateJour}_${in.header.CamelFileName}"
+								+ "&bufferSize=128")
+						.id("cFileHandling_cFile_2");
 	}
 
 	private org.apache.camel.main.Main main;
@@ -147,7 +151,9 @@ public class cFileHandling extends org.apache.camel.builder.RouteBuilder impleme
 				runStat.updateStatOnJob(routines.system.RunStat.JOBSTART, null);
 
 				final Map<String, String> targetNodeToConnectionMap = new HashMap<String, String>();
-				targetNodeToConnectionMap.put("cFileHandling_cLog_1", "route1");
+				targetNodeToConnectionMap.put("cFileHandling_cSetHeader_1", "route1");
+				targetNodeToConnectionMap.put("cFileHandling_cLog_1", "route2");
+				targetNodeToConnectionMap.put("cFileHandling_cFile_2", "route3");
 				for (String connection : targetNodeToConnectionMap.values()) {
 					runStat.updateStatOnConnection(connection, routines.system.RunStat.BEGIN, 0);
 				}

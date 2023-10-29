@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: esb_projects.cFileHandling
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1698345738715
+Bnd-LastModified: 1698589570495
 Bundle-Vendor: Talend Open Studio for ESB (tos_esb_7.3.1.20200218_1406
  )
 Import-Package: org.apache.camel.spring;resolution:=optional,org.sprin
