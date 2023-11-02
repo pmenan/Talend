@@ -114,7 +114,7 @@ public class cFileHandling extends org.apache.camel.builder.RouteBuilder impleme
 				+ "&bufferSize=128").routeId("cFileHandling_cFile_1").setHeader("dateJour")
 						.simple("${date:now:yyyyMMdd_HHmmss}").id("cFileHandling_cSetHeader_1")
 						.log(org.apache.camel.LoggingLevel.WARN, "cFileHandling.cLog_1",
-								"Nom fichier : ${in.header.CamelFileName} \n Dossier parent : ${in.header.CamelFileParent} \n File Path : ${in.header.CamelFileAbsolutePath} \n Date Traitement : ${in.header.dateJour}")
+								"Nom fichier : ${in.header.CamelFileName} \n Dossier parent : ${in.header.CamelFileParent} \n File Path : ${in.header.CamelFileAbsolutePath} \n Date Traitement : ${in.header.dateJour} \n ")
 
 						.id("cFileHandling_cLog_1")
 						.to("file://D:/git_repo/Talend/outFolder/ESB" + "?noop=true" + "&autoCreate=true"

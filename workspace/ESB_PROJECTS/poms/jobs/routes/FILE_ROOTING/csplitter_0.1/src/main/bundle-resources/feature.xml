@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="cSplitter-feature">
+<feature name="cSplitter-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.esb_projects.route/cSplitter/0.1.0</bundle>
+<config name="cSplitter.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>
