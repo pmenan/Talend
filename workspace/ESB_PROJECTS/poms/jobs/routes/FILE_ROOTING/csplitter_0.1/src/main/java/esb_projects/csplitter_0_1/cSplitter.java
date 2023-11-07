@@ -113,15 +113,32 @@ public class cSplitter extends org.apache.camel.builder.RouteBuilder implements 
 		from("file://D:/git_repo/Talend/inputFolder/ESB" + "?noop=true" + "&autoCreate=true" + "&flatten=false"
 				+ "&bufferSize=128" + "&AntInclude=*.xml").routeId("cSplitter_cFile_1").split().xpath("/root/row")
 						.id("cSplitter_cSplitter_1").setHeader("id_individu").xpath("/row/Id/text()")
-						.setHeader("code_postal").xpath("row/CodePostal/text()").id("cSplitter_cSetHeader_1")
+						.setHeader("code_postal").xpath("row/CodePostal/text()").id("cSplitter_cSetHeader_1").choice()
+						.id("cSplitter_cMessageRouter_1").when().xpath("/row/CodePostal = '39722'")
 						.log(org.apache.camel.LoggingLevel.WARN, "cSplitter.cLog_1",
 								"File Name : ${in.header.CamelFileName}\n id_individu: ${in.header.id_individu}\n code postal : ${in.header.code_postal}")
 
 						.id("cSplitter_cLog_1")
+						.to("file://D:/git_repo/Talend/outputFolder/ESB/out_individus_1" + "?noop=true"
+								+ "&autoCreate=true" + "&flatten=false"
+								+ "&fileName=${in.header.id_individu}_${in.header.code_postal}.xml" + "&bufferSize=128")
+						.id("cSplitter_cFile_2").when().xpath("/row/CodePostal = '72149'")
+						.log(org.apache.camel.LoggingLevel.WARN, "cSplitter.cLog_1",
+								"File Name : ${in.header.CamelFileName}\n id_individu: ${in.header.id_individu}\n code postal : ${in.header.code_postal}")
+
+						.id("cSplitter_cLog_2")
+						.to("file://D:/git_repo/Talend/outputFolder/ESB/out_individus_2" + "?noop=true"
+								+ "&autoCreate=true" + "&flatten=false"
+								+ "&fileName=${in.header.id_individu}_${in.header.code_postal}.xml" + "&bufferSize=128")
+						.id("cSplitter_cFile_3").otherwise()
+						.log(org.apache.camel.LoggingLevel.WARN, "cSplitter.cLog_1",
+								"File Name : ${in.header.CamelFileName}\n id_individu: ${in.header.id_individu}\n code postal : ${in.header.code_postal}")
+
+						.id("cSplitter_cLog_3")
 						.to("file://D:/git_repo/Talend/outputFolder/ESB/out_individus" + "?noop=true"
 								+ "&autoCreate=true" + "&flatten=false"
 								+ "&fileName=${in.header.id_individu}_${in.header.code_postal}.xml" + "&bufferSize=128")
-						.id("cSplitter_cFile_2");
+						.id("cSplitter_cFile_4");
 	}
 
 	private org.apache.camel.main.Main main;
@@ -154,8 +171,13 @@ public class cSplitter extends org.apache.camel.builder.RouteBuilder implements 
 				final Map<String, String> targetNodeToConnectionMap = new HashMap<String, String>();
 				targetNodeToConnectionMap.put("cSplitter_cSplitter_1", "route1");
 				targetNodeToConnectionMap.put("cSplitter_cSetHeader_1", "split1");
-				targetNodeToConnectionMap.put("cSplitter_cLog_1", "route2");
+				targetNodeToConnectionMap.put("cSplitter_cMessageRouter_1", "route2");
+				targetNodeToConnectionMap.put("cSplitter_cLog_1", "when1");
 				targetNodeToConnectionMap.put("cSplitter_cFile_2", "route3");
+				targetNodeToConnectionMap.put("cSplitter_cLog_2", "when2");
+				targetNodeToConnectionMap.put("cSplitter_cFile_3", "route4");
+				targetNodeToConnectionMap.put("cSplitter_cLog_3", "otherwise1");
+				targetNodeToConnectionMap.put("cSplitter_cFile_4", "route5");
 				for (String connection : targetNodeToConnectionMap.values()) {
 					runStat.updateStatOnConnection(connection, routines.system.RunStat.BEGIN, 0);
 				}

@@ -4285,3 +4285,480 @@ Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vé
 !ENTRY org.talend.platform.logging 1 0 2023-11-02 16:14:31.709
 !MESSAGE 2023-11-02 16:14:31,709 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ESB_PROJECTS/poms/jobs/routes/FILE_ROOTING/csplitter_0.1/target/classpath.jar; esb_projects.csplitter_0_1.cSplitter --context=Default --stat_port=3678 %*
 
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-02 16:35:52.793
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-11-07 21:45:41.382 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-11-07 21:45:43.179
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-11-07 21:45:43.181
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:46:08.757
+!MESSAGE 2023-11-07 21:46:08,752 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-07 21:46:09.355
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:46:16.649
+!MESSAGE 2023-11-07 21:46:16,648 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-11-07 21:46:57.314
+!MESSAGE 2023-11-07 21:46:57,313 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:05.793
+!MESSAGE 2023-11-07 21:47:05,793 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ESB_PROJECTS_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:05.794
+!MESSAGE 2023-11-07 21:47:05,793 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ESB_PROJECTS_ROUTINES/src/main/java overlaps with sources folder /ESB_PROJECTS_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:05.803
+!MESSAGE 2023-11-07 21:47:05,803 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ESB_PROJECTS_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:05.804
+!MESSAGE 2023-11-07 21:47:05,804 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ESB_PROJECTS_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:07.398
+!MESSAGE 2023-11-07 21:47:07,397 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:07.506
+!MESSAGE 2023-11-07 21:47:07,505 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ESB_PROJECTS_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:07.506
+!MESSAGE 2023-11-07 21:47:07,506 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ESB_PROJECTS_BEANS/src/main/java overlaps with sources folder /ESB_PROJECTS_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:07.512
+!MESSAGE 2023-11-07 21:47:07,511 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ESB_PROJECTS_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:07.512
+!MESSAGE 2023-11-07 21:47:07,512 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ESB_PROJECTS_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:08.642
+!MESSAGE 2023-11-07 21:47:08,641 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:09.090
+!MESSAGE 2023-11-07 21:47:09,090 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - D:\git_repo\Talend\workspace\ESB_PROJECTS\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:09.092
+!MESSAGE 2023-11-07 21:47:09,091 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:14.133
+!MESSAGE 2023-11-07 21:47:14,133 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:14.200
+!MESSAGE 2023-11-07 21:47:14,200 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - D:\git_repo\Talend\workspace\ESB_PROJECTS\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:14.201
+!MESSAGE 2023-11-07 21:47:14,201 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:16.605
+!MESSAGE 2023-11-07 21:47:16,604 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à ESB_PROJECTS
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:17.774
+!MESSAGE 2023-11-07 21:47:17,774 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:48.757
+!MESSAGE 2023-11-07 21:47:48,756 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 21:47:48.757
+!MESSAGE 2023-11-07 21:47:48,757 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.809
+!MESSAGE 2023-11-07 22:07:10,808 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonCreator applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.810
+!MESSAGE 2023-11-07 22:07:10,809 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.810
+!MESSAGE 2023-11-07 22:07:10,810 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.811
+!MESSAGE 2023-11-07 22:07:10,810 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnore applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.811
+!MESSAGE 2023-11-07 22:07:10,811 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonPropertyOrder applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.811
+!MESSAGE 2023-11-07 22:07:10,811 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnoreProperties applied to type org.apache.logging.log4j.core.jackson.InstantMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.812
+!MESSAGE 2023-11-07 22:07:10,812 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonValue applied to type org.apache.logging.log4j.core.jackson.LevelMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.812
+!MESSAGE 2023-11-07 22:07:10,812 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonSerialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.813
+!MESSAGE 2023-11-07 22:07:10,813 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonDeserialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.813
+!MESSAGE 2023-11-07 22:07:10,813 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.813
+!MESSAGE 2023-11-07 22:07:10,813 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonRootName applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.814
+!MESSAGE 2023-11-07 22:07:10,813 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.814
+!MESSAGE 2023-11-07 22:07:10,814 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonFilter applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.816
+!MESSAGE 2023-11-07 22:07:10,816 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonUnwrapped applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.817
+!MESSAGE 2023-11-07 22:07:10,816 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonAnyGetter applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:10.939
+!MESSAGE 2023-11-07 22:07:10,938 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:11.011
+!MESSAGE 2023-11-07 22:07:11,010 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:11.012
+!MESSAGE 2023-11-07 22:07:11,011 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:11.151
+!MESSAGE 2023-11-07 22:07:11,151 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:11.247
+!MESSAGE 2023-11-07 22:07:11,246 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:11.247
+!MESSAGE 2023-11-07 22:07:11,247 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.486
+!MESSAGE 2023-11-07 22:07:55,486 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonCreator applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.487
+!MESSAGE 2023-11-07 22:07:55,487 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.487
+!MESSAGE 2023-11-07 22:07:55,487 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.488
+!MESSAGE 2023-11-07 22:07:55,488 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnore applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.488
+!MESSAGE 2023-11-07 22:07:55,488 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonPropertyOrder applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.489
+!MESSAGE 2023-11-07 22:07:55,488 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnoreProperties applied to type org.apache.logging.log4j.core.jackson.InstantMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.489
+!MESSAGE 2023-11-07 22:07:55,489 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonValue applied to type org.apache.logging.log4j.core.jackson.LevelMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.489
+!MESSAGE 2023-11-07 22:07:55,489 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonSerialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.490
+!MESSAGE 2023-11-07 22:07:55,489 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonDeserialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.490
+!MESSAGE 2023-11-07 22:07:55,490 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.490
+!MESSAGE 2023-11-07 22:07:55,490 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonRootName applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.491
+!MESSAGE 2023-11-07 22:07:55,490 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.491
+!MESSAGE 2023-11-07 22:07:55,491 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonFilter applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.493
+!MESSAGE 2023-11-07 22:07:55,493 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonUnwrapped applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.493
+!MESSAGE 2023-11-07 22:07:55,493 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonAnyGetter applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.655
+!MESSAGE 2023-11-07 22:07:55,655 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.706
+!MESSAGE 2023-11-07 22:07:55,706 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.707
+!MESSAGE 2023-11-07 22:07:55,707 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.809
+!MESSAGE 2023-11-07 22:07:55,808 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.888
+!MESSAGE 2023-11-07 22:07:55,887 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:55.888
+!MESSAGE 2023-11-07 22:07:55,888 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:07:56.033
+!MESSAGE 2023-11-07 22:07:56,033 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ESB_PROJECTS/poms/jobs/routes/FILE_ROOTING/csplitter_0.1/target/classpath.jar; esb_projects.csplitter_0_1.cSplitter --context=Default --stat_port=3881 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.319
+!MESSAGE 2023-11-07 22:15:06,319 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonCreator applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.320
+!MESSAGE 2023-11-07 22:15:06,319 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.321
+!MESSAGE 2023-11-07 22:15:06,321 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.321
+!MESSAGE 2023-11-07 22:15:06,321 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnore applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.321
+!MESSAGE 2023-11-07 22:15:06,321 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonPropertyOrder applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.321
+!MESSAGE 2023-11-07 22:15:06,321 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnoreProperties applied to type org.apache.logging.log4j.core.jackson.InstantMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.323
+!MESSAGE 2023-11-07 22:15:06,321 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonValue applied to type org.apache.logging.log4j.core.jackson.LevelMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.323
+!MESSAGE 2023-11-07 22:15:06,323 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonSerialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.323
+!MESSAGE 2023-11-07 22:15:06,323 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonDeserialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.323
+!MESSAGE 2023-11-07 22:15:06,323 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.324
+!MESSAGE 2023-11-07 22:15:06,324 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonRootName applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.324
+!MESSAGE 2023-11-07 22:15:06,324 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.324
+!MESSAGE 2023-11-07 22:15:06,324 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonFilter applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.325
+!MESSAGE 2023-11-07 22:15:06,325 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonUnwrapped applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.326
+!MESSAGE 2023-11-07 22:15:06,325 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonAnyGetter applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.435
+!MESSAGE 2023-11-07 22:15:06,435 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.487
+!MESSAGE 2023-11-07 22:15:06,486 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.488
+!MESSAGE 2023-11-07 22:15:06,487 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.575
+!MESSAGE 2023-11-07 22:15:06,574 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.644
+!MESSAGE 2023-11-07 22:15:06,644 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:06.645
+!MESSAGE 2023-11-07 22:15:06,644 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.963
+!MESSAGE 2023-11-07 22:15:24,963 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonCreator applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.963
+!MESSAGE 2023-11-07 22:15:24,963 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.964
+!MESSAGE 2023-11-07 22:15:24,963 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.964
+!MESSAGE 2023-11-07 22:15:24,964 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnore applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.964
+!MESSAGE 2023-11-07 22:15:24,964 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonPropertyOrder applied to type org.apache.logging.log4j.core.jackson.ExtendedStackTraceElementMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.964
+!MESSAGE 2023-11-07 22:15:24,964 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonIgnoreProperties applied to type org.apache.logging.log4j.core.jackson.InstantMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.965
+!MESSAGE 2023-11-07 22:15:24,964 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonValue applied to type org.apache.logging.log4j.core.jackson.LevelMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.965
+!MESSAGE 2023-11-07 22:15:24,965 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonSerialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.965
+!MESSAGE 2023-11-07 22:15:24,965 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.databind.annotation.JsonDeserialize applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.965
+!MESSAGE 2023-11-07 22:15:24,965 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.966
+!MESSAGE 2023-11-07 22:15:24,965 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonRootName applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.966
+!MESSAGE 2023-11-07 22:15:24,966 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.966
+!MESSAGE 2023-11-07 22:15:24,966 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonFilter applied to type org.apache.logging.log4j.core.jackson.LogEventJsonMixIn provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.967
+!MESSAGE 2023-11-07 22:15:24,967 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonUnwrapped applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:24.967
+!MESSAGE 2023-11-07 22:15:24,967 INFO  aQute.bnd.osgi.AnnotationHeaders  - Unable to determine whether the meta annotation com.fasterxml.jackson.annotation.JsonAnyGetter applied to type org.apache.logging.log4j.core.layout.AbstractJacksonLayout$LogEventWithAdditionalFields provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.064
+!MESSAGE 2023-11-07 22:15:25,064 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.117
+!MESSAGE 2023-11-07 22:15:25,116 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.118
+!MESSAGE 2023-11-07 22:15:25,117 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.221
+!MESSAGE 2023-11-07 22:15:25,220 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.293
+!MESSAGE 2023-11-07 22:15:25,293 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_ROUTINES: org.example.esb_projects.code:routines:7.3.1 with classifier  to /ESB_PROJECTS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.294
+!MESSAGE 2023-11-07 22:15:25,293 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/ESB_PROJECTS_BEANS: org.example.esb_projects.bean:beans:7.3.1 with classifier  to /ESB_PROJECTS_BEANS/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-11-07 22:15:25.438
+!MESSAGE 2023-11-07 22:15:25,438 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_251/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Talend/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys -cp D:/git_repo/Talend/workspace/ESB_PROJECTS/poms/jobs/routes/FILE_ROOTING/csplitter_0.1/target/classpath.jar; esb_projects.csplitter_0_1.cSplitter --context=Default --stat_port=3510 %*
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-07 22:19:10.396
+!MESSAGE The workspace will exit with unsaved changes in this session.

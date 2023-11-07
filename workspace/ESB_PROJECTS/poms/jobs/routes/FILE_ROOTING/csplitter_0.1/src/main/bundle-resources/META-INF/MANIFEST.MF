@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: esb_projects.cSplitter
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1698938071255
+Bnd-LastModified: 1699391724989
 Bundle-Vendor: Talend Open Studio for ESB (tos_esb_7.3.1.20200218_1406
  )
 Import-Package: org.apache.camel.spring;resolution:=optional,org.sprin
@@ -65,7 +65,7 @@ Bundle-Version: 0.1
 Bundle-Name: cSplitter
 Bundle-ClassPath: .,lib/crypto-utils.jar,lib/log4j-core-2.12.1.jar,lib
  /log4j-slf4j-impl-2.12.1.jar,lib/routines.jar,lib/log4j-api-2.12.1.ja
- r
+ r,lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar
 Private-Package: esb_projects.csplitter_0_1.contexts,lib,org.talend.da
  ikon.crypto,org.talend.daikon.crypto.digest,org.apache.logging.log4j.
  core,org.apache.logging.log4j.core.appender,org.apache.logging.log4j.
@@ -103,6 +103,6 @@ Private-Package: esb_projects.csplitter_0_1.contexts,lib,org.talend.da
  .system,routines.system.api,routines.system.xml.sax,org.apache.loggin
  g.log4j,org.apache.logging.log4j.message,org.apache.logging.log4j.sim
  ple,org.apache.logging.log4j.spi,org.apache.logging.log4j.status,org.
- apache.logging.log4j.util
+ apache.logging.log4j.util,javax.jws,javax.jws.soap
 Created-By: 1.8.0_251 (Oracle Corporation)
 
