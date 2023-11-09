@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_DUI34H7oEe6cPuEi93j3FQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_DUI34X7oEe6cPuEi93j3FQ" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_DUI34n7oEe6cPuEi93j3FQ">
+    <elementParameter xmi:id="_DUI3437oEe6cPuEi93j3FQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_DUI35H7oEe6cPuEi93j3FQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_DUI35X7oEe6cPuEi93j3FQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_DUI35n7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_DUI3537oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_DUI36H7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_DUI36X7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_DUI36n7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI3637oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_DUI37H7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_DUI37X7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_DUI37n7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI3737oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_DUI38H7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_DUI38X7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_DUI38n7oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_DUI3837oEe6cPuEi93j3FQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_DUI39H7oEe6cPuEi93j3FQ" id="_pL48EH54Ee6tlMKuoOpqnw" name="DataOperation"/>
+    <routinesParameter xmi:id="_DUI39X7oEe6cPuEi93j3FQ" id="_pMq_MH54Ee6tlMKuoOpqnw" name="Mathematical"/>
+    <routinesParameter xmi:id="_DUI39n7oEe6cPuEi93j3FQ" id="_pM3McH54Ee6tlMKuoOpqnw" name="Numeric"/>
+    <routinesParameter xmi:id="_DUI3937oEe6cPuEi93j3FQ" id="_pM96IH54Ee6tlMKuoOpqnw" name="Relational"/>
+    <routinesParameter xmi:id="_DUI3-H7oEe6cPuEi93j3FQ" id="_pNF18H54Ee6tlMKuoOpqnw" name="StringHandling"/>
+    <routinesParameter xmi:id="_DUI3-X7oEe6cPuEi93j3FQ" id="_pNQOAH54Ee6tlMKuoOpqnw" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_DUI3-n7oEe6cPuEi93j3FQ" id="_pNYw4H54Ee6tlMKuoOpqnw" name="TalendDate"/>
+    <routinesParameter xmi:id="_DUI3-37oEe6cPuEi93j3FQ" id="_pNmzUH54Ee6tlMKuoOpqnw" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_DUI3_H7oEe6cPuEi93j3FQ" id="_pNgFoH54Ee6tlMKuoOpqnw" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_DUI3_X7oEe6cPuEi93j3FQ" componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+    <elementParameter xmi:id="_DUI3_n7oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_1" show="false"/>
+    <elementParameter xmi:id="_DUI3_37oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NS" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4AH7oEe6cPuEi93j3FQ" field="TEXT" name="ADDRESS" value="&quot;http://localhost:8090/services/&quot;"/>
+    <elementParameter xmi:id="_DUI4AX7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_DUI4An7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="WSDL_TYPE" value="file"/>
+    <elementParameter xmi:id="_DUI4A37oEe6cPuEi93j3FQ" field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/SayHelloService?WSDL&quot;"/>
+    <elementParameter xmi:id="_DUI4BH7oEe6cPuEi93j3FQ" field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4BX7oEe6cPuEi93j3FQ" field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_DUI4Bn7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4B37oEe6cPuEi93j3FQ" field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter xmi:id="_DUI4CH7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_DUI4CX7oEe6cPuEi93j3FQ" field="CHECK" name="ALLOW_STREAMING" value="false"/>
+    <elementParameter xmi:id="_DUI4Cn7oEe6cPuEi93j3FQ" field="LABEL" name="RAW_TOOLTIP" value=" (MESSAGE dataFormat without SAM Support)" show="false"/>
+    <elementParameter xmi:id="_DUI4C37oEe6cPuEi93j3FQ" field="LABEL" name="CXF_MESSAGE_TOOLTIP" value=" (MESSAGE dataFormat plus SAM Support)" show="false"/>
+    <elementParameter xmi:id="_DUI4DH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false"/>
+    <elementParameter xmi:id="_DUI4DX7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4Dn7oEe6cPuEi93j3FQ" field="TEXT" name="PORT_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4D37oEe6cPuEi93j3FQ" field="TEXT" name="OPERATION_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4EH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_REGISTRY" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4EX7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_DUI4En7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM" value="false"/>
+    <elementParameter xmi:id="_DUI4E37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4FH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SECURITY" value="false"/>
+    <elementParameter xmi:id="_DUI4FX7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SECURITY_TYPE" value="USER" show="false"/>
+    <elementParameter xmi:id="_DUI4Fn7oEe6cPuEi93j3FQ" field="LABEL" name="AUTHENTICATION_LABEL" value="Authentication:" show="false"/>
+    <elementParameter xmi:id="_DUI4F37oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SAML_SECURITY_TYPES" value="NO_PROPAGATE" show="false"/>
+    <elementParameter xmi:id="_DUI4GH7oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_UP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4GX7oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_AP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4Gn7oEe6cPuEi93j3FQ" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4G37oEe6cPuEi93j3FQ" field="TEXT" name="ALIASNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4HH7oEe6cPuEi93j3FQ" field="TEXT" name="USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4HX7oEe6cPuEi93j3FQ" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:WYJq0C5Tv0jtKoOorhZMe+ElWqegXEZGvo8+j3gi" show="false"/>
+    <elementParameter xmi:id="_DUI4Hn7oEe6cPuEi93j3FQ" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4H37oEe6cPuEi93j3FQ" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:" show="false"/>
+    <elementParameter xmi:id="_DUI4IH7oEe6cPuEi93j3FQ" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4IX7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
+    <elementParameter xmi:id="_DUI4In7oEe6cPuEi93j3FQ" field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4I37oEe6cPuEi93j3FQ" field="LABEL" name="CORRELATION_VALUE_TOOLTIP" value="(Simple Expression is Available)" show="false"/>
+    <elementParameter xmi:id="_DUI4JH7oEe6cPuEi93j3FQ" field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter xmi:id="_DUI4JX7oEe6cPuEi93j3FQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_DUI4Jn7oEe6cPuEi93j3FQ" field="TABLE" name="SL_META_DATA" show="false"/>
+    <elementParameter xmi:id="_DUI4J37oEe6cPuEi93j3FQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_DUI4KH7oEe6cPuEi93j3FQ" componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="96" sizeX="96" sizeY="192">
+    <elementParameter xmi:id="_DUI4KX7oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+    <elementParameter xmi:id="_DUI4Kn7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant" show="false"/>
+    <elementParameter xmi:id="_DUI4K37oEe6cPuEi93j3FQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_DUI4LH7oEe6cPuEi93j3FQ" componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
+    <elementParameter xmi:id="_DUI4LX7oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_2" show="false"/>
+    <elementParameter xmi:id="_DUI4Ln7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NS" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4L37oEe6cPuEi93j3FQ" field="TEXT" name="ADDRESS" value="&quot;http://localhost:8041/services/&quot;"/>
+    <elementParameter xmi:id="_DUI4MH7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_DUI4MX7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="WSDL_TYPE" value="file"/>
+    <elementParameter xmi:id="_DUI4Mn7oEe6cPuEi93j3FQ" field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/SayHelloService?WSDL&quot;"/>
+    <elementParameter xmi:id="_DUI4M37oEe6cPuEi93j3FQ" field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4NH7oEe6cPuEi93j3FQ" field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_DUI4NX7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4Nn7oEe6cPuEi93j3FQ" field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter xmi:id="_DUI4N37oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="DATAFORMAT" value="RAW"/>
+    <elementParameter xmi:id="_DUI4OH7oEe6cPuEi93j3FQ" field="CHECK" name="ALLOW_STREAMING" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4OX7oEe6cPuEi93j3FQ" field="LABEL" name="RAW_TOOLTIP" value=" (MESSAGE dataFormat without SAM Support)"/>
+    <elementParameter xmi:id="_DUI4On7oEe6cPuEi93j3FQ" field="LABEL" name="CXF_MESSAGE_TOOLTIP" value=" (MESSAGE dataFormat plus SAM Support)" show="false"/>
+    <elementParameter xmi:id="_DUI4O37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false"/>
+    <elementParameter xmi:id="_DUI4PH7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4PX7oEe6cPuEi93j3FQ" field="TEXT" name="PORT_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4Pn7oEe6cPuEi93j3FQ" field="TEXT" name="OPERATION_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4P37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_REGISTRY" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4QH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_DUI4QX7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4Qn7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false"/>
+    <elementParameter xmi:id="_DUI4Q37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SECURITY" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4RH7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SECURITY_TYPE" value="USER" show="false"/>
+    <elementParameter xmi:id="_DUI4RX7oEe6cPuEi93j3FQ" field="LABEL" name="AUTHENTICATION_LABEL" value="Authentication:" show="false"/>
+    <elementParameter xmi:id="_DUI4Rn7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SAML_SECURITY_TYPES" value="NO_PROPAGATE" show="false"/>
+    <elementParameter xmi:id="_DUI4R37oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_UP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4SH7oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_AP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4SX7oEe6cPuEi93j3FQ" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4Sn7oEe6cPuEi93j3FQ" field="TEXT" name="ALIASNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4S37oEe6cPuEi93j3FQ" field="TEXT" name="USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4TH7oEe6cPuEi93j3FQ" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:ET7ViXOeYNLrjnF+kwxCE/U7ETmVIlq6ouKZ9DT9" show="false"/>
+    <elementParameter xmi:id="_DUI4TX7oEe6cPuEi93j3FQ" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4Tn7oEe6cPuEi93j3FQ" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:" show="false"/>
+    <elementParameter xmi:id="_DUI4T37oEe6cPuEi93j3FQ" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4UH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CORRELATION" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4UX7oEe6cPuEi93j3FQ" field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4Un7oEe6cPuEi93j3FQ" field="LABEL" name="CORRELATION_VALUE_TOOLTIP" value="(Simple Expression is Available)" show="false"/>
+    <elementParameter xmi:id="_DUI4U37oEe6cPuEi93j3FQ" field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter xmi:id="_DUI4VH7oEe6cPuEi93j3FQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_DUI4VX7oEe6cPuEi93j3FQ" field="TABLE" name="SL_META_DATA" show="false"/>
+    <elementParameter xmi:id="_DUI4Vn7oEe6cPuEi93j3FQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_DUI4V37oEe6cPuEi93j3FQ" componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter xmi:id="_DUI4WH7oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_3" show="false"/>
+    <elementParameter xmi:id="_DUI4WX7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NS" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4Wn7oEe6cPuEi93j3FQ" field="TEXT" name="ADDRESS" value="&quot;http://localhost:8042/services/&quot;"/>
+    <elementParameter xmi:id="_DUI4W37oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL"/>
+    <elementParameter xmi:id="_DUI4XH7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="WSDL_TYPE" value="file"/>
+    <elementParameter xmi:id="_DUI4XX7oEe6cPuEi93j3FQ" field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/SayHelloService?WSDL&quot;"/>
+    <elementParameter xmi:id="_DUI4Xn7oEe6cPuEi93j3FQ" field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4X37oEe6cPuEi93j3FQ" field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_DUI4YH7oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_CLASS" value="&quot;beans.ServiceClass&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4YX7oEe6cPuEi93j3FQ" field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter xmi:id="_DUI4Yn7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD"/>
+    <elementParameter xmi:id="_DUI4Y37oEe6cPuEi93j3FQ" field="CHECK" name="ALLOW_STREAMING" value="false"/>
+    <elementParameter xmi:id="_DUI4ZH7oEe6cPuEi93j3FQ" field="LABEL" name="RAW_TOOLTIP" value=" (MESSAGE dataFormat without SAM Support)" show="false"/>
+    <elementParameter xmi:id="_DUI4ZX7oEe6cPuEi93j3FQ" field="LABEL" name="CXF_MESSAGE_TOOLTIP" value=" (MESSAGE dataFormat plus SAM Support)" show="false"/>
+    <elementParameter xmi:id="_DUI4Zn7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false"/>
+    <elementParameter xmi:id="_DUI4Z37oEe6cPuEi93j3FQ" field="TEXT" name="SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4aH7oEe6cPuEi93j3FQ" field="TEXT" name="PORT_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4aX7oEe6cPuEi93j3FQ" field="TEXT" name="OPERATION_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_DUI4an7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_REGISTRY" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4a37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SL" value="false"/>
+    <elementParameter xmi:id="_DUI4bH7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM" value="false"/>
+    <elementParameter xmi:id="_DUI4bX7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SAM_MESSAGE" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4bn7oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_SECURITY" value="false"/>
+    <elementParameter xmi:id="_DUI4b37oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SECURITY_TYPE" value="USER" show="false"/>
+    <elementParameter xmi:id="_DUI4cH7oEe6cPuEi93j3FQ" field="LABEL" name="AUTHENTICATION_LABEL" value="Authentication:" show="false"/>
+    <elementParameter xmi:id="_DUI4cX7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="SAML_SECURITY_TYPES" value="NO_PROPAGATE" show="false"/>
+    <elementParameter xmi:id="_DUI4cn7oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_UP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4c37oEe6cPuEi93j3FQ" field="LABEL" name="PROPAGATE_AP_LABEL" value="" show="false"/>
+    <elementParameter xmi:id="_DUI4dH7oEe6cPuEi93j3FQ" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4dX7oEe6cPuEi93j3FQ" field="TEXT" name="ALIASNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4dn7oEe6cPuEi93j3FQ" field="TEXT" name="USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4d37oEe6cPuEi93j3FQ" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:eiC1FobOfvGCq9YmR4q/Rm0jswxGuVPO6xX2Q7ML" show="false"/>
+    <elementParameter xmi:id="_DUI4eH7oEe6cPuEi93j3FQ" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4eX7oEe6cPuEi93j3FQ" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:" show="false"/>
+    <elementParameter xmi:id="_DUI4en7oEe6cPuEi93j3FQ" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4e37oEe6cPuEi93j3FQ" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
+    <elementParameter xmi:id="_DUI4fH7oEe6cPuEi93j3FQ" field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_DUI4fX7oEe6cPuEi93j3FQ" field="LABEL" name="CORRELATION_VALUE_TOOLTIP" value="(Simple Expression is Available)" show="false"/>
+    <elementParameter xmi:id="_DUI4fn7oEe6cPuEi93j3FQ" field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter xmi:id="_DUI4f37oEe6cPuEi93j3FQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_DUI4gH7oEe6cPuEi93j3FQ" field="TABLE" name="SL_META_DATA" show="false"/>
+    <elementParameter xmi:id="_DUI4gX7oEe6cPuEi93j3FQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_DUI4gn7oEe6cPuEi93j3FQ" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cSOAP_1" offsetLabelX="0" offsetLabelY="0" source="cSOAP_1" target="cMessageRouter_1">
+    <elementParameter xmi:id="_DUI4g37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <connection xmi:id="_DUI4hH7oEe6cPuEi93j3FQ" connectorName="ROUTE_WHEN" label="when1" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_1" target="cSOAP_2">
+    <elementParameter xmi:id="_DUI4hX7oEe6cPuEi93j3FQ" field="CLOSED_LIST" name="ROUTETYPE" value="simple"/>
+    <elementParameter xmi:id="_DUI4hn7oEe6cPuEi93j3FQ" field="MEMO_JAVA" name="CONDITION" value="&quot;${bodyAs(String)} contains 'Alice'&quot;"/>
+    <elementParameter xmi:id="_DUI4h37oEe6cPuEi93j3FQ" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_DUI4iH7oEe6cPuEi93j3FQ" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
+    <elementParameter xmi:id="_DUI4iX7oEe6cPuEi93j3FQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_DUI4in7oEe6cPuEi93j3FQ" field="LABEL" name="WARNING" value="*Remarque : pour la langage Bean, l'expression doit être dans une classe de nom qualifiée, sans guillements. \n*Remarque : pour le langage None, la valeur doit être une expression entière au lieu d'un texte plein. \n*Remarque : pour le langage XPath, les espaces de noms seront automatiquement utilisés si cochés." show="false"/>
+    <elementParameter xmi:id="_DUI4i37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="when1" show="false"/>
+  </connection>
+  <connection xmi:id="_DUI4jH7oEe6cPuEi93j3FQ" connectorName="ROUTE_OTHER" label="otherwise1" lineStyle="16" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_1" target="cSOAP_3">
+    <elementParameter xmi:id="_DUI4jX7oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="otherwise1" show="false"/>
+  </connection>
+  <subjob xmi:id="_DUI4jn7oEe6cPuEi93j3FQ">
+    <elementParameter xmi:id="_DUI4j37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_1" show="false"/>
+    <elementParameter xmi:id="_DUI4kH7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_DUI4kX7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_DUI4kn7oEe6cPuEi93j3FQ">
+    <elementParameter xmi:id="_DUI4k37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+    <elementParameter xmi:id="_DUI4lH7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_DUI4lX7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_DUI4ln7oEe6cPuEi93j3FQ">
+    <elementParameter xmi:id="_DUI4l37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_2" show="false"/>
+    <elementParameter xmi:id="_DUI4mH7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_DUI4mX7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_DUI4mn7oEe6cPuEi93j3FQ">
+    <elementParameter xmi:id="_DUI4m37oEe6cPuEi93j3FQ" field="TEXT" name="UNIQUE_NAME" value="cSOAP_3" show="false"/>
+    <elementParameter xmi:id="_DUI4nH7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_DUI4nX7oEe6cPuEi93j3FQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

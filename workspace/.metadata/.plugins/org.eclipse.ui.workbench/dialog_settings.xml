@@ -4,6 +4,25 @@
 		<item value="0" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="JobScriptsExportWizard">
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WSDL_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WEBXML_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_CONFIGFILE_ID"/>
+		<item value="false" key="JavaJobScriptsExportWizardPage.STORE_DEPENDENCIES_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SOURCE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SYSTEM_ROUTINE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_CONTEXT_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WSDD_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_USER_ROUTINE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_JOB_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_MODEL_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SHELL_LAUNCHER_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_AXISLIB_ID"/>
+		<item value="false" key="JavaJobScriptsExportWizardPage.APPLY_TO_CHILDREN_ID"/>
+		<section name="destinationFile">
+			<item value="C:\Talend\TOS_ESB-20200219_1130-V7.3.1\Studio\SayHelloServicePortType_SayHelloServiceOperation-0.1.jar" key="destinationFile"/>
+		</section>
+	</section>
 	<section name="FileSystemExportWizard">
 		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
 		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID"/>
