@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="-68" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="JobScriptsExportWizard">
@@ -19,8 +19,12 @@
 		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SHELL_LAUNCHER_ID"/>
 		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_AXISLIB_ID"/>
 		<item value="false" key="JavaJobScriptsExportWizardPage.APPLY_TO_CHILDREN_ID"/>
+		<item value="OSGI" key="JavaJobScriptsExportWizardPage.STORE_EXPORTTYPE_ID"/>
+		<list key="JavaJobScriptsExportWizardPage.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\Talend\services\EmployeeService-0.1.jar"/>
+		</list>
 		<section name="destinationFile">
-			<item value="C:\Talend\TOS_ESB-20200219_1130-V7.3.1\Studio\SayHelloServicePortType_SayHelloServiceOperation-0.1.jar" key="destinationFile"/>
+			<item value="D:\Talend\services\EmployeeService-0.1.jar" key="destinationFile"/>
 		</section>
 	</section>
 	<section name="FileSystemExportWizard">
