@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<root>
+<personne>
+<id>1</id>
+<nom_prenom>MADISON Martin</nom_prenom>
+<ville>Phoenix</ville>
+</personne>
+<personne>
+<id>2</id>
+<nom_prenom>CLINTON Calvin</nom_prenom>
+<ville>Oklahoma City</ville>
+</personne>
+<personne>
+<id>3</id>
+<nom_prenom>VAN BUREN Benjamin</nom_prenom>
+<ville>Trenton</ville>
+</personne>
+<personne>
+<id>4</id>
+<nom_prenom>HARDING Jimmy</nom_prenom>
+<ville>Indianapolis</ville>
+</personne>
+<personne>
+<id>5</id>
+<nom_prenom>ADAMS Grover</nom_prenom>
+<ville>Raleigh</ville>
+</personne>
+<personne>
+<id>6</id>
+<nom_prenom>KENNEDY Dwight</nom_prenom>
+<ville>Boise</ville>
+</personne>
+<personne>
+<id>7</id>
+<nom_prenom>HOOVER Chester</nom_prenom>
+<ville>Pierre</ville>
+</personne>
+<personne>
+<id>8</id>
+<nom_prenom>JACKSON Lyndon</nom_prenom>
+<ville>Nashville</ville>
+</personne>
+<personne>
+<id>9</id>
+<nom_prenom>CLEVELAND Rutherford</nom_prenom>
+<ville>Sacramento</ville>
+</personne>
+<personne>
+<id>10</id>
+<nom_prenom>ADAMS Martin</nom_prenom>
+<ville>Pierre</ville>
+</personne>
+<personne>
+<id>11</id>
+<nom_prenom>HARRISON Dwight</nom_prenom>
+<ville>Austin</ville>
+</personne>
+<personne>
+<id>12</id>
+<nom_prenom>ARTHUR Lyndon</nom_prenom>
+<ville>Nashville</ville>
+</personne>
+<personne>
+<id>13</id>
+<nom_prenom>GARFIELD Harry</nom_prenom>
+<ville>Indianapolis</ville>
+</personne>
+<personne>
+<id>14</id>
+<nom_prenom>KENNEDY Calvin</nom_prenom>
+<ville>Concord</ville>
+</personne>
+<personne>
+<id>15</id>
+<nom_prenom>EISENHOWER Benjamin</nom_prenom>
+<ville>Saint Paul</ville>
+</personne>
+<personne>
+<id>16</id>
+<nom_prenom>GARFIELD Andrew</nom_prenom>
+<ville>Saint Paul</ville>
+</personne>
+<personne>
+<id>17</id>
+<nom_prenom>HARRISON Franklin</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>18</id>
+<nom_prenom>ROOSEVELT George</nom_prenom>
+<ville>Boise</ville>
+</personne>
+<personne>
+<id>19</id>
+<nom_prenom>JOHNSON Lyndon</nom_prenom>
+<ville>Honolulu</ville>
+</personne>
+<personne>
+<id>20</id>
+<nom_prenom>CLINTON Lyndon</nom_prenom>
+<ville>Montgomery</ville>
+</personne>
+<personne>
+<id>21</id>
+<nom_prenom>JOHNSON Benjamin</nom_prenom>
+<ville>Harrisburg</ville>
+</personne>
+<personne>
+<id>22</id>
+<nom_prenom>HARRISON Thomas</nom_prenom>
+<ville>Montpelier</ville>
+</personne>
+<personne>
+<id>23</id>
+<nom_prenom>EISENHOWER John</nom_prenom>
+<ville>Boston</ville>
+</personne>
+<personne>
+<id>24</id>
+<nom_prenom>HARDING Warren</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>25</id>
+<nom_prenom>ADAMS Martin</nom_prenom>
+<ville>Albany</ville>
+</personne>
+<personne>
+<id>26</id>
+<nom_prenom>GARFIELD Woodrow</nom_prenom>
+<ville>Harrisburg</ville>
+</personne>
+<personne>
+<id>27</id>
+<nom_prenom>TRUMAN Bill</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>28</id>
+<nom_prenom>CLEVELAND Bill</nom_prenom>
+<ville>Nashville</ville>
+</personne>
+<personne>
+<id>29</id>
+<nom_prenom>REAGAN Warren</nom_prenom>
+<ville>Topeka</ville>
+</personne>
+<personne>
+<id>30</id>
+<nom_prenom>HARRISON Bill</nom_prenom>
+<ville>Bismarck</ville>
+</personne>
+<personne>
+<id>31</id>
+<nom_prenom>TYLER Grover</nom_prenom>
+<ville>Phoenix</ville>
+</personne>
+<personne>
+<id>32</id>
+<nom_prenom>ROOSEVELT Rutherford</nom_prenom>
+<ville>Olympia</ville>
+</personne>
+<personne>
+<id>33</id>
+<nom_prenom>JEFFERSON Benjamin</nom_prenom>
+<ville>Trenton</ville>
+</personne>
+<personne>
+<id>34</id>
+<nom_prenom>HARRISON Franklin</nom_prenom>
+<ville>Tallahassee</ville>
+</personne>
+<personne>
+<id>35</id>
+<nom_prenom>HARDING Lyndon</nom_prenom>
+<ville>Des Moines</ville>
+</personne>
+<personne>
+<id>36</id>
+<nom_prenom>HARRISON Dwight</nom_prenom>
+<ville>Annapolis</ville>
+</personne>
+<personne>
+<id>37</id>
+<nom_prenom>WILSON Herbert</nom_prenom>
+<ville>Lincoln</ville>
+</personne>
+<personne>
+<id>38</id>
+<nom_prenom>JOHNSON Bill</nom_prenom>
+<ville>Saint Paul</ville>
+</personne>
+<personne>
+<id>39</id>
+<nom_prenom>MONROE Abraham</nom_prenom>
+<ville>Cheyenne</ville>
+</personne>
+<personne>
+<id>40</id>
+<nom_prenom>KENNEDY Warren</nom_prenom>
+<ville>Helena</ville>
+</personne>
+<personne>
+<id>41</id>
+<nom_prenom>PIERCE Zachary</nom_prenom>
+<ville>Columbia</ville>
+</personne>
+<personne>
+<id>42</id>
+<nom_prenom>HARRISON Richard</nom_prenom>
+<ville>Augusta</ville>
+</personne>
+<personne>
+<id>43</id>
+<nom_prenom>ADAMS Theodore</nom_prenom>
+<ville>Raleigh</ville>
+</personne>
+<personne>
+<id>44</id>
+<nom_prenom>MADISON Harry</nom_prenom>
+<ville>Baton Rouge</ville>
+</personne>
+<personne>
+<id>45</id>
+<nom_prenom>WILSON Zachary</nom_prenom>
+<ville>Providence</ville>
+</personne>
+<personne>
+<id>46</id>
+<nom_prenom>QUINCY Dwight</nom_prenom>
+<ville>Austin</ville>
+</personne>
+<personne>
+<id>47</id>
+<nom_prenom>CARTER Woodrow</nom_prenom>
+<ville>Helena</ville>
+</personne>
+<personne>
+<id>48</id>
+<nom_prenom>KENNEDY Chester</nom_prenom>
+<ville>Juneau</ville>
+</personne>
+<personne>
+<id>49</id>
+<nom_prenom>HOOVER Millard</nom_prenom>
+<ville>Sacramento</ville>
+</personne>
+<personne>
+<id>50</id>
+<nom_prenom>HARDING William</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>51</id>
+<nom_prenom>HARRISON Thomas</nom_prenom>
+<ville>Raleigh</ville>
+</personne>
+<personne>
+<id>52</id>
+<nom_prenom>KENNEDY George</nom_prenom>
+<ville>Jackson</ville>
+</personne>
+<personne>
+<id>53</id>
+<nom_prenom>MADISON Martin</nom_prenom>
+<ville>Bismarck</ville>
+</personne>
+<personne>
+<id>54</id>
+<nom_prenom>COOLIDGE Woodrow</nom_prenom>
+<ville>Phoenix</ville>
+</personne>
+<personne>
+<id>55</id>
+<nom_prenom>JEFFERSON Bill</nom_prenom>
+<ville>Lincoln</ville>
+</personne>
+<personne>
+<id>56</id>
+<nom_prenom>REAGAN Chester</nom_prenom>
+<ville>Hartford</ville>
+</personne>
+<personne>
+<id>57</id>
+<nom_prenom>JEFFERSON Bill</nom_prenom>
+<ville>Santa Fe</ville>
+</personne>
+<personne>
+<id>58</id>
+<nom_prenom>GARFIELD Ronald</nom_prenom>
+<ville>Montpelier</ville>
+</personne>
+<personne>
+<id>59</id>
+<nom_prenom>GRANT Woodrow</nom_prenom>
+<ville>Jackson</ville>
+</personne>
+<personne>
+<id>60</id>
+<nom_prenom>JOHNSON Herbert</nom_prenom>
+<ville>Indianapolis</ville>
+</personne>
+<personne>
+<id>61</id>
+<nom_prenom>TRUMAN Martin</nom_prenom>
+<ville>Albany</ville>
+</personne>
+<personne>
+<id>62</id>
+<nom_prenom>ADAMS Ronald</nom_prenom>
+<ville>Columbia</ville>
+</personne>
+<personne>
+<id>63</id>
+<nom_prenom>TAFT Ronald</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>64</id>
+<nom_prenom>HARRISON Millard</nom_prenom>
+<ville>Providence</ville>
+</personne>
+<personne>
+<id>65</id>
+<nom_prenom>TRUMAN Martin</nom_prenom>
+<ville>Trenton</ville>
+</personne>
+<personne>
+<id>66</id>
+<nom_prenom>FILLMORE Dwight</nom_prenom>
+<ville>Columbia</ville>
+</personne>
+<personne>
+<id>67</id>
+<nom_prenom>KENNEDY Chester</nom_prenom>
+<ville>Dover</ville>
+</personne>
+<personne>
+<id>68</id>
+<nom_prenom>VAN BUREN Bill</nom_prenom>
+<ville>Indianapolis</ville>
+</personne>
+<personne>
+<id>69</id>
+<nom_prenom>GARFIELD Lyndon</nom_prenom>
+<ville>Jefferson City</ville>
+</personne>
+<personne>
+<id>70</id>
+<nom_prenom>CARTER William</nom_prenom>
+<ville>Sacramento</ville>
+</personne>
+<personne>
+<id>71</id>
+<nom_prenom>TAFT Gerald</nom_prenom>
+<ville>Columbia</ville>
+</personne>
+<personne>
+<id>72</id>
+<nom_prenom>TAFT Harry</nom_prenom>
+<ville>Denver</ville>
+</personne>
+<personne>
+<id>73</id>
+<nom_prenom>KENNEDY Harry</nom_prenom>
+<ville>Concord</ville>
+</personne>
+<personne>
+<id>74</id>
+<nom_prenom>GARFIELD Bill</nom_prenom>
+<ville>Saint Paul</ville>
+</personne>
+<personne>
+<id>75</id>
+<nom_prenom>TYLER Harry</nom_prenom>
+<ville>Denver</ville>
+</personne>
+<personne>
+<id>76</id>
+<nom_prenom>REAGAN Martin</nom_prenom>
+<ville>Indianapolis</ville>
+</personne>
+<personne>
+<id>77</id>
+<nom_prenom>GARFIELD Chester</nom_prenom>
+<ville>Columbus</ville>
+</personne>
+<personne>
+<id>78</id>
+<nom_prenom>FILLMORE Dwight</nom_prenom>
+<ville>Montgomery</ville>
+</personne>
+<personne>
+<id>79</id>
+<nom_prenom>TRUMAN Theodore</nom_prenom>
+<ville>Trenton</ville>
+</personne>
+<personne>
+<id>80</id>
+<nom_prenom>ROOSEVELT Chester</nom_prenom>
+<ville>Annapolis</ville>
+</personne>
+<personne>
+<id>81</id>
+<nom_prenom>HARRISON James</nom_prenom>
+<ville>Annapolis</ville>
+</personne>
+<personne>
+<id>82</id>
+<nom_prenom>MCKINLEY Dwight</nom_prenom>
+<ville>Richmond</ville>
+</personne>
+<personne>
+<id>83</id>
+<nom_prenom>FILLMORE Millard</nom_prenom>
+<ville>Denver</ville>
+</personne>
+<personne>
+<id>84</id>
+<nom_prenom>TYLER Ulysses</nom_prenom>
+<ville>Hartford</ville>
+</personne>
+<personne>
+<id>85</id>
+<nom_prenom>JEFFERSON Benjamin</nom_prenom>
+<ville>Augusta</ville>
+</personne>
+<personne>
+<id>86</id>
+<nom_prenom>FILLMORE Rutherford</nom_prenom>
+<ville>Saint Paul</ville>
+</personne>
+<personne>
+<id>87</id>
+<nom_prenom>GARFIELD Warren</nom_prenom>
+<ville>Springfield</ville>
+</personne>
+<personne>
+<id>88</id>
+<nom_prenom>HARRISON Martin</nom_prenom>
+<ville>Denver</ville>
+</personne>
+<personne>
+<id>89</id>
+<nom_prenom>GARFIELD George</nom_prenom>
+<ville>Trenton</ville>
+</personne>
+<personne>
+<id>90</id>
+<nom_prenom>QUINCY Woodrow</nom_prenom>
+<ville>Boise</ville>
+</personne>
+<personne>
+<id>91</id>
+<nom_prenom>CLEVELAND Ronald</nom_prenom>
+<ville>Raleigh</ville>
+</personne>
+<personne>
+<id>92</id>
+<nom_prenom>TAYLOR Theodore</nom_prenom>
+<ville>Montpelier</ville>
+</personne>
+<personne>
+<id>93</id>
+<nom_prenom>COOLIDGE Ronald</nom_prenom>
+<ville>Dover</ville>
+</personne>
+<personne>
+<id>94</id>
+<nom_prenom>NIXON Benjamin</nom_prenom>
+<ville>Augusta</ville>
+</personne>
+<personne>
+<id>95</id>
+<nom_prenom>TAYLOR John</nom_prenom>
+<ville>Concord</ville>
+</personne>
+<personne>
+<id>96</id>
+<nom_prenom>COOLIDGE Andrew</nom_prenom>
+<ville>Pierre</ville>
+</personne>
+<personne>
+<id>97</id>
+<nom_prenom>MONROE Rutherford</nom_prenom>
+<ville>Tallahassee</ville>
+</personne>
+<personne>
+<id>98</id>
+<nom_prenom>HARDING Ronald</nom_prenom>
+<ville>Olympia</ville>
+</personne>
+<personne>
+<id>99</id>
+<nom_prenom>TAFT George</nom_prenom>
+<ville>Bismarck</ville>
+</personne>
+<personne>
+<id>100</id>
+<nom_prenom>FILLMORE Bill</nom_prenom>
+<ville>Boston</ville>
+</personne>
+</root>

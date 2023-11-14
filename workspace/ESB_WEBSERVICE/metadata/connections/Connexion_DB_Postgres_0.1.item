@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_xJgfYIGYEe68Nqt-e9D8Ew" name="Connexion_DB_Postgres" id="__GMSIIGXEe68Nqt-e9D8Ew" label="Connexion_DB_Postgres" dataPackage="_xKiaIIGYEe68Nqt-e9D8Ew" ContextMode="true" ContextId="_4ZkekIGWEe68Nqt-e9D8Ew" contextName="DEV" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://:5432/?" dbVersionString="V9_X" Port="context.port" Username="context.user" Password="context.password" ServerName="context.host" DatasourceName="" FileFieldName="" SID="context.dataBase" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="context.add_param" StandardSQL="true" SQLMode="false" UiSchema="context.schema">
+    <taggedValue xmi:id="_xJhtgIGYEe68Nqt-e9D8Ew" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_xJuh0IGYEe68Nqt-e9D8Ew" tag="package filter" value=""/>
+    <taggedValue xmi:id="_xJ2doIGYEe68Nqt-e9D8Ew" tag="Status" value=""/>
+    <taggedValue xmi:id="_xJ2doYGYEe68Nqt-e9D8Ew" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_xJ2dooGYEe68Nqt-e9D8Ew" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_xJ2do4GYEe68Nqt-e9D8Ew" tag="Description" value=""/>
+    <taggedValue xmi:id="_xJ2dpIGYEe68Nqt-e9D8Ew" tag="Author" value=""/>
+    <taggedValue xmi:id="_xJ2dpYGYEe68Nqt-e9D8Ew" tag="otherParameter"/>
+    <taggedValue xmi:id="_xKJYkIGYEe68Nqt-e9D8Ew" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_xKJYkYGYEe68Nqt-e9D8Ew" tag="DB ProductVersion" value="11.17"/>
+    <taggedValue xmi:id="_xKJYkoGYEe68Nqt-e9D8Ew" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_xJhtgYGYEe68Nqt-e9D8Ew" key="CONN_PARA_KEY_USERNAME" value="context.user"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_xKiaIIGYEe68Nqt-e9D8Ew" name="COM_INGESTION_DB" dataManager="_xJgfYIGYEe68Nqt-e9D8Ew">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xKjBMIGYEe68Nqt-e9D8Ew" name="VENTE_ODS"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="___cgIIMdEe6T69rMi4ZiWw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="___cgIYMdEe6T69rMi4ZiWw" comment="" name="dir_path" prompt="dir_path?" promptNeeded="false" type="id_Directory" value="D:/git_repo/Talend/outFolder/ESB/routes/"/>
+</talendfile:ContextType>

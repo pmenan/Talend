@@ -14,6 +14,9 @@
     <module>jobs/routes/sayhelloroute_0.1</module>
     <module>jobs/process/employeeservice_0.1</module>
     <module>jobs/process/employeeserviceconsumer_0.1</module>
+    <module>jobs/process/jecommerceservice_0.1</module>
+    <module>jobs/routes/filetofile_0.1</module>
+    <module>jobs/routes/filecopy_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ESB_WEBSERVICE</talend.project.name>

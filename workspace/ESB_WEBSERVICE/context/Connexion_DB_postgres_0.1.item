@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_i72G0IGYEe68Nqt-e9D8Ew" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_i72G0YGYEe68Nqt-e9D8Ew" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_i72G0oGYEe68Nqt-e9D8Ew" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="admin"/>
+    <contextParameter xmi:id="_i72G04GYEe68Nqt-e9D8Ew" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_i72G1IGYEe68Nqt-e9D8Ew" comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="VENTE_ODS"/>
+    <contextParameter xmi:id="_i72G1YGYEe68Nqt-e9D8Ew" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i72G1oGYEe68Nqt-e9D8Ew" comment="" name="add_param" prompt="add_param?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i72G14GYEe68Nqt-e9D8Ew" comment="" name="dataBase" prompt="dataBase?" promptNeeded="false" type="id_String" value="COM_INGESTION_DB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_i72G2IGYEe68Nqt-e9D8Ew" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_i72G2YGYEe68Nqt-e9D8Ew" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_i72G2oGYEe68Nqt-e9D8Ew" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="admin"/>
+    <contextParameter xmi:id="_i72G24GYEe68Nqt-e9D8Ew" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_i72G3IGYEe68Nqt-e9D8Ew" comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="VENTE_ODS"/>
+    <contextParameter xmi:id="_i72G3YGYEe68Nqt-e9D8Ew" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_i72G3oGYEe68Nqt-e9D8Ew" comment="" name="add_param" prompt="add_param?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i72G34GYEe68Nqt-e9D8Ew" comment="" name="dataBase" prompt="dataBase?" promptNeeded="false" type="id_String" value="COM_INGESTION_DB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_i72G4IGYEe68Nqt-e9D8Ew" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_i72G4YGYEe68Nqt-e9D8Ew" comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_i72G4oGYEe68Nqt-e9D8Ew" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="admin"/>
+    <contextParameter xmi:id="_i72G44GYEe68Nqt-e9D8Ew" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_i72G5IGYEe68Nqt-e9D8Ew" comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="VENTE_ODS"/>
+    <contextParameter xmi:id="_i72G5YGYEe68Nqt-e9D8Ew" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i72G5oGYEe68Nqt-e9D8Ew" comment="" name="add_param" prompt="add_param?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i72G54GYEe68Nqt-e9D8Ew" comment="" name="dataBase" prompt="dataBase?" promptNeeded="false" type="id_String" value="COM_INGESTION_DB"/>
+  </talendfile:ContextType>
+</xmi:XMI>
