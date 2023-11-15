@@ -14,6 +14,7 @@
     <module>jobs/routes/FILE_ROOTING/cfilerouting_0.1</module>
     <module>jobs/routes/FILE_ROOTING/cfilehandling_0.1</module>
     <module>jobs/routes/FILE_ROOTING/csplitter_0.1</module>
+    <module>jobs/routes/jmessagerouter_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ESB_PROJECTS</talend.project.name>

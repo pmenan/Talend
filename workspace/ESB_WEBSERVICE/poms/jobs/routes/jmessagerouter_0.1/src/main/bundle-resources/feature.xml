@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="jMessageRouter-feature">
+<feature name="jMessageRouter-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.esb_webservice.route/jMessageRouter/0.1.0</bundle>
+<config name="jMessageRouter.talendcontext.Default" override="true">
+dir_path=D:/git_repo/Talend/outFolder/ESB/routes/
+</config>
+</feature>
+</features>
