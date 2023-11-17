@@ -18,6 +18,8 @@
     <module>jobs/routes/filetofile_0.1</module>
     <module>jobs/routes/filecopy_0.1</module>
     <module>jobs/routes/jmessagerouter_0.1</module>
+    <module>jobs/routes/routingsplit_0.1</module>
+    <module>jobs/routes/routingsplitwithbeans_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ESB_WEBSERVICE</talend.project.name>
