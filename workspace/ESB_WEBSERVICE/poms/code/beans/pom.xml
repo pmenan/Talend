@@ -28,12 +28,12 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>camel-core-2.24.2</artifactId>
+      <artifactId>spring-core-5.1.4.RELEASE</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-core-5.1.4.RELEASE</artifactId>
+      <artifactId>camel-core-2.24.2</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
