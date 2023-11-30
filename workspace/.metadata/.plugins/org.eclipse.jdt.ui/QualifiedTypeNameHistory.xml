@@ -20,4 +20,5 @@
 <fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 <fullyQualifiedTypeName name="org.apache.camel.Exchange"/>
+<fullyQualifiedTypeName name="org.apache.camel.builder.xml.XPathBuilder"/>
 </qualifiedTypeNameHistroy>

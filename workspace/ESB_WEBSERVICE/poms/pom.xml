@@ -21,6 +21,10 @@
     <module>jobs/routes/routingsplit_0.1</module>
     <module>jobs/routes/routingsplitwithbeans_0.1</module>
     <module>jobs/routes/jmulticast_0.1</module>
+    <module>jobs/routes/jwiretap_0.1</module>
+    <module>jobs/routes/Producer_Consumer/Producer/file_to_jmsqueue_0.1</module>
+    <module>jobs/routes/Producer_Consumer/Consumer/msg_from_jms_q_to_processor_0.1</module>
+    <module>jobs/routes/Producer_Consumer/Consumer/jmsg_from_jms_q_to_filesysteme_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ESB_WEBSERVICE</talend.project.name>

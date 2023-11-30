@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="File_To_JMSqueue-feature">
+<feature name="File_To_JMSqueue-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-jms</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.esb_webservice.route/File_To_JMSqueue/0.1.0</bundle>
+<config name="File_To_JMSqueue.talendcontext.Default" override="true">
+routingSlip=direct:initAudit,direct:archive,direct:validate,direct:finalAudit
+destination=FileIn
+dir_path=D:/git_repo/Talend/outFolder/ESB/routes/
+uri="tcp://localhost:61616"
+</config>
+</feature>
+</features>
