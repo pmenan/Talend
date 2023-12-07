@@ -1,4 +1,0 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_2=>" expression="TalendDate.parseDate(&quot;dd-MM-yyyy HH:mm:ss&quot;,row1.stringDate)">
-  <variables name="row1.stringDate" value="null" talendType="id_String" nullable="true"/>
-</expression:EMFExpression>

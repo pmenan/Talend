@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="DI_jobB-feature">
+<feature name="DI_jobB-feature" version="0.1.0">
+<bundle>mvn:org.example.esb_webservice.job/DI_jobB/0.1.0</bundle>
+<config name="DI_jobB.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>
